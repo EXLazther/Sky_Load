@@ -143,9 +143,9 @@ function scr_game_text(_text_id,_system_text){
 			
 		//イベント用コード
 		case "event 1":		
-			set_text("珍しいですね\nこんなところに人が来るなんて","安心感のある声","no","no");
-			set_text("しかも寝ていますね","安心感のある声","no","no");
-			set_text("あ、起きました？","声の主","no","no");
+			set_text("珍しいですね\nこんなところに人が来るなんて","安心感のある声","no","no","2");
+			set_text("しかも寝ていますね","安心感のある声","no","no","2");
+			set_text("あ、起きました？","声の主","no","no","2");
 			scr_option("ここはどこ？","talk");
 			scr_option("あなたは誰？","talk");
 			break;
@@ -225,17 +225,18 @@ function scr_game_text(_text_id,_system_text){
 			set_text("鎧を装備した兵士はコハクに気づいた","","no","no");
 			set_text("見ない顔だが…王国の方向から来たってことはそういうことだよな？","帝国兵","gate_konwaku_1","no");
 			set_text("あの～？何か勘違いしてるのでは…","コハク","gate_konwaku_1","no");
-			set_text("'この状況'で対向からくる理由なんざ一つだろ","帝国兵","gate_kyoufu_1","left_chara");
+			set_text("'この状況'で対向からくる理由なんざ一つだろ","帝国兵","gate_kyoufu_1","no");
 			set_text("'この状況'？　\nあ！ちょっと！？","コハク","gate_odoroki","no");
+			global.set_destroy=1;
 			break;
 		case "event 11":
-			set_text("あらら\nやっちゃいましたね","エルティア","no","eltia_gimon");
-			set_text("エルティア！？何で反応してくれなかったのよ！","コハク","gate_do","eltia_gimon");
-			set_text("すみません\nどうやらそちらから私と会話することができないようですね","エルティア","gate_do","eltia_ai");
-			set_text("ひとまず逃げましょう\n追手が来ますからね","エルティア","gate_do","eltia");
-			set_text("どうやら上方向に通れそうな道がありますよ","エルティア","gate_konwaku_1","eltia_ki");
-			set_text("えぇ…","コハク","gate_konwaku_1","no");
-			set_text("(上ってどういうことだろ…？)","コハク","gate_konwaku_1","no");
+			set_text("あらら\nやっちゃいましたね","エルティア","no","eltia_gimon","2");
+			set_text("エルティア！？何で反応してくれなかったのよ！","コハク","gate_do","eltia_gimon","1");
+			set_text("すみません\nどうやらそちらから私と会話することができないようですね","エルティア","gate_do","eltia_ai","2");
+			set_text("ひとまず逃げましょう\n追手が来ますからね","エルティア","gate_do","eltia","2");
+			set_text("どうやら上方向に通れそうな道がありますよ","エルティア","gate_konwaku_1","eltia_ki","2");
+			set_text("えぇ…","コハク","gate_konwaku_1","no","1");
+			set_text("(上ってどういうことだろ…？)","コハク","gate_konwaku_1","no","1");
 			break;
 		case "event 12":
 			set_text("この森はかなり複雑ですね","エルティア","no","eltia");
@@ -243,14 +244,17 @@ function scr_game_text(_text_id,_system_text){
 			set_text("おい！森に向かって足跡が伸びてるぞ！","帝国兵","gate_kyoufu_1","no");
 			set_text("走りましょうか","エルティア","gate_magao","eltia_raku");
 			set_text("何されるかわからないもんね！","コハク","gate_kyoufu_3","eltia_raku");
+			global.set_destroy=0;
 			break;
 		case "event 13":
 			set_text("貴様監視の目を逃れて近づくとは何者だ","帝国兵","no","no");
 			set_text("どういうこと！？先回りされた？","コハク","gate_odoroki","no");
 			set_text("どうやら逃げているうちに帝国側に来てしまったようですね","エルティア","gate_odoroki","eltia_gimon");
 			set_text("とにかく逃げなきゃ！","コハク","gate_odoroki","eltia_gimon");
+			global.talkwall="4";
 			break;
 		case "event 14":
+			global.talkwall="3";
 			set_text("う～ん…","コハク","gate_kizetsu_2","no");
 			set_text("あ、起きたか？","獣の少女","no","guruka_magao");
 			set_text("ッハ！","コハク","gate_odoroki","guruka_magao");
@@ -261,13 +265,13 @@ function scr_game_text(_text_id,_system_text){
 			scr_option("ただ'オハナシアイ'を…","event_g")
 			break;
 			case "event_n":
-				set_text("てことは聖騎士団とかじゃねぇってことか","グルカ","gate_konwaku_2","guruka_magao");
+				set_text("てことは聖騎士団とかじゃねぇってことか","獣の少女","gate_konwaku_2","guruka_magao");
 				scr_option("ところで貴方の名前は？","event_14_2");
 				break;
 			case "event_g":
 				Player.set_textoption+=1
 				Player.status_g+=1;
-				set_text("面白いやつだな","グルカ","gate_tere_1","guruka_emi");
+				set_text("面白いやつだな","獣の少女","gate_tere_1","guruka_emi");
 				scr_option("ちなみに貴方の名前は？","event_14_2");
 				break;
 		case "event_14_2":
@@ -441,6 +445,7 @@ function scr_game_text(_text_id,_system_text){
 		//建学祭用
 		case "continue":
 			set_text("続く…","","","");
+			instance_destroy(Player);
 			break;
 		case "ifevent_1":			
 			set_text("いやぁ…よくもやってくれたねぇ？","イサク","guruka_odoroki","isaku_do");
@@ -459,7 +464,7 @@ function scr_game_text(_text_id,_system_text){
 			set_text("チッもう援軍が来やがった","イサク","guruka_magao","isaku_do");
 			set_text("今聖騎士団とやりあうつもりはない","イサク","guruka_magao","isaku_do");
 			set_text("一度引くとしよう","イサク","guruka_magao","isaku_do");
-			set_text("…………","グルカ","guruka_magaoi","");
+			set_text("…………","グルカ","guruka_magao","");
 			set_text("行ったか","グルカ","guruka_magao","no");
 			set_text("あんたには二度助けられちまったな","グルカ","guruka_magao","no");
 			set_text("いやいやそんな…","コハク","guruka_magao","gate_tere_1");
@@ -494,6 +499,10 @@ function scr_game_text(_text_id,_system_text){
 			set_text("木の枝を手に入れた","","","");
 			break;
 		case"no":
+			set_text("話しかけないでおこう","","","");
+			break;
+		case "item":
+			set_text("所持品がいっぱいで持てない”","","","");
 			break;
 			/*
 		case "npc 1":

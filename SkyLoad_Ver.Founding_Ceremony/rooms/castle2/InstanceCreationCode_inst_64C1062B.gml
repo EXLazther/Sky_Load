@@ -1,3 +1,3 @@
 target_rm = RoomBattle;
 target_enemy = ObjBattleBossGruka;
-ready="yes";
+battleset_id=13;

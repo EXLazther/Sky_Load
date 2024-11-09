@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"gulca.mp3",
   "type":1,
-  "volume":0.18,
+  "volume":0.2,
 }

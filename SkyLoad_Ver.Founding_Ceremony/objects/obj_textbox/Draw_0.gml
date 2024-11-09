@@ -4,7 +4,7 @@ accept_key = keyboard_check_pressed( ord("Z") );
 	
 	textbox_x=camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2-width;
 	textbox_y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2+120;
-if global.system_text==1||global.system_text==2
+if global.system_text==1||global.system_text==2||global.system_text==0
 {
 //設定
 if global.show_box == false
@@ -92,7 +92,7 @@ txtb_spr_h = sprite_get_height(txtb_spr);
 if (speaker_sprite[page] != noone) {
     sprite_index = speaker_sprite[page];
 	var _sprite_x = textbox_x + portrait_x_offset[page]-40;
-	draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y, speaker_side[page], 1, 0, c_white, 1);
+	draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y, speaker_side[page], 1, 0, color_left[page],1);
 }
 if(speaker_sprite1[page]!=noone)
 {
@@ -100,7 +100,7 @@ if(speaker_sprite1[page]!=noone)
 	var _sprite_x = textbox_x + portrait_x_offset[page];
 	var _sprite_right_x=_sprite_x+sprite_get_width(sprite_index);
 	if sprite_index==noone{_sprite_right_x+=sprite_set_left+51;}
-	draw_sprite_ext(speaker_sprite1[page],-1,_sprite_right_x-90,character_y,speaker_side[page],1,0,c_white,1);
+	draw_sprite_ext(speaker_sprite1[page],-1,_sprite_right_x-90,character_y,speaker_side[page],1,0,color_right[page],1);
 }
 
 

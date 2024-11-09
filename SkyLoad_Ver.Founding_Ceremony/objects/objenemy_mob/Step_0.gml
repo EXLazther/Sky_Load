@@ -6,6 +6,7 @@ if place_meeting(x +10,y+10, Player) && keyboard_check_pressed(ord("Z")) && !ins
 		{
 		scr_game_text(_s.text_id,_s.system_id);
 		}
+		
 	}
 	
 	
@@ -17,7 +18,10 @@ if place_meeting(x -10,y-10, Player) && keyboard_check_pressed(ord("Z")) && !ins
 			scr_game_text(_s.text_id,_s.system_id);
 		}
 }
-
+if(sprite_id=="heishi_tathi"&&global.set_destroy==1&&!instance_exists(obj_textbox)&&set_id==1)
+{
+	instance_destroy();
+}
 set_mob_index(sprite_id);
 
 /*if (x == 352 && y== 352) {

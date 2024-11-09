@@ -9,3 +9,4 @@ xspdx=0;
 yspdy=0;
 item=global.item_list.brooch;
 item_foryou=0;
+instance_setid=0;

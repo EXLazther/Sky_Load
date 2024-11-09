@@ -66,3 +66,6 @@ sprite_set_left=350;
 
 width=350;
 height=300;
+
+color_left=c_white;
+color_right=c_white;

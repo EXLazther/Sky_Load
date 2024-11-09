@@ -1,3 +1,3 @@
-sprite_id="mob_1_right";
+sprite_id="jji_left";
 text_id="talk_2";
 system_id="2";

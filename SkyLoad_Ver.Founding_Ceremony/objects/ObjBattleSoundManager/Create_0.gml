@@ -1,3 +1,3 @@
-audio_play_sound(_71, 10, true);
+audio_play_sound(gulca, 10, true);
 
 

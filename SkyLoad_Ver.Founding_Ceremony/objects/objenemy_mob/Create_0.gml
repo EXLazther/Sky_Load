@@ -7,3 +7,4 @@ makeflag=true;
 wait_timer=100;
 xspdx=0;
 yspdy=0;
+set_id=0;

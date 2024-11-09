@@ -1,13 +1,13 @@
 
 var _s = id; 
 if place_meeting(x +10,y+10, Player) && keyboard_check_pressed(ord("Z")) && !instance_exists(obj_textbox)
-	{
+{
 	with( instance_create_depth(0, 0, -9999, obj_textbox))
 		{
 		scr_game_text(_s.text_id,_s.system_id);
 		}
 		item_foryou+=1;
-	}
+}
 	
 	
 
@@ -22,7 +22,7 @@ if place_meeting(x -10,y-10, Player) && keyboard_check_pressed(ord("Z")) && !ins
 if(item_foryou==1&&!instance_exists(obj_textbox))
 {
 	item_add(item); // アイテムをインベントリに追加
-	ds_map_add(global.item_gat, item,true );
+	ds_map_add(global.item_gat, instance_setid,true );
 	item_foryou+=1;
 }
 

@@ -8,7 +8,6 @@ downkey=keyboard_check(vk_down);
 
 
 
-
 //x速度とy速度を習得
 xspd=(rightkey-leftkey)*movespd;
 yspd=(downkey-upkey)*movespd;
@@ -105,7 +104,8 @@ if (place_meeting(x,y+yspd,objenemy_mob_item)) {
 x+=xspd;
 y+=yspd;
 
-
+global.current_x=x;
+global.current_y=y;
 //アニメーション
 if(xspd==0&&yspd==0)
 {
@@ -115,9 +115,4 @@ if(xspd==0&&yspd==0)
 
 
 
-
-if(room==tobecontinue)
-{
-	instance_destroy(Player);
-}
 

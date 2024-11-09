@@ -1,3 +1,3 @@
 target_rm = RoomBattle;
 target_enemy = ObjBattleMob2;
-ready="yes";
+battleset_id=8;

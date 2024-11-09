@@ -26,7 +26,7 @@ global.item_list=
 		) ,
 		reagel:new create_item(
 			"リーゲルの果実",
-			"プルプルとしたリンゴのような果物。\n味はかなりさっぱりしている\nHPを15回復",
+			"プルプルとしたリンゴのような果物。\n味はかなりさっぱりしている\nHPを15増加",
 			spr_item,
 			function(){
 				global.player_health+=15;
@@ -35,7 +35,7 @@ global.item_list=
 		),
 		yakusou:new create_item(
 			"薬草",
-			"森に生えている草を調合したもの\nHPを10回復",
+			"森に生えている草を調合したもの\nHPを10増加",
 			spr_item,
 			function()
 			{
@@ -45,7 +45,7 @@ global.item_list=
 		),
 		candy:new create_item(
 			"飴",
-			"花屋の裏に落ちていた飴\nHPを5回復",
+			"花屋の裏に落ちていた飴\nHPを5増加",
 			spr_item,
 			function()
 			{
@@ -65,7 +65,7 @@ global.item_list=
 		),
 		instant_life:new create_item(
 			"簡易治療薬",
-			"近年登場したばかりの人工宝物\nHPを50回復",
+			"近年登場したばかりの人工宝物\nHPを50増加",
 			spr_item,
 			function()
 			{
@@ -89,7 +89,7 @@ global.item_list=
 //インベントリの作成
 inv=array_create(0);
 selected_item=-1;
-
+inv_max=6;
 
 
 //描画・マウス位置

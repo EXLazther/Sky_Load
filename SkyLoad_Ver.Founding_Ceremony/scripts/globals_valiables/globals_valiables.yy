@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"globals_valiables",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"globals_valiables",
+  "parent":{
+    "name":"スクリプト",
+    "path":"folders/スクリプト.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

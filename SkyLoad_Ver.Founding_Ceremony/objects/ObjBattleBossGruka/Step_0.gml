@@ -44,7 +44,7 @@ if (ObjBattleManager.is_battle_started) {
 		//待機2
 			if (ObjBattleManager.current_frame = 10){
 				bset_objmove_interpolation(x, y, 288, 100, 30, 2)
-				//set_spell("「列爪撃」")
+				set_spell("「列爪撃」")
 			}
 			
 			if (ObjBattleManager.current_frame >= 60){
@@ -114,7 +114,7 @@ if (ObjBattleManager.is_battle_started) {
 			//待機4
 			if (ObjBattleManager.current_frame = 10){
 				bset_objmove_interpolation(x, y, 288, 100, 30, 2);
-				//set_spell("「破裂爆弾」")
+				set_spell("「破裂爆弾」")
 			}
 			
 			if (ObjBattleManager.current_frame >= 60){
@@ -201,7 +201,7 @@ if (ObjBattleManager.is_battle_started) {
 			//待機6
 			if (ObjBattleManager.current_frame = 10){
 				bset_objmove_interpolation(x, y, 288, 100, 50, 2);
-				//set_spell("「紅華カザグルマ」")
+				set_spell("「紅華カザグルマ」")
 			}
 			
 			if (ObjBattleManager.current_frame >= 60){
@@ -287,7 +287,7 @@ if (ObjBattleManager.is_battle_started) {
 			//待機8
 			if (ObjBattleManager.current_frame = 10){
 				bset_objmove_interpolation(x, y, 288, 100, 50, 2);
-				//set_spell("「傭兵式拷問術」")
+				set_spell("「傭兵式拷問術」")
 			}
 			
 			if (ObjBattleManager.current_frame >= 60){

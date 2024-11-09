@@ -16,4 +16,4 @@ boss_hp_getted = false;
 instance_create_layer(288, 150, "Instances", enemy);
 
 instance_deactivate_object(Player);
-
+//instance_deactivate_object(obj_main_pause);

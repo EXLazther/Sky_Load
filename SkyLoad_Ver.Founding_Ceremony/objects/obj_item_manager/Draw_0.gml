@@ -23,10 +23,6 @@ if result=1
 		draw_set_color(_col);
 		xx=x+xspr-100;
 		//名前
-		if(array_length(inv)>=6)
-		{
-			xx+=50;
-		}
 		draw_text(xx,y+yspr+op_space*i-90,inv[i].name);
 		//説明
 		if pos==i{
