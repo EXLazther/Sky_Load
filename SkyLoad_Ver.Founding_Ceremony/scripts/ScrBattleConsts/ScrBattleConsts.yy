@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ScrBattleConsts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScrBattleConsts",
+  "parent":{
+    "name":"Script",
+    "path":"folders/BattleSystems/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

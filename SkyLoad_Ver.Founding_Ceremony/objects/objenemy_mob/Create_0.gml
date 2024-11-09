@@ -1,0 +1,9 @@
+text_id="";
+system_id="";
+sprite_id="";
+mob_x=0;
+mob_y=0;
+makeflag=true;
+wait_timer=100;
+xspdx=0;
+yspdy=0;

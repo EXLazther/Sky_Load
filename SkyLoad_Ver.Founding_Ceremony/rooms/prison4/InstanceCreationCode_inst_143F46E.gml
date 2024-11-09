@@ -1,0 +1,3 @@
+item=global.item_list.chest;
+instance_set_id=9;
+text_id="chest";

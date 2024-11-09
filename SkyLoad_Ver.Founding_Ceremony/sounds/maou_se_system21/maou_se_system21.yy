@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"maou_se_system21",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.291066,
+  "name":"maou_se_system21",
+  "parent":{
+    "name":"Object",
+    "path":"folders/BattleSystems/Object.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"maou_se_system21.wav",
+  "type":0,
+  "volume":1.0,
+}

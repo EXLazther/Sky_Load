@@ -1,0 +1,123 @@
+/// @description 説明をここに挿入
+// このエディターでコードを作成することができます
+
+rightkey=keyboard_check(vk_right);
+leftkey=keyboard_check(vk_left);
+upkey=keyboard_check(vk_up);
+downkey=keyboard_check(vk_down);
+
+
+
+
+//x速度とy速度を習得
+xspd=(rightkey-leftkey)*movespd;
+yspd=(downkey-upkey)*movespd;
+//ポーズ
+if instance_exists(obj_pause)
+{
+	xspd=0;
+	yspd=0;
+}
+if global.show_box=true
+{
+	xspd=0;
+	yspd=0;
+}
+//スプライトの設定
+mask_index=sprite[DOWN];
+if(yspd==0){
+	if(xspd>0){face=RIGHT};
+	if(xspd<0){face=LEFT};
+}
+if(xspd>0&&face=LEFT){face=RIGHT};
+if(xspd<0&&face=RIGHT){face=LEFT};
+if(xspd==0){
+	if(yspd<0){face=UP};
+	if(yspd>0){face=DOWN};
+}
+if(yspd<0&&face=DOWN){face=UP};
+if(yspd>0&&face=UP){face=DOWN};
+sprite_index=sprite[face];
+
+//衝突の計算
+if(place_meeting(x+xspd,y,wall))
+{
+	xspd=0;
+}
+if(place_meeting(x,y+yspd,wall))
+{
+	yspd=0;
+}
+// objenemy_mobと衝突した場合、その移動分の座標を変更します。
+
+// objenemy_mobが存在するかどうかを確認
+if (place_meeting(x+xspd,y,objenemy_mob)) {
+    var enemy_xspd = objenemy_mob.xspdx;
+    
+    // 移動分の座標を取得
+    var dx = enemy_xspd;
+    
+    // 元の座標に移動後の位置を代入
+    x += dx;
+    
+    // 移動速度を0にする（オプション）
+	xspd=0;
+}
+
+if (place_meeting(x,y+yspd,objenemy_mob)) {
+    var enemy_yspd = objenemy_mob.yspdy;
+    
+    // 移動分の座標を取得
+    var dy = enemy_yspd;
+    
+    // 元の座標に移動後の位置を代入
+    y += dy;
+    
+    // 移動速度を0にする（オプション）
+	yspd=0;
+}
+if (place_meeting(x+xspd,y,objenemy_mob_item)) {
+    var enemy_xspd = objenemy_mob_item.xspdx;
+    
+    // 移動分の座標を取得
+    var dx = enemy_xspd;
+    
+    // 元の座標に移動後の位置を代入
+    x += dx;
+    
+    // 移動速度を0にする（オプション）
+	xspd=0;
+}
+
+if (place_meeting(x,y+yspd,objenemy_mob_item)) {
+    var enemy_yspd = objenemy_mob_item.yspdy;
+    
+    // 移動分の座標を取得
+    var dy = enemy_yspd;
+    
+    // 元の座標に移動後の位置を代入
+    y += dy;
+    
+    // 移動速度を0にする（オプション）
+	yspd=0;
+}
+//プレイヤーを動かす
+x+=xspd;
+y+=yspd;
+
+
+//アニメーション
+if(xspd==0&&yspd==0)
+{
+	image_index=0;
+}
+
+
+
+
+
+if(room==tobecontinue)
+{
+	instance_destroy(Player);
+}
+
