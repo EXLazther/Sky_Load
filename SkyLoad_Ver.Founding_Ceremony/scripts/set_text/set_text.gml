@@ -394,6 +394,10 @@ function set_text(_text,_name,_alpha){
 			case "2":
 			color_left[page_number]=c_gray;
 			color_right[page_number]=c_white;
+			break;
+			case "3":
+			color_left[page_number]=c_gray;
+			color_right[page_number]=c_gray;
 		}
 	}
     if argument_count > 5
