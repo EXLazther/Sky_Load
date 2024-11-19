@@ -32,7 +32,7 @@ if(restart==1){
 		if pos==i{_c=c_yellow};
 		draw_text_color(x+op_border+xspr,y+op_border+op_space*i-yspr-20,option[menu_level,i],_c,_c,_c,_c,1);
 	}
-	if(menu_level==2){
+	if(menu_level==1){
 	//キャラ描画
 		draw_sprite(kohaku_tsuujou,0,x-300,y-100);
 		if(status)

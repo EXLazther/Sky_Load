@@ -116,6 +116,9 @@ function scr_game_text(_text_id,_system_text){
 				set_text("見たところ旅人だろう？気を付けてな","町人","no","no");
 				set_text("コハクは簡易治療薬(インスタントライフ)を手に入れた","","no","no");
 				break;
+		case "talk_3_after":
+			set_text("どうした？何か付いてるか","町人","no","no");
+			break;
 		case "talk_4":
 			set_text("お嬢さんこの時期に外に出るのかい？","門番","no","no");
 			set_text("別に止めやしないが気をつけてな","門番","no","no");

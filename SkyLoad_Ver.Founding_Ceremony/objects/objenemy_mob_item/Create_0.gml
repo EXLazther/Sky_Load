@@ -1,4 +1,5 @@
 text_id="";
+text_id_after="";
 system_id="";
 sprite_id="";
 mob_x=0;

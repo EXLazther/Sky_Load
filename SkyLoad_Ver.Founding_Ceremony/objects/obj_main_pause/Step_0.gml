@@ -33,7 +33,17 @@ if(global.stop==1&&global.itemstatus==0){
 	pos+=down_key-up_key;
 	if pos>=op_length{pos=0};
 	if pos<0{pos=op_length-1}
-	if cancel_key{pos=op_length-1};
+	if cancel_key
+	{
+		if(menu_level==0)
+		{
+			restart=0;
+		}
+		if(menu_level!=0)
+		{
+			menu_level=0;
+		}
+	}
 	if accept_key{
 		var _sml=menu_level;
 		switch(menu_level){
@@ -42,9 +52,9 @@ if(global.stop==1&&global.itemstatus==0){
 			//ポーズメニュー
 			switch(pos){
 				//ゲーム開始
-				case 0: menu_level=2; break;
+				case 0: menu_level=1; break;
 				//設定
-				case 1: menu_level=1;	break;
+				case 1: menu_level=2;	break;
 				//ゲーム終了
 				case 2:	restart=0; break;
 			}
@@ -52,16 +62,16 @@ if(global.stop==1&&global.itemstatus==0){
 			case 1:
 			//セッティング
 			switch(pos){
-				//ウィンドウサイズ
-				case 0: global.itemstatus=1;  break;
-				//戻る
-				case 1: menu_level=0; break;
+				case 0: status=true; break;
+				case 1: menu_level=0; status=false; break;
 			}
 			break;
 			case 2:
 			switch(pos){
-				case 0: status=true; break;
-				case 1: menu_level=0; status=false; break;
+				//ウィンドウサイズ
+				case 0: global.itemstatus=1;  break;
+				//戻る
+				case 1: menu_level=0; break;
 			}
 		}
 			//ポジション調整
