@@ -15,7 +15,7 @@ y=camera_get_view_y(view_camera[0])+camera_get_view_height(view_camera[0])/2-hei
 
 //表示
 draw_sprite_ext(sprite_index,image_index,x,y,width/sprite_width,height/sprite_height,0,c_white,1);
-global.font=fnt_jp;
+global.font=Fnt_fnt_jp;
 //オプション表示
 draw_set_font(global.font);
 draw_set_valign(fa_top);

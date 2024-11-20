@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"player_wait",
-    "path":"sprites/player_wait/player_wait.yy",
+    "name":"Spr_player_wait",
+    "path":"sprites/Spr_player_wait/Spr_player_wait.yy",
   },
   "spriteMaskId":null,
   "visible":true,

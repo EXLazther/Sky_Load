@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_item_functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_item_functions",
+  "parent":{
+    "name":"Scr_item",
+    "path":"folders/スクリプト/Scr_item.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

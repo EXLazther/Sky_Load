@@ -1,9 +1,9 @@
 var _s = id; 
-if place_meeting(x,y, Player) &&!instance_exists(obj_textbox)
+if place_meeting(x,y, Obj_Player) &&!instance_exists(Obj_textbox)
 {
-	with( instance_create_depth(0, 0, -9999, obj_textbox))
+	with( instance_create_depth(0, 0, -9999, Obj_textbox))
 	{
-		scr_game_text(_s.text_id,_s.system_id);
+		m_scr_game_text(_s.text_id,_s.system_id);
 	}
 	instance_destroy();
 	ds_map_add(global.text_setted, text_id,true );

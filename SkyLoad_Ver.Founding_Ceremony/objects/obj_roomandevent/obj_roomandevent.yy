@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_roomandevent",
+  "%Name":"Obj_roomandevent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_roomandevent",
+  "name":"Obj_roomandevent",
   "overriddenProperties":[],
   "parent":{
     "name":"text_obj",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite16",
-    "path":"sprites/Sprite16/Sprite16.yy",
+    "name":"Spr_roomSymbol",
+    "path":"sprites/Spr_roomSymbol/Spr_roomSymbol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"heishi_mae_ushiro_battle",
-    "path":"sprites/heishi_mae_ushiro_battle/heishi_mae_ushiro_battle.yy",
+    "name":"Spr_heishi_mae_ushiro_battle",
+    "path":"sprites/Spr_heishi_mae_ushiro_battle/Spr_heishi_mae_ushiro_battle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

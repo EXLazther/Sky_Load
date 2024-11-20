@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_remember_room",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_remember_room",
+  "parent":{
+    "name":"Scr_Battle_system",
+    "path":"folders/スクリプト/Scr_Battle_system.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite142",
-    "path":"sprites/Sprite142/Sprite142.yy",
+    "name":"Spr_battleChanger",
+    "path":"sprites/Spr_battleChanger/Spr_battleChanger.yy",
   },
   "spriteMaskId":null,
   "visible":false,

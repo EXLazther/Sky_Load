@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
+    "name":"Spr_roomChanger",
+    "path":"sprites/Spr_roomChanger/Spr_roomChanger.yy",
   },
   "spriteMaskId":null,
   "visible":false,

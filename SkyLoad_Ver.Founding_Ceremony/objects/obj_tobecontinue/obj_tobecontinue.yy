@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tobecontinue",
+  "%Name":"Obj_tobecontinue",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tobecontinue",
+  "name":"Obj_tobecontinue",
   "overriddenProperties":[],
   "parent":{
     "name":"text_obj",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
+    "name":"Spr_roomChanger",
+    "path":"sprites/Spr_roomChanger/Spr_roomChanger.yy",
   },
   "spriteMaskId":null,
   "visible":false,

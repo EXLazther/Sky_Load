@@ -1,13 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mob",
-  "eventList":[],
+  "%Name":"Obj_mob",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_mob",
+  "name":"Obj_mob",
   "overriddenProperties":[],
   "parent":{
-    "name":"test_obj",
-    "path":"folders/オブジェクト/system_object/test_obj.yy",
+    "name":"オブジェクト",
+    "path":"folders/オブジェクト.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_mob_1_tathi",
+    "path":"sprites/Spr_mob_1_tathi/Spr_mob_1_tathi.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

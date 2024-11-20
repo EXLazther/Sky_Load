@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_bgmTest",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":0,
+  "conversionMode":0,
+  "duration":153.29031,
+  "name":"Snd_bgmTest",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/サウンド/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_bgmTest.ogg",
+  "type":1,
+  "volume":1.0,
+}

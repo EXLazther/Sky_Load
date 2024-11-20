@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_talk_item",
+  "%Name":"Obj_talk_item",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_talk_item",
+  "name":"Obj_talk_item",
   "overriddenProperties":[],
   "parent":{
     "name":"item_obj",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite16",
-    "path":"sprites/Sprite16/Sprite16.yy",
+    "name":"Spr_roomSymbol",
+    "path":"sprites/Spr_roomSymbol/Spr_roomSymbol.yy",
   },
   "spriteMaskId":null,
   "visible":true,

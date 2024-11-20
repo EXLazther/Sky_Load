@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"heishi_taiki_battle",
-    "path":"sprites/heishi_taiki_battle/heishi_taiki_battle.yy",
+    "name":"Spr_heishi_taiki_battle",
+    "path":"sprites/Spr_heishi_taiki_battle/Spr_heishi_taiki_battle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

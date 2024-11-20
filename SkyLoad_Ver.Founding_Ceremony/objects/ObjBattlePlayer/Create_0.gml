@@ -6,10 +6,10 @@ movespd=5;
 
 
 global.player_level = 1;
-sprite[RIGHT]=player_right;
-sprite[UP]=player_wait;
-sprite[LEFT]=player_left;
-sprite[DOWN]=player_stand;
+sprite[RIGHT]=Spr_player_right;
+sprite[UP]=Spr_player_wait;
+sprite[LEFT]=Spr_player_left;
+sprite[DOWN]=Spr_player_stand;
 face=UP;
 
 

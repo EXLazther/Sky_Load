@@ -17,7 +17,7 @@ line_sep = 20;
 line_width = textbox_width - border*2;
 
 //テキストアニメーション
-txtb_spr= box;
+txtb_spr= Spr_box;
 txtb_img = 0;
 txtb_img_spd = 6/60;
 global.system_text=2;
@@ -57,7 +57,7 @@ global.show_box=false;
 var text_x_offset=15;
 
 //エフェクト
-set_default_for_text();
+m_set_default_for_text();
 last_free_space=0;
 
 var speaker_sprite = [];

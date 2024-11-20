@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_inventory_function",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_inventory_function",
+  "parent":{
+    "name":"Scr_item",
+    "path":"folders/スクリプト/Scr_item.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

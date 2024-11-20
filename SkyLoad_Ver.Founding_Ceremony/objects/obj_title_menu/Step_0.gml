@@ -18,7 +18,7 @@ if accept_key{
 		//ポーズメニュー
 		switch(pos){
 			//ゲーム開始
-			case 0: room_goto(start); break;
+			case 0: room_goto(Room_start); break;
 			//設定
 			case 1: menu_level=1;	break;
 			//ゲーム終了

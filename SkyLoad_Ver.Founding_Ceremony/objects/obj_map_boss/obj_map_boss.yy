@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_boss",
+  "%Name":"Obj_map_boss",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_map_boss",
+  "name":"Obj_map_boss",
   "overriddenProperties":[],
   "parent":{
     "name":"オブジェクト",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"isaku_down",
-    "path":"sprites/isaku_down/isaku_down.yy",
+    "name":"Spr_isaku_down",
+    "path":"sprites/Spr_isaku_down/Spr_isaku_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

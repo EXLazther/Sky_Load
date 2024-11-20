@@ -2,11 +2,9 @@
 depth=-99999;
 accept_key=keyboard_check_pressed(ord("Z"));
 cancel_key=keyboard_check_pressed(ord("X"));
-if(keyboard_check_pressed(vk_space)&&!instance_exists(obj_textbox)&&room!=RoomBattle)
+if(keyboard_check_pressed(vk_space)&&!instance_exists(Obj_textbox)&&room!=RoomBattle)
 {
-        if(instance_exists(Object6))instance_deactivate_object(Object6);
-        if(instance_exists(Player))instance_deactivate_object(Player);
-        if(instance_exists(Object7))instance_deactivate_object(Object7);
+        if(instance_exists(Obj_Player))instance_deactivate_object(Obj_Player);
 	if(global.stop=0 && restart==0)
 	{
 	global.stop = 1;
@@ -22,7 +20,7 @@ if(global.stop == 1 && restart==0)
 
 }
 if(global.stop==1&&global.itemstatus==0){
-	object_set_visible(obj_main_pause,true);
+	object_set_visible(Obj_main_pause,true);
 	up_key=keyboard_check_pressed(vk_up);
 	down_key=keyboard_check_pressed(vk_down);
 

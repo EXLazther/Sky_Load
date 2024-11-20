@@ -21,7 +21,7 @@ if(restart==1){
 
 	//表示
 	draw_sprite_ext(sprite_index,image_index,x+xspr,y-yspr,width/sprite_width,height/sprite_height,0,c_white,1);
-	global.font=fnt_jp;
+	global.font=Fnt_fnt_jp;
 	//オプション表示
 	draw_set_font(global.font);
 	draw_set_valign(fa_top);
@@ -34,7 +34,7 @@ if(restart==1){
 	}
 	if(menu_level==1){
 	//キャラ描画
-		draw_sprite(kohaku_tsuujou,0,x-300,y-100);
+		draw_sprite(Spr_kohaku_tsuujou,0,x-300,y-100);
 		if(status)
 		{
 			draw_sprite_ext(sprite_index,image_index,x,y,width/sprite_width,height/sprite_height,0,c_white,1);
@@ -47,4 +47,4 @@ if(restart==1){
 		}
 	}
 }
-else{object_set_visible(obj_main_pause,false);}
+else{object_set_visible(Obj_main_pause,false);}

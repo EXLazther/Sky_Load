@@ -1,5 +1,5 @@
 
-object_set_visible(obj_textbox,true);
+object_set_visible(Obj_textbox,true);
 accept_key = keyboard_check_pressed( ord("Z") );
 	
 	textbox_x=camera_get_view_x(view_camera[0])+camera_get_view_width(view_camera[0])/2-width;
@@ -66,7 +66,7 @@ if accept_key
 		else
 		{
 			if option_number>0{
-				create_textbox(option_link_id[option_pos]);
+				m_create_textbox(option_link_id[option_pos]);
 			}
 			global.show_box=false;
 			instance_destroy();
@@ -91,16 +91,16 @@ txtb_spr_h = sprite_get_height(txtb_spr);
 // キャラクター描画
 if (speaker_sprite[page] != noone) {
     sprite_index = speaker_sprite[page];
-	var _sprite_x = textbox_x + portrait_x_offset[page]-40;
-	draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y, speaker_side[page], 1, 0, color_left[page],1);
+	var _sprite_x = textbox_x + portrait_x_offset[page]+150;
+	draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y+150, speaker_side[page], 1, 0, color_left[page],1);
 }
 if(speaker_sprite1[page]!=noone)
 {
     sprite_index = speaker_sprite[page];
 	var _sprite_x = textbox_x + portrait_x_offset[page];
 	var _sprite_right_x=_sprite_x+sprite_get_width(sprite_index);
-	if sprite_index==noone{_sprite_right_x+=sprite_set_left+51;}
-	draw_sprite_ext(speaker_sprite1[page],-1,_sprite_right_x-90,character_y,speaker_side[page],1,0,color_right[page],1);
+	if sprite_index==noone{_sprite_right_x+=sprite_set_left+55;}
+	draw_sprite_ext(speaker_sprite1[page],-1,_sprite_right_x+120,character_y+150,speaker_side[page],1,0,color_right[page],1);
 }
 
 

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_game_text",
+  "%Name":"Scr_game_text",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_game_text",
+  "name":"Scr_game_text",
   "parent":{
     "name":"text",
     "path":"folders/スクリプト/text.yy",

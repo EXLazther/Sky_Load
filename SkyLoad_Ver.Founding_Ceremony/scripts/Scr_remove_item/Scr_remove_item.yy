@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_remove_item",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_remove_item",
+  "parent":{
+    "name":"Scr_item",
+    "path":"folders/スクリプト/Scr_item.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

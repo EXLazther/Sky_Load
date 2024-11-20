@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite33_1_3",
-    "path":"sprites/Sprite33_1_3/Sprite33_1_3.yy",
+    "name":"Spr_roomcChange",
+    "path":"sprites/Spr_roomcChange/Spr_roomcChange.yy",
   },
   "spriteMaskId":null,
   "visible":true,
