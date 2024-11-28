@@ -34,7 +34,7 @@ if(restart==1){
 	}
 	if(menu_level==1){
 	//キャラ描画
-		draw_sprite(Spr_kohaku_tsuujou,0,x-300,y-100);
+		draw_sprite(Spr_kohaku_tsuujou,0,x-130,y+100);
 		if(status)
 		{
 			draw_sprite_ext(sprite_index,image_index,x,y,width/sprite_width,height/sprite_height,0,c_white,1);

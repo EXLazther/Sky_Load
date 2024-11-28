@@ -10,7 +10,7 @@ if place_meeting(x +10,y+10, Obj_Player) && keyboard_check_pressed(ord("Z")) && 
 		}
 		if(item_foryou==0)
 		{
-			item_add(item); // アイテムをインベントリに追加
+			m_item_add(item); // アイテムをインベントリに追加
 			ds_map_add(global.item_gat, instance_setid,true );
 			item_foryou+=1;
 		}
@@ -36,7 +36,7 @@ if place_meeting(x -10,y-10, Obj_Player) && keyboard_check_pressed(ord("Z")) && 
 		}
 		if(item_foryou==0)
 		{
-			item_add(item); // アイテムをインベントリに追加
+			m_item_add(item); // アイテムをインベントリに追加
 			ds_map_add(global.item_gat, instance_setid,true );
 			item_foryou+=1;
 		}

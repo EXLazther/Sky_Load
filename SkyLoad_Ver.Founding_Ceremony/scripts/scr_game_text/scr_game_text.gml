@@ -501,6 +501,9 @@ function m_scr_game_text(_text_id,_system_text){
 		case "wood":
 			m_set_text("木の枝を手に入れた","","","");
 			break;
+		case "bag":
+			m_set_text("バックを手に入れた","","","");
+			break;
 		case"no":
 			m_set_text("話しかけないでおこう","","","");
 			break;

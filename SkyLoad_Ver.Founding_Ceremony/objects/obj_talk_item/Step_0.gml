@@ -2,13 +2,13 @@
 var _s = id; 
 if place_meeting(x +10,y+10, Obj_Player) && !instance_exists(Obj_textbox)
 {
-	if(item_add(item)==true)
+	if(m_item_add(item)==true)
 	{
 		with( instance_create_depth(0, 0, -9999, Obj_textbox))
 		{
 			m_scr_game_text(_s.text_id,_s.system_id);			
 		}
-			item_add(item); // アイテムをインベントリに追加
+			m_item_add(item); // アイテムをインベントリに追加
 			ds_map_add(global.item_gat, item,true );
 			instance_destroy();
 	}
@@ -29,27 +29,27 @@ if place_meeting(x +10,y+10, Obj_Player) && !instance_exists(Obj_textbox)
 
 if place_meeting(x -10,y-10, Obj_Player)  && !instance_exists(Obj_textbox)
 {
-	if(item_add(item)==true)
+	if(m_item_add(item)==true)
 	{
-	with( instance_create_depth(0, 0, -9999, Obj_textbox))
-	{
-		m_scr_game_text(_s.text_id,_s.system_id);
+		with( instance_create_depth(0, 0, -9999, Obj_textbox))
+		{
+			m_scr_game_text(_s.text_id,_s.system_id);
 		
-	}
-   m_item_add(item); // アイテムをインベントリに追加
-	ds_map_add(global.item_gat, item,true );
-	instance_destroy();
+		}
+		m_item_add(item); // アイテムをインベントリに追加
+		ds_map_add(global.item_gat, item,true );
+		instance_destroy();
 	}
 	else
 	{
-		if(counter_1<1)
-		{
-			with( instance_create_depth(0, 0, -9999, Obj_textbox))
+			if(counter_1<1)
 			{
-				m_scr_game_text("item","1");			
+				with( instance_create_depth(0, 0, -9999, Obj_textbox))
+				{
+					m_scr_game_text("item","1");			
+				}
+				counter_1+=1;
 			}
-			counter_1+=1;
-		}
 	}
 }
 

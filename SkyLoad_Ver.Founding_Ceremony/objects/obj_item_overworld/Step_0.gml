@@ -2,7 +2,7 @@ sprite_index=item.sprite;
 var _s = id; 
 if place_meeting(x,y, Obj_Player) && !instance_exists(Obj_textbox)
 {
-	if(item_add(item)==true)
+	if(m_item_add(item)==true)
 	{
 		with( instance_create_depth(0, 0, -9999, Obj_textbox))
 		{

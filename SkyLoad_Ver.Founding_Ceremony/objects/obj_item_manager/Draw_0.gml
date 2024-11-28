@@ -22,8 +22,15 @@ if result=1
 		if pos==i{_col=c_yellow;};
 		draw_set_color(_col);
 		xx=x+xspr-100;
+		yy=y+yspr
 		//名前
-		draw_text(xx,y+yspr+op_space*i-90,inv[i].name);
+		if(i>=6)
+		{
+			xx+=180;
+			yy-=190;
+		}
+			draw_text(xx,yy+op_space*i-90,inv[i].name);
+		
 		//説明
 		if pos==i{
 		draw_text(x+op_border-100,y+yspr+op_border+70,inv[i].description);

@@ -1,19 +1,10 @@
 depth=-9999;
 global.font=Fnt_fnt_jp;
-
-global.item_gat = ds_map_create();
-function create_item(_name,_desc,_spr,_efect,) constructor
-{
-	name=_name;
-	description=_desc;
-	sprite=_spr;
-	efect=_efect;
-	exists=true;
-}
+global.item_gat=ds_map_create();
 //アイテム製造管理
 global.item_list=
 	{
-		brooch:new create_item(
+		brooch:new m_create_item(
 			"？？のブローチ",
 			"誰のかわからないブローチ\n触ると記憶が流れてくる",
 			Spr_item,
@@ -24,7 +15,7 @@ global.item_list=
 				array_delete(inv,selected_item,1);
 			}
 		) ,
-		reagel:new create_item(
+		reagel:new m_create_item(
 			"リーゲルの果実",
 			"プルプルとしたリンゴのような果物。\n味はかなりさっぱりしている\nHPを15増加",
 			Spr_item,
@@ -33,7 +24,7 @@ global.item_list=
 				array_delete(inv,selected_item,1);
 				}
 		),
-		yakusou:new create_item(
+		yakusou:new m_create_item(
 			"薬草",
 			"森に生えている草を調合したもの\nHPを10増加",
 			Spr_item,
@@ -43,7 +34,7 @@ global.item_list=
 				array_delete(inv,selected_item,1);
 			}
 		),
-		candy:new create_item(
+		candy:new m_create_item(
 			"飴",
 			"花屋の裏に落ちていた飴\nHPを5増加",
 			Spr_item,
@@ -53,7 +44,7 @@ global.item_list=
 				array_delete(inv,selected_item,1);
 			}
 		),
-		chest:new create_item(
+		chest:new m_create_item(
 			"戦闘テクニックのメモ",
 			"被弾したときのリカバリー方法が書かれてるメモ\nDEFを5増加",
 			Spr_item,
@@ -63,7 +54,7 @@ global.item_list=
 				array_delete(inv,selected_item,1);
 			}
 		),
-		instant_life:new create_item(
+		instant_life:new m_create_item(
 			"簡易治療薬",
 			"近年登場したばかりの人工宝物\nHPを50増加",
 			Spr_item,
@@ -73,13 +64,23 @@ global.item_list=
 				array_delete(inv,selected_item,1);
 			}
 		),
-		wood:new create_item(
+		wood:new m_create_item(
 			"木の枝",
 			"何の変哲もない木の枝\nATKを2増加",
 			Spr_item,
 			function()
 			{
 				global.player_atk+=2;
+				array_delete(inv,selected_item,1);
+			}
+		),
+		bag:new m_create_item(
+			"バック",
+			"少し大きめなバック\n",
+			Spr_item,
+			function()
+			{
+				inv_max+=6;
 				array_delete(inv,selected_item,1);
 			}
 		)

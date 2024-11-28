@@ -6,7 +6,8 @@ enum m_ITEM_NAME
 	CANDY,
 	CHEST,
 	INSTANTLIFE,
-	WOOD
+	WOOD,
+	BAG
 }
 
 function m_set_item_name (_id)
@@ -22,10 +23,18 @@ global.item=
 	"飴",
 	"戦闘テクニックのメモ",
 	"簡易治療薬",
-	"木の枝"
+	"木の枝",
+	"バック"
 ]
 //アイテムの作成
-	
+function m_create_item(_name,_desc,_spr,_efect,) constructor
+{
+	name=_name;
+	description=_desc;
+	sprite=_spr;
+	efect=_efect;
+	exists=true;
+}
 	
 function m_item_add(_item){
 	var _added=false
