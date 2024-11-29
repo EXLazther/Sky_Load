@@ -287,6 +287,7 @@
     {"name":"Spr_templeWall_tile","order":2,"path":"sprites/Spr_templeWall_tile/Spr_templeWall_tile.yy",},
     {"name":"Spr_testEnemy1","order":3,"path":"sprites/Spr_testEnemy1/Spr_testEnemy1.yy",},
     {"name":"Spr_testEnemy2","order":1,"path":"sprites/Spr_testEnemy2/Spr_testEnemy2.yy",},
+    {"name":"Spr_textbox","order":6,"path":"sprites/Spr_textbox/Spr_textbox.yy",},
     {"name":"Spr_title_haikei","order":2,"path":"sprites/Spr_title_haikei/Spr_title_haikei.yy",},
     {"name":"Spr_title_logo","order":1,"path":"sprites/Spr_title_logo/Spr_title_logo.yy",},
     {"name":"Spr_titleSetup","order":3,"path":"sprites/Spr_titleSetup/Spr_titleSetup.yy",},

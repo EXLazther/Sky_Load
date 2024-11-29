@@ -17,7 +17,7 @@ line_sep = 20;
 line_width = textbox_width - border*2;
 
 //テキストアニメーション
-txtb_spr= Spr_box;
+txtb_spr= Spr_textbox;
 txtb_img = 0;
 txtb_img_spd = 6/60;
 global.system_text=2;

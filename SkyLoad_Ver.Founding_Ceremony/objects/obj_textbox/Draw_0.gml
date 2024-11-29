@@ -122,12 +122,12 @@ if draw_char==text_length[page]&&page==page_number-1{
 	{
 		//オプションボックス
 		var _o_w=string_width(option[op])+_op_bord*2;
-		draw_sprite_ext(txtb_spr,txtb_img,_txtb_x+250,_txtb_y-_op_space*option_number+_op_space*op-90, _o_w/txtb_spr_w, (_op_space-1)/txtb_spr_h, 0, c_white, 1);
+		draw_sprite_ext(txtb_spr,txtb_img,_txtb_x+215,_txtb_y-_op_space*option_number+_op_space*op-90, _o_w/txtb_spr_w, (_op_space-1)/txtb_spr_h, 0, c_white, 1);
 		//オプションテキスト
-		draw_text(_txtb_x+250+_op_bord,_txtb_y-_op_space*option_number+_op_space*op+4-90,option[op]);
+		draw_text(_txtb_x+215+_op_bord,_txtb_y-_op_space*option_number+_op_space*op+4-80,option[op]);
 		if option_pos==op
 		{
-			draw_sprite(spr_array,0,_txtb_x+215,_txtb_y-_op_space*option_number+_op_space*op-90);
+			draw_sprite(spr_array,0,_txtb_x+215,_txtb_y-_op_space*option_number+_op_space*op-80);
 		}
 	}
 }
@@ -138,6 +138,6 @@ var _drawtext = string_copy(text[page], 1, draw_char);
 var _drawname = string_copy(name[page], 1, draw_char);
 //draw_set_color(c_black);
 draw_text_ext(_txtb_x + border-42, _txtb_y+ border, _drawtext, line_sep, line_width);
-draw_text_ext(_txtb_x + border+460, _txtb_y+ border+25, "Zキーで進める",line_sep, line_width);
-draw_text_ext(_txtb_x+border-42,_txtb_y-32,_drawname,line_sep,line_width);
+draw_text_ext(_txtb_x + border+475, _txtb_y+ border+25, "Zキーで進める",line_sep, line_width);
+draw_text_ext(_txtb_x+border-38,_txtb_y-28,_drawname,line_sep,line_width);
 }

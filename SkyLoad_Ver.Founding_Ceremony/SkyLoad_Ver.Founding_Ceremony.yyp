@@ -380,6 +380,7 @@
     {"id":{"name":"Spr_testEnemy1","path":"sprites/Spr_testEnemy1/Spr_testEnemy1.yy",},},
     {"id":{"name":"Spr_testEnemy2","path":"sprites/Spr_testEnemy2/Spr_testEnemy2.yy",},},
     {"id":{"name":"Spr_testObj","path":"sprites/Spr_testObj/Spr_testObj.yy",},},
+    {"id":{"name":"Spr_textbox","path":"sprites/Spr_textbox/Spr_textbox.yy",},},
     {"id":{"name":"Spr_title_haikei","path":"sprites/Spr_title_haikei/Spr_title_haikei.yy",},},
     {"id":{"name":"Spr_title_logo","path":"sprites/Spr_title_logo/Spr_title_logo.yy",},},
     {"id":{"name":"Spr_titlePreliminary","path":"sprites/Spr_titlePreliminary/Spr_titlePreliminary.yy",},},
