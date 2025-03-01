@@ -3,9 +3,13 @@
   "%Name":"Til_roadSet_1616_stage2",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":10,
+    "SerialiseWidth":11,
+    "TileCompressedData":[
+      -7,0,4,468,0,0,471,-7,0,4,500,0,0,503,-7,0,4,532,0,0,535,-7,0,4,468,0,0,503,-7,0,4,500,0,0,535,-7,0,
+      4,532,0,0,567,-7,0,4,468,0,0,503,-7,0,4,500,0,0,535,-7,0,4,532,0,0,535,-7,0,4,564,0,0,567,
+    ],
+    "TileDataFormat":1,
   },
   "name":"Til_roadSet_1616_stage2",
   "out_columns":28,

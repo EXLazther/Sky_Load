@@ -318,7 +318,7 @@
   "name":"Room_fortIsland",
   "parent":{
     "name":"Room_fortIsland",
-    "path":"folders/ルーム/２章/Room_fortIsland.yy",
+    "path":"folders/ルーム/2章/Room_fortIsland.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
