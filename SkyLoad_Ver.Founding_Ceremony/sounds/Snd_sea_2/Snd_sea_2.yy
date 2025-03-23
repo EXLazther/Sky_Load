@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Snd_sea_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "bitRate":512,
+  "compression":0,
+  "conversionMode":0,
+  "duration":145.47256,
+  "name":"Snd_sea_2",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/サウンド/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_sea_2.ogg",
+  "type":1,
+  "volume":1.0,
+}

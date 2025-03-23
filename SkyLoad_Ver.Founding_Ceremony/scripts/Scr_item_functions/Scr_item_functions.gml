@@ -46,3 +46,19 @@ function m_item_add(_item){
 	return _added;
 }
 
+
+enum b_WEAPON_NAME
+{
+	ENERGY,
+	DRILL,
+	ARROW,
+	WATER
+}
+
+global.weapon=
+[
+	"エネルギー弾",
+	"ドリル",
+	"弓矢",
+	"祈祷"
+]
