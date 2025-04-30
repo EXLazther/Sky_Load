@@ -9,7 +9,7 @@
   "bitRate":160,
   "compression":0,
   "conversionMode":0,
-  "duration":109.92325,
+  "duration":109.92326,
   "name":"gulca",
   "parent":{
     "name":"Object",
