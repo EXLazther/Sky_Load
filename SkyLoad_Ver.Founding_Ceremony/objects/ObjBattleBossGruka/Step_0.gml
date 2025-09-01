@@ -6,8 +6,6 @@ if (ObjBattleManager.is_battle_started) {
 		
 			case 1: script_execute(GrukaPattern1)
 			case 2: script_execute(GrukaPattern1)
-			case 3:
-			case 4:
 		
 		}
 	}
