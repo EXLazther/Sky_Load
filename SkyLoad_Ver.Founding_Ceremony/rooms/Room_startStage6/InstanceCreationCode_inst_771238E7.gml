@@ -1,4 +1,4 @@
-text_id="event 6";
+text_id="event_6";
 system_id="2";
 target_x=545;
 target_y=720;

@@ -1,4 +1,4 @@
-target_x=400;
-target_y=40;
-target_rm=Room_elf_2;
+target_x=560;
+target_y=300;
+target_rm=Room_Yggdrais;
 target_face=DOWN;
