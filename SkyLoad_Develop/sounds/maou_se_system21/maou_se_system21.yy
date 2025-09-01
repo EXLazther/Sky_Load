@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.291066,
+  "duration":0.29106575,
   "name":"maou_se_system21",
   "parent":{
     "name":"Object",

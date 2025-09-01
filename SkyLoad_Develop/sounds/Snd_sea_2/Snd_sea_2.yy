@@ -9,7 +9,7 @@
   "bitRate":512,
   "compression":0,
   "conversionMode":0,
-  "duration":145.47256,
+  "duration":93.85941,
   "name":"Snd_sea_2",
   "parent":{
     "name":"BGM",
