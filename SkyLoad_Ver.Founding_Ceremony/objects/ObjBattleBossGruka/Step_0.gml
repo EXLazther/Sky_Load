@@ -16,5 +16,3 @@ if (ObjBattleManager.current_phase != ObjBattleManager.previous_phase ) {
     	bset_objmove_interpolation(x, y, 288, 150, 40, 2)
 		set_enemy_idle(40)
 }
-
-
