@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_roomandevent",
+  "%Name":"Obj_text_wait",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_roomandevent",
+  "name":"Obj_text_wait",
   "overriddenProperties":[],
   "parent":{
-    "name":"text_obj",
-    "path":"folders/オブジェクト/system_object/text_obj.yy",
+    "name":"test_obj",
+    "path":"folders/オブジェクト/system_object/test_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_roomSymbol",
-    "path":"sprites/Spr_roomSymbol/Spr_roomSymbol.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

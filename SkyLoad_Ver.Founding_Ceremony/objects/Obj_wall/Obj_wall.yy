@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obk_wall",
+  "%Name":"Obj_wall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obk_wall",
+  "name":"Obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"system_object",

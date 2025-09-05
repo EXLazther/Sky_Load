@@ -1,6 +1,7 @@
 xspd=0;
 yspd=0;
 movespd=5;
+face=DOWN;
 
 sprite[RIGHT]=Spr_playerRight;
 sprite[UP]=Spr_playerUp;

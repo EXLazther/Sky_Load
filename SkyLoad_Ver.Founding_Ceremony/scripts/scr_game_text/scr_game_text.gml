@@ -84,6 +84,7 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("更に言うならガラ王国最前線\n兵士の眠る街ゼピュアよ","町人","no","no");
 			m_set_text("観光気分なら帰ったほうがいいわ","町人","no","no");
 			m_set_text("なんかマズいとこ来ちゃったかも…","コハク","no","no");
+			
 			break;
 		case "talk_2":
 			m_set_text("王国聖騎士団が来てるそうだ","町人","no","no");
@@ -142,12 +143,11 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("そいつの分もしっかり生きるんだよ","町人","no","no");
 			break;
 		
-		
 			
 		//イベント用コード
-		case "event_1":		
-			m_set_text("珍しいですね\nこんなところに人が来るなんて","安心感のある声","no","no","2");
-			m_set_text("しかも寝ていますね","安心感のある声","no","no","2");
+		case "event_1":
+			m_set_text("珍しいですね\nこんなところに人が来るなんて","安心感のある声","no","no","2","1");
+			m_set_text("しかも寝ていますね","安心感のある声","no","no","2","2");
 			m_set_text("あ、起きました？","声の主","no","no","2");
 			m_scr_option("ここはどこ？","talk");
 			m_scr_option("あなたは誰？","talk");
@@ -157,7 +157,9 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("それでは話したいことはありますが\n先に操作方法から教えましょうか","声の主","no","eltia","2");
 				m_set_text("まずは移動からですね","声の主","no","eltia","2");
 				m_set_text("進みたい方向を十字キーで押してみてください\nそうするとその方向に進みますよ","声の主","no","eltia","2");
+				
 				break;
+			
 		case "event_2":
 			m_set_text("上出来ですね","声の主","no","eltia_ki","2");
 			m_set_text("それでは次は身の守り方を知りましょうか","声の主","no","eltia","2");

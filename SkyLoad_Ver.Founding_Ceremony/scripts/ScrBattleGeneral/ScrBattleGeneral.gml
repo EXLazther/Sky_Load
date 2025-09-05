@@ -18,7 +18,7 @@ function set_timer (_method, _arguments, _interval, _repeat) //タイマー（�
 	time_source_units_frames, 
 	_method,
 	_arguments, //スクリプト関数に渡された引数をメソッドの引数としてそのまま渡す
-	_repeat,
+	_repeat,//-1で無限
 	time_source_expire_nearest
 	);
 	

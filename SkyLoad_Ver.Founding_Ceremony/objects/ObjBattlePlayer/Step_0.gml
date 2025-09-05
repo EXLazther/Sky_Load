@@ -27,11 +27,11 @@ if (xspd == 0 && yspd == 0){
 }
 
 //衝突の計算
-if(place_meeting(x+xspd,y,Obk_wall))
+if(place_meeting(x+xspd,y,Obj_wall))
 {
 	xspd=0;
 }
-if(place_meeting(x,y+yspd,Obk_wall))
+if(place_meeting(x,y+yspd,Obj_wall))
 {
 	yspd=0;
 }

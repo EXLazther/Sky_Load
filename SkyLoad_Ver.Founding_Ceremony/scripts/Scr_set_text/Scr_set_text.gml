@@ -467,3 +467,10 @@ function m_create_textbox(_text_id){
 		m_scr_game_text(_text_id);
 	}
 }
+
+function m_set_moving_idle(_frame)
+{
+	var _obj=instance_create_layer(0,0,"Instances",Obj_text_wait)
+	_obj.frame_wait=_frame;
+	
+}

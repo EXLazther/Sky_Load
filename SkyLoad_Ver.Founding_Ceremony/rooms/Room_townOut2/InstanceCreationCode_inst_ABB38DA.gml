@@ -1,4 +1,4 @@
-target_x=258;
-target_y=21;
+target_x=270;
+target_y=22;
 target_rm=Room_townOut;
 target_face=DOWN;

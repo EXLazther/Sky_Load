@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_map_motion",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_map_motion",
+  "parent":{
+    "name":"スクリプト",
+    "path":"folders/スクリプト.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -14,8 +14,8 @@
     "path":"folders/オブジェクト/system_object.yy",
   },
   "parentObjectId":{
-    "name":"Obk_wall",
-    "path":"objects/Obk_wall/Obk_wall.yy",
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
