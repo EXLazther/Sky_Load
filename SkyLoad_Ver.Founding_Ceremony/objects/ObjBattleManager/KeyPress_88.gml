@@ -14,4 +14,3 @@ if (is_battle_victory == true && finished_count + 180 < current_frame){
 	room_goto(asset_get_index(global.current_room));
 	instance_create_layer(global.current_x,global.current_y,"Instances",Obj_Player);
 }
-

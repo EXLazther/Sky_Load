@@ -7,21 +7,4 @@ if is_battle_started == true
 {
 	current_frame ++;
 	
-<<<<<<< HEAD
 }
-=======
-	if (boss_health <= 0){
-		current_phase++;
-		boss_health = 100
-	}
-}
-
-
-// 状態が変更されたかをチェック
-if (current_phase != previous_phase) {  
-	
-    // 現在の状態を前回の状態として保存
-    previous_phase = current_phase;
-}
-
->>>>>>> Battle_Feture

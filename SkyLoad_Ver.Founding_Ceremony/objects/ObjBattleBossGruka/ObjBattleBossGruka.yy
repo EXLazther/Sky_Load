@@ -10,8 +10,8 @@
   "name":"ObjBattleBossGruka",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gruka",
-    "path":"folders/BattleSystems/Object/Enemy/Bosses/Gruka.yy",
+    "name":"Bosses",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses.yy",
   },
   "parentObjectId":{
     "name":"ObjBattleBossParant",

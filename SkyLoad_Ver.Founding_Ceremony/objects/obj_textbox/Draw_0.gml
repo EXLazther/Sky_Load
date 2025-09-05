@@ -80,7 +80,6 @@ if accept_key
 	}
 }
 
-<<<<<<< HEAD
 //テキストボックスの描画
 	var _txtb_x= textbox_x + text_x_offset[page];
 	var _txtb_y= textbox_y;
@@ -143,66 +142,4 @@ if accept_key
 	draw_text_ext(_txtb_x + border-42, _txtb_y+ border, _drawtext, line_sep, line_width);
 	draw_text_ext(_txtb_x + border+475, _txtb_y+ border+25, "Zキーで進める",line_sep, line_width);
 	draw_text_ext(_txtb_x+border-38,_txtb_y-28,_drawname,line_sep,line_width);
-=======
-
-//テキストボックスの描画
-var _txtb_x= textbox_x + text_x_offset[page];
-var _txtb_y= textbox_y;
-txtb_img += txtb_img_spd;
-txtb_spr_w = sprite_get_width(txtb_spr);
-txtb_spr_h = sprite_get_height(txtb_spr);
-
-// キャラクター描画
-if (speaker_sprite[page] != noone) {
-    sprite_index = speaker_sprite[page];
-	var _sprite_x = textbox_x + portrait_x_offset[page]+150;
-	draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y+150, speaker_side[page], 1, 0, color_left[page],1);
-}
-if(speaker_sprite1[page]!=noone)
-{
-    sprite_index = speaker_sprite[page];
-	var _sprite_x = textbox_x + portrait_x_offset[page];
-	var _sprite_right_x=_sprite_x+sprite_get_width(sprite_index);
-	if sprite_index==noone{_sprite_right_x+=sprite_set_left+55;}
-	draw_sprite_ext(speaker_sprite1[page],-1,_sprite_right_x+120,character_y+150,speaker_side[page],1,0,color_right[page],1);
-}
-
-
-//テキストボックスの背景を描画
-draw_sprite_ext(txtb_spr, txtb_img, textbox_x + text_x_offset[page]-50, textbox_y, textbox_width/txtb_spr_w, textbox_height/txtb_spr_h, 0, c_white, 1);
-if global.system_text==2
-{
-	draw_sprite_ext(txtb_spr, txtb_img, textbox_x + text_x_offset[page]-40, textbox_y-32,120/txtb_spr_w,32/txtb_spr_h,0,c_white,1);
-}
-//オプション
-if draw_char==text_length[page]&&page==page_number-1{
-
-	//オプション選択
-	option_pos+=keyboard_check_pressed(vk_down)-keyboard_check_pressed(vk_up);
-	option_pos=clamp(option_pos,0,option_number-1);
-	var _op_space=50;
-	var _op_bord=8;
-	for(var op=0;op<option_number;op++)
-	{
-		//オプションボックス
-		var _o_w=string_width(option[op])+_op_bord*2;
-		draw_sprite_ext(txtb_spr,txtb_img,_txtb_x+215,_txtb_y-_op_space*option_number+_op_space*op-90, _o_w/txtb_spr_w, (_op_space-1)/txtb_spr_h, 0, c_white, 1);
-		//オプションテキスト
-		draw_text(_txtb_x+215+_op_bord,_txtb_y-_op_space*option_number+_op_space*op+4-80,option[op]);
-		if option_pos==op
-		{
-			draw_sprite(spr_array,0,_txtb_x+215,_txtb_y-_op_space*option_number+_op_space*op-80);
-		}
-	}
-}
-
-
-//テキストを描画
-var _drawtext = string_copy(text[page], 1, draw_char);
-var _drawname = string_copy(name[page], 1, draw_char);
-//draw_set_color(c_black);
-draw_text_ext(_txtb_x + border-42, _txtb_y+ border, _drawtext, line_sep, line_width);
-draw_text_ext(_txtb_x + border+475, _txtb_y+ border+25, "Zキーで進める",line_sep, line_width);
-draw_text_ext(_txtb_x+border-38,_txtb_y-28,_drawname,line_sep,line_width);
->>>>>>> Battle_Feture
 }

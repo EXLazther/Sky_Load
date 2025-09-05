@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-/*if (ObjBattleManager.is_battle_started) {
+if (ObjBattleManager.is_battle_started) {
 
 	switch ObjBattleManager.current_phase {
 		
@@ -319,7 +318,7 @@
 						var _shot5 = shot_create(_x1+(150*d1*-1)+_k*10*d1, _y1-100+_j*50+_k*7, 0, -90, SHOT_ID.BALL_BLUE);
 						/*shot_set_property(_shot5, SHOT_PROPERTY_ID.D_LIFETIME,1,1);
 						shot_set_property(_shot5, SHOT_PROPERTY_ID.LIFETIME,0,1);
-						show_debug_message(_shot5.auto_destory_lifetime_enabled);
+						show_debug_message(_shot5.auto_destory_lifetime_enabled);*/
 						//プロパティ設定変数の不具合で上手く設定ができないので後日
 						_shot5.auto_destory_lifetime_enabled = true;
 						_shot5.lifetime = 82;
@@ -340,24 +339,3 @@
 	
 	
 } 
-
-=======
-if (ObjBattleManager.is_battle_started) {
-	
-	if (!ObjBattleManager.current_state = ENEMY_STATE.IDLE){
-
-		switch ObjBattleManager.current_state {
-		
-			case 1: script_execute(GrukaPattern1)
-			case 2: script_execute(GrukaPattern1)
-		
-		}
-	}
-}
-
-// 状態が変更されたかをチェック
-if (ObjBattleManager.current_phase != ObjBattleManager.previous_phase ) {
-    	bset_objmove_interpolation(x, y, 288, 150, 40, 2)
-		set_enemy_idle(40)
-}
->>>>>>> Battle_Feture
