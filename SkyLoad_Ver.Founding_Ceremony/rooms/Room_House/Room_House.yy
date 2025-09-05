@@ -5,6 +5,7 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
+<<<<<<< HEAD
   "instanceCreationOrder":[
     {"name":"inst_6508702","path":"rooms/Room_House/Room_House.yy",},
     {"name":"inst_393CDAEF","path":"rooms/Room_House/Room_House.yy",},
@@ -23,6 +24,12 @@
         {"$GMRInstance":"v2","%Name":"inst_3366D5FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3366D5FB","objectId":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.5,"scaleY":0.48387095,"x":0.0,"y":352.0,},
         {"$GMRInstance":"v2","%Name":"inst_5DC2D3C9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DC2D3C9","objectId":{"name":"Obj_room_changer","path":"objects/Obj_room_changer/Obj_room_changer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.5,"x":224.0,"y":384.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+=======
+  "instanceCreationOrder":[],
+  "isDnd":false,
+  "layers":[
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+>>>>>>> Battle_Feture
     {"$GMRLayer":"","%Name":"Folder_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"$GMRTileLayer":"","%Name":"Tiles_3","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
               -75,-2147483648,10,406,407,408,409,272,273,272,273,272,273,-3,-2147483648,4,902,903,904,905,-26,-2147483648,
@@ -31,6 +38,7 @@
               368,369,368,369,368,369,-3,-2147483648,4,998,999,1000,1001,-591,-2147483648,-4,0,-39,-2147483648,-4,
               0,-39,-2147483648,-4,0,-39,-2147483648,-4,0,-87,-2147483648,
             ],"TileDataFormat":1,},"tilesetId":{"name":"Til_itemSet_1616","path":"tilesets/Til_itemSet_1616/Til_itemSet_1616.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+<<<<<<< HEAD
         {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":22,"TileCompressedData":[-264,0,],"TileDataFormat":1,},"tilesetId":{"name":"Til_window_3232","path":"tilesets/Til_window_3232/Til_window_3232.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
         {"$GMRTileLayer":"","%Name":"Tiles_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
               -2,-2147483648,-41,0,1,-2147483648,-42,0,860,-2147483648,456,457,458,459,456,457,458,459,554,555,552,
@@ -70,14 +78,68 @@
               554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,
               555,552,553,520,521,522,523,520,521,522,0,-14,-2147483648,8,456,457,458,459,456,457,458,459,-8,-2147483648,
               -13,0,-14,-2147483648,8,488,489,490,491,488,489,490,491,-8,-2147483648,-13,0,
+=======
+        {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":22,"TileCompressedData":[
+              1,48,-20,64,-2,48,-20,0,-2,48,-20,0,-2,48,-20,0,-2,48,-20,0,-2,48,-20,0,-2,48,-20,0,-2,48,-20,0,-2,48,
+              -20,0,-2,48,-20,0,-2,48,-20,0,-8,48,-4,0,-2,48,-2,64,-3,48,1,64,-3,48,
+            ],"TileDataFormat":1,},"tilesetId":{"name":"Til_window_3232","path":"tilesets/Til_window_3232/Til_window_3232.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        {"$GMRTileLayer":"","%Name":"Tiles_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
+              -3,-2147483648,40,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,
+              489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,-3,-2147483648,900,520,521,
+              522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,
+              523,520,521,522,523,520,521,522,523,520,521,522,523,-2147483648,456,457,458,459,456,457,458,459,554,
+              555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,
+              552,553,554,555,552,553,554,555,-2147483648,488,489,490,491,488,489,490,491,458,459,456,457,458,459,
+              456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,
+              457,458,459,-2147483648,520,521,522,523,520,521,522,523,490,491,488,489,490,491,488,489,490,491,488,
+              489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,-2147483648,
+              552,553,554,555,552,553,554,555,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,
+              523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,-2147483648,456,457,458,459,456,
+              457,458,459,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,
+              552,553,554,555,552,553,554,555,552,553,554,555,-2147483648,488,489,490,491,488,489,490,491,458,459,
+              456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,
+              457,458,459,456,457,458,459,-2147483648,520,521,522,523,520,521,522,523,490,491,488,489,490,491,488,
+              489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,
+              490,491,-2147483648,552,553,554,555,552,553,554,555,522,523,520,521,522,523,520,521,522,523,520,521,
+              522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,-2147483648,
+              456,457,458,459,456,457,458,459,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,
+              555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,-2147483648,488,489,490,491,488,
+              489,490,491,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,
+              456,457,458,459,456,457,458,459,456,457,458,459,-2147483648,520,521,522,523,520,521,522,523,490,491,
+              488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,
+              489,490,491,488,489,490,491,-2147483648,552,553,554,555,552,553,554,555,522,523,520,521,522,523,520,
+              521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,
+              522,523,-2147483648,456,457,458,459,456,457,458,459,554,555,552,553,554,555,552,553,554,555,552,553,
+              554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,-2147483648,
+              488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,
+              489,490,491,488,489,490,491,488,489,456,457,458,459,456,457,458,459,-2147483648,520,521,522,523,520,
+              521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,
+              522,523,520,521,488,489,490,491,488,489,490,491,-2147483648,552,553,554,555,552,553,554,555,552,553,
+              554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,520,
+              521,522,523,520,521,522,523,-2147483648,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,
+              459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,458,459,456,457,552,553,554,555,552,553,
+              554,555,-2147483648,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,488,489,490,491,
+              488,489,490,491,488,489,490,491,488,489,490,491,488,489,456,457,458,459,456,457,458,459,-2147483648,
+              520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,521,522,523,520,
+              521,522,523,520,521,522,523,520,521,488,489,490,491,488,489,490,491,-2147483648,552,553,554,555,552,
+              553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,554,555,552,553,
+              554,555,552,553,520,521,522,523,520,521,522,523,-14,-2147483648,8,456,457,458,459,456,457,458,459,-13,
+              -2147483648,8,552,553,554,555,552,553,554,555,-14,-2147483648,8,488,489,490,491,488,489,490,491,-21,
+              -2147483648,
+>>>>>>> Battle_Feture
             ],"TileDataFormat":1,},"tilesetId":{"name":"Til_grassset_1616","path":"tilesets/Til_grassset_1616/Til_grassset_1616.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
       ],"name":"Folder_1","properties":[],"resourceType":"GMRLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Room_House",
   "parent":{
+<<<<<<< HEAD
     "name":"Room_elf",
     "path":"folders/ルーム/4章/Room_elf.yy",
+=======
+    "name":"4章",
+    "path":"folders/ルーム/4章.yy",
+>>>>>>> Battle_Feture
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -97,7 +159,11 @@
   },
   "sequenceId":null,
   "views":[
+<<<<<<< HEAD
     {"hborder":683,"hport":768,"hspeed":-1,"hview":384,"inherit":false,"objectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"vborder":384,"visible":true,"vspeed":-1,"wport":1366,"wview":683,"xport":0,"xview":0,"yport":0,"yview":0,},
+=======
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+>>>>>>> Battle_Feture
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -109,7 +175,11 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
+<<<<<<< HEAD
     "enableViews":true,
+=======
+    "enableViews":false,
+>>>>>>> Battle_Feture
     "inheritViewSettings":false,
   },
   "volume":1.0,

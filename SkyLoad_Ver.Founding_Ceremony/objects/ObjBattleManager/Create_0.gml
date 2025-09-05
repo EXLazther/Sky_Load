@@ -1,6 +1,9 @@
 //戦闘関連の共通変数初期化
-current_phase = 0;
+previous_state = 0;
+current_state = 1;
 current_frame = 0;
+previous_phase = 0;
+current_phase = 0;
 is_battle_active = true;
 is_battle_started = false;
 is_battle_defeated = false;

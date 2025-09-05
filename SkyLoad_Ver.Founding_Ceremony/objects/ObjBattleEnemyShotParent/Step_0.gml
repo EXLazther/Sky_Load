@@ -31,8 +31,8 @@ if (reflect_enabled == true && reflect_count < reflect_times)
 }
 
 //フェーズの切り替えで削除
-current_phase = ObjBattleManager.current_phase;
-if!(current_phase == shooting_phase){
+current_state = ObjBattleManager.current_state;
+if!(current_state == shooting_state){
 	instance_destroy()
 }
 

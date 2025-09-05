@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"ObjBattleBossGruka",
+  "%Name":"Obj_wall",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjBattleBossGruka",
+  "name":"Obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gruka",
-    "path":"folders/BattleSystems/Object/Enemy/Bosses/Gruka.yy",
+    "name":"system_object",
+    "path":"folders/オブジェクト/system_object.yy",
   },
-  "parentObjectId":{
-    "name":"ObjBattleBossParant",
-    "path":"objects/ObjBattleBossParant/ObjBattleBossParant.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"__158_20241030044150",
-    "path":"sprites/__158_20241030044150/__158_20241030044150.yy",
+    "name":"Spr_wall",
+    "path":"sprites/Spr_wall/Spr_wall.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

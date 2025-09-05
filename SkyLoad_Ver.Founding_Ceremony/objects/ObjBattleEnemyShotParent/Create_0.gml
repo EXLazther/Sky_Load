@@ -14,7 +14,7 @@ reflect_times = 0;
 reflect_count = 0;
 invicible = false;
 
-shooting_phase = ObjBattleManager.current_phase;
-current_phase = 0;
+shooting_state = ObjBattleManager.current_state;
+current_state = 0;
 
 

@@ -84,7 +84,10 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("更に言うならガラ王国最前線\n兵士の眠る街ゼピュアよ","町人","no","no");
 			m_set_text("観光気分なら帰ったほうがいいわ","町人","no","no");
 			m_set_text("なんかマズいとこ来ちゃったかも…","コハク","no","no");
+<<<<<<< HEAD
 			
+=======
+>>>>>>> Battle_Feture
 			break;
 		case "talk_2":
 			m_set_text("王国聖騎士団が来てるそうだ","町人","no","no");
@@ -143,11 +146,20 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("そいつの分もしっかり生きるんだよ","町人","no","no");
 			break;
 		
+<<<<<<< HEAD
 			
 		//イベント用コード
 		case "event_1":
 			m_set_text("珍しいですね\nこんなところに人が来るなんて","安心感のある声","no","no","2","1");
 			m_set_text("しかも寝ていますね","安心感のある声","no","no","2","2");
+=======
+		
+			
+		//イベント用コード
+		case "event 1":		
+			m_set_text("珍しいですね\nこんなところに人が来るなんて","安心感のある声","no","no","2");
+			m_set_text("しかも寝ていますね","安心感のある声","no","no","2");
+>>>>>>> Battle_Feture
 			m_set_text("あ、起きました？","声の主","no","no","2");
 			m_scr_option("ここはどこ？","talk");
 			m_scr_option("あなたは誰？","talk");
@@ -157,10 +169,15 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("それでは話したいことはありますが\n先に操作方法から教えましょうか","声の主","no","eltia","2");
 				m_set_text("まずは移動からですね","声の主","no","eltia","2");
 				m_set_text("進みたい方向を十字キーで押してみてください\nそうするとその方向に進みますよ","声の主","no","eltia","2");
+<<<<<<< HEAD
 				
 				break;
 			
 		case "event_2":
+=======
+				break;
+		case "event 2":
+>>>>>>> Battle_Feture
 			m_set_text("上出来ですね","声の主","no","eltia_ki","2");
 			m_set_text("それでは次は身の守り方を知りましょうか","声の主","no","eltia","2");
 			m_set_text("移動方法は変わりませんが攻撃が出来ます\nZキーで攻撃しますよ","声の主","no","eltia","2");
@@ -168,7 +185,11 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("相手の攻撃に当たらないように気を付けてくださいね","声の主","no","eltia","2");
 			m_set_text("頑張ってください","声の主","no","eltia","2");
 			break;
+<<<<<<< HEAD
 		case "event_2_1":
+=======
+		case "event 2_1":
+>>>>>>> Battle_Feture
 			m_set_text("さすがです","声の主","no","eltia_ki","2");
 			m_set_text("どうですか？記憶の混乱は落ち着きましたか？","声の主","no","eltia_gimon","2");
 			m_scr_option("名前以外思い出せない","event_2_1_1");
@@ -176,16 +197,28 @@ function m_scr_game_text(_text_id,_system_text){
 			case "event_2_1_1":
 				m_set_text("おや、それは困りましたね","声の主","no","eltia_gimon","2");
 				m_set_text("それでは辺りを調べてみましょう","声の主","no","eltia_sasayaki","2");
+<<<<<<< HEAD
 		case "event_3":
+=======
+		case "event 3":
+>>>>>>> Battle_Feture
 			m_set_text("だいぶ暗いですね","声の主","no","eltia_sasayaki","2");
 			m_set_text("しかも今にも崩れそうです","声の主","no","eltia_sasayaki","2");
 			m_set_text("慎重に進みましょうか","声の主","no","eltia_sasayaki","2");
 			break;
+<<<<<<< HEAD
 		case "event_4":
 			m_set_text("広い場所に出ましたね","声の主","no","eltia_sasayaki","2");
 			m_set_text("でも気を付けてください　\n何が起こるかわかりませんから","声の主","no","eltia","2");
 			break;
 		case "event_5":
+=======
+		case "event 4":
+			m_set_text("広い場所に出ましたね","声の主","no","eltia_sasayaki","2");
+			m_set_text("でも気を付けてください　\n何が起こるかわかりませんから","声の主","no","eltia","2");
+			break;
+		case "event 5":
+>>>>>>> Battle_Feture
 			m_set_text("そういえば自己紹介がまだでしたね","声の主","no","eltia","2");
 			m_set_text("私はエルティア\n訳あってあなたと喋ることができています","エルティア","no","eltia_ki","2");
 			m_scr_option("私の名前は…","system_talk1");
@@ -195,7 +228,11 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("よろしくお願いしますね\nニマ　コハクさん","エルティア","no","eltia_futeki","2");
 				m_set_text("(なんで知ってるんだろう？)","コハク","kohaku","no","1");
 				break;
+<<<<<<< HEAD
 		case "event_6":
+=======
+		case "event 6":
+>>>>>>> Battle_Feture
 			m_set_text("おや、ここだけ明るいですね","エルティア","no","eltia_gimon","2");
 			m_set_text("これは…？","コハク","kohaku","eltia_gimon","1");
 			m_set_text("コハクは床に落ちているペンダントを拾った。","","no","no");
@@ -206,24 +243,40 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("え？なに！？","コハク","gate_odoroki","no","1");
 			break;
 			//town
+<<<<<<< HEAD
 		case "event_7":
+=======
+		case "event 7":
+>>>>>>> Battle_Feture
 			m_set_text("え、何処ここ？","コハク","gate_konwaku_2","no","1");
 			m_set_text("エルティア？","コハク","gate_konwaku_2","no","1");
 			m_set_text("エルティアからの反応はない","","gate_konwaku_2","no","1");
 			m_set_text("もう…","","gate_futekusare","no","1");
 			m_set_text("とりあえず聞き込みね","コハク","gate_interested","no","1");
 			break;
+<<<<<<< HEAD
 		case "event_8":
 			m_set_text("よかった…街から出れたみたい","コハク","gate_tsuujou","no","1");
 			m_set_text("他の街に行ってみましょう","コハク","gate_tsuujou","no","1");
 			break;
 		case "event_9":
+=======
+		case "event 8":
+			m_set_text("よかった…街から出れたみたい","コハク","gate_tsuujou","no","1");
+			m_set_text("他の街に行ってみましょう","コハク","gate_tsuujou","no","1");
+			break;
+		case "event 9":
+>>>>>>> Battle_Feture
 			m_set_text("道が封鎖されている","コハク","","no");
 			m_set_text("うそでしょ…","コハク","gate_kyoufu_2","no","1");
 			m_set_text("どこかに通れる道はないかな？","コハク","gate_ai","no","1");
 			break;
 			global.talkwall="0";
+<<<<<<< HEAD
 		case "event_10":
+=======
+		case "event 10":
+>>>>>>> Battle_Feture
 			m_set_text("そろそろガラ王国が近くなってきたな","帝国兵","no","no");
 			m_set_text("油断するなよ？聖騎士団の奴らの出鼻を挫くんだ","帝国兵","no","no");
 			m_set_text("…あ？誰だあんた？","帝国兵","no","no");
@@ -234,7 +287,11 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("'この状況'？　\nあ！ちょっと！？","コハク","gate_odoroki","no","1");
 			global.set_destroy=1;
 			break;
+<<<<<<< HEAD
 		case "event_11":
+=======
+		case "event 11":
+>>>>>>> Battle_Feture
 			m_set_text("あらら\nやっちゃいましたね","エルティア","no","eltia_gimon","2");
 			m_set_text("エルティア！？何で反応してくれなかったのよ！","コハク","gate_do","eltia_gimon","1");
 			m_set_text("すみません\nどうやらそちらから私と会話することができないようですね","エルティア","gate_do","eltia_ai","2");
@@ -243,7 +300,11 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("えぇ…","コハク","gate_konwaku_1","no","1");
 			m_set_text("(上ってどういうことだろ…？)","コハク","gate_konwaku_1","no","1");
 			break;
+<<<<<<< HEAD
 		case "event_12":
+=======
+		case "event 12":
+>>>>>>> Battle_Feture
 			m_set_text("この森はかなり複雑ですね","エルティア","no","eltia","2");
 			m_set_text("ですが安心してください\n私が導きます","エルティア","no","eltia_ki","2");
 			m_set_text("おい！森に向かって足跡が伸びてるぞ！","帝国兵","gate_kyoufu_1","no","3");
@@ -251,14 +312,22 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("何されるかわからないもんね！","コハク","gate_kyoufu_3","eltia_raku","1");
 			global.set_destroy=0;
 			break;
+<<<<<<< HEAD
 		case "event_13":
+=======
+		case "event 13":
+>>>>>>> Battle_Feture
 			m_set_text("貴様監視の目を逃れて近づくとは何者だ","帝国兵","no","no");
 			m_set_text("どういうこと！？先回りされた？","コハク","gate_odoroki","no","1");
 			m_set_text("どうやら逃げているうちに帝国側に来てしまったようですね","エルティア","gate_odoroki","eltia_gimon","2");
 			m_set_text("とにかく逃げなきゃ！","コハク","gate_odoroki","eltia_gimon","1");
 			global.talkwall="4";
 			break;
+<<<<<<< HEAD
 		case "event_14":
+=======
+		case "event 14":
+>>>>>>> Battle_Feture
 			global.talkwall="3";
 			m_set_text("う～ん…","コハク","gate_kizetsu_2","no","1");
 			m_set_text("あ、起きたか？","獣の少女","no","guruka_magao","2");
@@ -284,7 +353,11 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("しがない傭兵をしている\nよろしくな　え～っと…","グルカ","gate_tsuujou","guruka_emi","2");
 			m_set_text("ニマ　コハクです！よろしく！","コハク","gate_ki","guruka_emi","1");
 			break;
+<<<<<<< HEAD
 		case "event_15":
+=======
+		case "event 15":
+>>>>>>> Battle_Feture
 			m_set_text("なぁ、ここから出たいと思わないか","グルカ","no","guruka_purasu","2");
 			m_scr_option("もちろん","event_15_1");
 			m_scr_option("ここでもいいかなぁ…","event_15_2");
@@ -302,13 +375,21 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("とりあえずここから脱出する\n付いてこい","グルカ","no","guruka_magao","2");
 				m_set_text("付いていきましょう\nあなたの役に立つと思いますよ","エルティア","no","guruka_magao","2");
 				break;		
+<<<<<<< HEAD
 		case "event_16":
+=======
+		case "event 16":
+>>>>>>> Battle_Feture
 			m_set_text("ところでグルカってさ","コハク","gate_interested","no","1");
 			m_set_text("その服装は趣味なの？","コハク","gate_interested","no","1");
 			m_set_text("俺の基本行動は特殊でな　そのための服さ","グルカ","gate_interested","guruka_purasu","2");
 			m_set_text("なるほど","コハク","gate_ki","guruka_purasu","1");
 			break;
+<<<<<<< HEAD
 		case "event_17":
+=======
+		case "event 17":
+>>>>>>> Battle_Feture
 			m_set_text("なんだここは","グルカ","no","guruka_magao","1");
 			m_set_text("何かのための広場でしょうかね？","エルティア","no","guruka_magao","2");
 			m_set_text("王国のネズミがコソコソ何をしてるんだ？","？？？","no","isaku_gimon","2");
@@ -330,13 +411,21 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("さて、フェリスの為の研究材料にしてやろうか","イサク","guruka_odoroki","isaku_emi","2");
 				break;
 			
+<<<<<<< HEAD
 		case "event_18":
+=======
+		case "event 18":
+>>>>>>> Battle_Feture
 			m_set_text("これは…空間転送のための陣ですね","エルティア","no","eltia_gimon","2");
 			m_set_text("しかも使い切りのようです","エルティア","no","eltia_gimon","2");
 			m_set_text("何でこんなところにこいつがあるんだ？","グルカ","guruka_purasu","eltia_gimon","2");
 			m_set_text("まぁいい\n追手が来る前に行くぞ","グルカ","guruka_magao","eltia_gimon","2");
 			break;
+<<<<<<< HEAD
 		case "event_19":
+=======
+		case "event 19":
+>>>>>>> Battle_Feture
 			m_set_text("よし、上手くいった","グルカ","no","guruka_emi","2");
 			m_set_text("おぬしら何者じゃ！\n突然光ったと思ったら現れおって！","国王","no","no","3");
 			m_set_text("お…？おぬしグルカか","国王","no","no","3");
@@ -354,7 +443,11 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("すまないな","国王","no","no","3");
 				global.talkwall="1";
 				break;
+<<<<<<< HEAD
 		case "event_20":
+=======
+		case "event 20":
+>>>>>>> Battle_Feture
 			m_set_text("これは…ブローチ？","コハク","gate_konwaku_1","no","1");
 			m_set_text("だいぶ古い感じがするけど…","コハク","gate_konwaku_1","no","1");
 			m_set_text("っ！？","コハク","gate_kizetsu_1","no","1");
@@ -369,7 +462,11 @@ function m_scr_game_text(_text_id,_system_text){
 			global.talkwall="2";
 			break;
 		
+<<<<<<< HEAD
 		case "event_21":
+=======
+		case "event 21":
+>>>>>>> Battle_Feture
 			m_set_text("…なぁ","グルカ","gate_konwaku_2","guruka_purasu","2");
 			m_set_text("あんたこれからどうするんだ？","グルカ","gate_konwaku_2","guruka_purasu","2");
 			m_set_text("どうするってそりゃ","コハク","gate_konwaku_2","guruka_purasu","1");
@@ -414,7 +511,11 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("コハクは問答無用で攻撃を仕掛ける！","","no","no","3");
 				break;
 		
+<<<<<<< HEAD
 		case "event_22":
+=======
+		case "event 22":
+>>>>>>> Battle_Feture
 		if(Obj_Player.m_set_textoption>=4&&Obj_Player.status_g>=1)
 		{
 			m_set_text("ありゃ　死んじゃった？","コハク","gate_interested","yarare_nirami","1");
@@ -433,12 +534,20 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("俺には他にもできることがあるんだぜ…","グルカ","no","yarare_do","2");
 			m_set_text("地獄に落ちやがれ…クソッタレ…","グルカ","no","yarare_do","2");
 			break;
+<<<<<<< HEAD
 		case "event_23":
+=======
+		case "event 23":
+>>>>>>> Battle_Feture
 			m_set_text("さて、それでは行きましょうか","エルティア","no","eltia_sasayaki","2");
 			m_set_text("門を起動するには特定の場所に行く必要があります","エルティア","no","eltia_sasayaki","2");
 			m_set_text("城を出てそのまま南下していけば門の起動場所に着くそうですよ","エルティア","no","eltia_sasayaki","2");
 			break;
+<<<<<<< HEAD
 		case "event_24":
+=======
+		case "event 24":
+>>>>>>> Battle_Feture
 			m_set_text("コハクは首にかけている簡易門(インスタントゲート)を起動した","","","");
 			m_set_text("指定場所は","コハク","gate_interested","no","1");
 			m_scr_option("自然が生い茂る島'ユグドレイス'!","option_4");
@@ -481,6 +590,7 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("うん！また会おうね！","コハク","guruka_purasu","gate_raku");
 			m_set_text("いつか…な","グルカ","guruka_usiro","gate_raku");
 			break;
+<<<<<<< HEAD
 		
 		//2章
 		case "event_25":
@@ -1273,6 +1383,9 @@ function m_scr_game_text(_text_id,_system_text){
 			break;
 			
 			//アイテム用
+=======
+		//アイテム用
+>>>>>>> Battle_Feture
 		case "brooch":
 			m_set_text("？？のブローチを手に入れた","","","");
 			break;

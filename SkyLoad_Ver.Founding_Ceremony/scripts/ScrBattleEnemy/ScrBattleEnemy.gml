@@ -15,3 +15,12 @@ enum ENEMY_STATE {
 	PATTERN_13,
 	PATTERN_14
 }
+
+function set_enemy_idle(_frame){
+	
+	var _obj = instance_create_layer(0,0,"Instances",ScrObjEnemyWait)
+	_obj.frame_wait = _frame
+	
+	
+}
+	

@@ -1,6 +1,6 @@
 event_inherited()
 
-hp = 0;
+hp = 100;
 
 //Normal1
 angle1 = 0;
