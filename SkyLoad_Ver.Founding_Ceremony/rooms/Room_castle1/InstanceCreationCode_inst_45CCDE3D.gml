@@ -1,1 +1,1 @@
-talk_id="1";
+wall_id="3";

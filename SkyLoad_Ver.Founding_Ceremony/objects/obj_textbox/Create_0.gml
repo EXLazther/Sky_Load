@@ -44,7 +44,7 @@ draw_char = 0;
 name_char=0;
 //文字速度の設定
 text_spd = 1;
-
+atuo_timer=0;
 //オプション
 option[0]="";
 option_link_id[0]=-1;
@@ -69,3 +69,4 @@ height=300;
 
 color_left=c_white;
 color_right=c_white;
+auto_frame=0;

@@ -418,7 +418,7 @@ function m_scr_option(_option,_link_id){
 	option_number++;
 }
 
-function m_set_mob_index(_index)
+function m_set_symbolindex(_index)
 {
 	spr=_index;
 	switch(spr)

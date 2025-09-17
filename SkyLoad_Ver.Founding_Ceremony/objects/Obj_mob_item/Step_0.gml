@@ -50,7 +50,7 @@ if place_meeting(x -10,y-10, Obj_Player) && keyboard_check_pressed(ord("Z")) && 
 	}
 }
 
-m_set_mob_index(sprite_id);
+m_set_symbolindex(sprite_id);
 
 /*if (x == 352 && y== 352) {
 	    mob_x = 580;

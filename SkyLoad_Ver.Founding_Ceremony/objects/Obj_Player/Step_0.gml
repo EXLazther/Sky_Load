@@ -85,7 +85,8 @@ if (!instance_exists(m_ScrObjMoveInter)) {
 }
 
 // アニメーション停止処理
-if (xspd == 0 && yspd == 0 && !instance_exists(m_ScrObjMoveInter)) {
+if (xspd == 0 && yspd == 0 && set_animation==0)
+{
     image_index = 0;
 }
  

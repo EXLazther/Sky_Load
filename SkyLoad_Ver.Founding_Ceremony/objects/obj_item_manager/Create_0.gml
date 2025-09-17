@@ -1,6 +1,5 @@
 depth=-9999;
 global.font=Fnt_fnt_jp;
-global.item_gat=ds_map_create();
 //アイテム製造管理
 global.item_list=
 	{

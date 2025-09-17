@@ -2,4 +2,3 @@
 // このエディターでコードを作成することができます
 text_id="";
 system_id="";
-global.talkwall="0";

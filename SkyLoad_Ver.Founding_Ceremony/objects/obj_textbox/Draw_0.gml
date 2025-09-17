@@ -48,36 +48,72 @@ if name_char<name_length[page]
 	name_char=clamp(name_char,0,name_length[page]);
 }
 
-//ページをめくる
-if accept_key
+if(text_length[page]<=10)
 {
-	
-	//タイピング後に次ページに進む
-	if draw_char == text_length[page]
-	{
-		
-		//次ページ
-		if page < page_number - 1
-		{
-			page++;
-			draw_char = 0;
-		}
-		//テキストボックスの破壊
-		else
-		{
-			if option_number>0{
-				m_create_textbox(option_link_id[option_pos]);
-			}
-			global.show_box=false;
-			instance_destroy();
-		}
-	}
-	//タイピングが完了してない場合
-	else
-	{
-		name_char=name_length[page];
-		draw_char = text_length[page];
-	}
+	auto_frame=120;
+}
+else if(text_length[page]>=10&&text_length[page]<=20)
+{
+	auto_frame=150;
+}
+else if(text_length[page]>=20&&text_length[page]<=30)
+{
+	auto_frame=180;
+}
+else if(text_length[page]>=30&&text_length[page]<=40)
+{
+	auto_frame=210;
+}
+else if(option_number>0)
+{
+	auto_frame=99999;
+}
+else
+{
+	auto_frame=240;
+}
+
+//ページをめくる
+// --- Step イベント内 ---
+
+// カウンターが存在しなければ初期化
+if (!variable_instance_exists(id, "auto_timer")) {
+    auto_timer = 0;
+}
+
+// フレームごとにカウント
+auto_timer++;
+
+// キー入力 または 180フレーム経過で進む
+if (accept_key || auto_timer >= auto_frame)
+{
+    auto_timer = 0; // 次の待ち時間に備えてリセット
+
+    // タイピング後に次ページに進む
+    if (draw_char == text_length[page])
+    {
+        // 次ページ
+        if (page < page_number - 1)
+        {
+            page++;
+            draw_char = 0;
+        }
+        // テキストボックスの破壊
+        else
+        {
+            if (option_number > 0) {
+                m_create_textbox(option_link_id[option_pos]);
+            }
+            global.show_box = false;
+            instance_destroy();
+        }
+    }
+    // タイピングが完了してない場合 → 一気に全部表示
+    else
+    {
+        name_char = name_length[page];
+        draw_char = text_length[page];
+    }
 }
 
 //テキストボックスの描画

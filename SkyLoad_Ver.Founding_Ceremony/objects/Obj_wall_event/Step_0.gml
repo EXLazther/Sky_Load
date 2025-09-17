@@ -1,5 +1,3 @@
- var _s=id;
-if(global.talkwall==_s.talk_id)
-{
-	instance_destroy();
-}
+if (ds_map_exists(global.wall_setted,wall_id)) {
+    instance_destroy(); 
+} 

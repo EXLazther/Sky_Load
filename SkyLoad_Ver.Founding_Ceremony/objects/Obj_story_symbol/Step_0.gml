@@ -1,0 +1,1 @@
+m_set_symbolindex(set_index);

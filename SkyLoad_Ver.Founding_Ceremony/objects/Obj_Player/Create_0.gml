@@ -18,3 +18,6 @@ player_y = y;
 status_g=0;
 m_set_textoption=0;
 
+set_animation=0;
+
+set_remove_number=0;

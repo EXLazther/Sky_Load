@@ -1,3 +1,3 @@
 sprite_id="heishi_tathi";
-text_id="talk_4";
+text_id="talk_1_4";
 system_id="2";
