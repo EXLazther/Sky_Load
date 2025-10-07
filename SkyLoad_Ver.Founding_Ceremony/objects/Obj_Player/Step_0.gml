@@ -2,11 +2,23 @@ if (is_undefined(movespd)) {
     movespd = 4; // デフォルト値を仮設定
 }
 
+
 if(keyboard_check(ord("Q")))
 {
+	instance_create_layer(Obj_Player.x,Obj_Player.y,"Instances",Obj_flash);
+	Obj_flash.set_alpha=1;
 	instance_destroy(Obj_wall);
 }
-
+if(keyboard_check(vk_shift))
+{
+	image_speed=16
+	movespd=4
+}
+else if(!keyboard_check(vk_shift))
+{
+	image_speed=8
+	movespd=2
+}
 // 入力取得
 rightkey = keyboard_check(vk_right);
 leftkey  = keyboard_check(vk_left);

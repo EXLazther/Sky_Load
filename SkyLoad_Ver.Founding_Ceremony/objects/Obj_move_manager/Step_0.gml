@@ -10,7 +10,5 @@ if(!instance_exists(m_ScrObjMoveInter))
 if(frame_path!=frame_previous_path)
 {
 	frame_previous_path=frame_path;
-	show_debug_message(frame_path)
-	show_debug_message(frame_previous_path)
 	
 }

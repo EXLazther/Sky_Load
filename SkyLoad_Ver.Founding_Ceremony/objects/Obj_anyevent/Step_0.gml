@@ -38,9 +38,6 @@ if end_text==1&&set_text_type==2&&!instance_exists(Obj_textbox)&&!instance_exist
 	}
 	end_text=3;
 }
-
-
-
 if(end_text==3&&!instance_exists(Obj_textbox))
 {
 	if(set_text_move>0)

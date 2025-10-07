@@ -57,7 +57,8 @@ function map_objmove_setevent(_event_id)
 		set_timer(map_objmove_interpolation,[224,160,286,160,60,0,Obj_rian],60,1);
 		set_timer(map_objmove_interpolation,[286,160,286,450,60,0,Obj_rian],120,1);
 		set_timer(map_objmove_interpolation,[286,160,286,450,60,0,Obj_rean],60,1);
-		Obj_anyevent.set_text_move=0;
+		Obj_anyevent.text_id1="event_29_1";
+		Obj_anyevent.set_text_move=1;
 		break;
 
 		case "event_5":

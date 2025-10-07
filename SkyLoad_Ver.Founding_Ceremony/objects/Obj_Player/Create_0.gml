@@ -1,12 +1,14 @@
 xspd=0;
 yspd=0;
-movespd=5;
+movespd=2;
 face=DOWN;
-
-sprite[RIGHT]=Spr_playerRight;
-sprite[UP]=Spr_playerUp;
-sprite[LEFT]=Spr_playerLeft;
-sprite[DOWN]=Spr_playerDown;
+image_xscale=0.5;
+image_yscale=0.5;
+image_speed=8
+sprite[RIGHT]=Spr_kohaku_right;
+sprite[UP]=Spr_kohaku_up;
+sprite[LEFT]=Spr_kohaku_left;
+sprite[DOWN]=Spr_kohaku_down;
 face=DOWN;
 
 global.show_text=0;

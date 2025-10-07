@@ -33,14 +33,7 @@ if(global.stop==1&&global.itemstatus==0){
 	if pos<0{pos=op_length-1}
 	if cancel_key
 	{
-		if(menu_level==0)
-		{
-			restart=0;
-		}
-		if(menu_level!=0)
-		{
-			menu_level=0;
-		}
+		pos=op_length-1;
 	}
 	if accept_key{
 		var _sml=menu_level;

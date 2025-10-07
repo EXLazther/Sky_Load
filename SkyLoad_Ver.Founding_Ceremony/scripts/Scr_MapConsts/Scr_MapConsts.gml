@@ -18,17 +18,7 @@ enum m_ITEM_NAME
 	BAG
 }
 
-global.item=
-[
-	"？？のブローチ",
-	"リーゲルの果実",
-	"薬草",
-	"飴",
-	"戦闘テクニックのメモ",
-	"簡易治療薬",
-	"木の枝",
-	"バック"
-]
+global.item=[]
 
 enum b_WEAPON_NAME
 {

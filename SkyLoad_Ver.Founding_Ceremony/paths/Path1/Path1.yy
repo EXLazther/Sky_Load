@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"Path1",
+  "closed":false,
+  "kind":0,
+  "name":"Path1",
+  "parent":{
+    "name":"パス",
+    "path":"folders/パス.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":544.0,"y":320.0,},
+    {"speed":100.0,"x":544.0,"y":224.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
