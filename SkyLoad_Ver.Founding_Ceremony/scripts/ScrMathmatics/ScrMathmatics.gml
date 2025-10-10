@@ -1,13 +1,3 @@
-enum INTERPOLATION_TYPE 
-{
-	LERP,
-	EASEIN,
-	EASEOUT,
-	EASEINOUT,
-	EXPONENTIAL,
-	SIN
-}
-
 function sindeg(_degree){ //Degreeでsinを取得
 	
 	var _sin = sin(degtorad(_degree));

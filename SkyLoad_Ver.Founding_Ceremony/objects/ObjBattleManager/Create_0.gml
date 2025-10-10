@@ -1,4 +1,6 @@
 //戦闘関連の共通変数初期化
+listeners = ds_list_create();
+
 previous_state = 0;
 current_state = 1;
 current_frame = 0;
@@ -17,6 +19,5 @@ boss_hp_getted = false;
 
 //敵のスポーン
 instance_create_layer(288, 150, "Instances", enemy);
-
 instance_deactivate_object(Obj_Player);
 //instance_deactivate_object(obj_main_pause);

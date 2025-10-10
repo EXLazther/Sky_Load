@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"ScrBattleEvents",
+  "%Name":"GrukaSpell3",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScrBattleEvents",
+  "name":"GrukaSpell3",
   "parent":{
-    "name":"Script",
-    "path":"folders/BattleSystems/Script.yy",
+    "name":"Gruka",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Gruka.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

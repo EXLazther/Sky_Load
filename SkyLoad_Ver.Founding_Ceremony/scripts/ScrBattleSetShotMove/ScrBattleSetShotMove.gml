@@ -143,6 +143,7 @@ function shot_set_property (_finst, _fproperty_idx, _fvalue, _delay)//弾のプ�
 
 function shot_set_aiming(_inst, _error) //弾の移動方向を自機狙いに設定
 {
+	///@description a
 	if (!is_array(_inst))
 		{
 			_inst = [_inst];

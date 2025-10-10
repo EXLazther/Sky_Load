@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"GrukaPattern1",
+  "%Name":"GrukaNormal4",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"GrukaPattern1",
+  "name":"GrukaNormal4",
   "parent":{
     "name":"Gruka",
     "path":"folders/BattleSystems/Object/Enemy/Bosses/Gruka.yy",

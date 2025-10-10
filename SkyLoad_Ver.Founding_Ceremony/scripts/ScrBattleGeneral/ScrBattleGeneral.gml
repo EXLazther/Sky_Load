@@ -30,3 +30,4 @@ function set_spell (_text){
 	var _inst = instance_create_layer(0,0,"Instances",ScrObjSetSpell);
 	_inst.spell_name = _text;
 }
+

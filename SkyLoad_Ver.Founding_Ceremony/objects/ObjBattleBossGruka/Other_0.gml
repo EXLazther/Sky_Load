@@ -1,1 +1,1 @@
-ObjBattleManager.is_battle_victory = true;
+event_inherited()

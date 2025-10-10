@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"ScrBattleEnemy",
+  "%Name":"GrukaNormal1",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ScrBattleEnemy",
+  "name":"GrukaNormal1",
   "parent":{
-    "name":"Script",
-    "path":"folders/BattleSystems/Script.yy",
+    "name":"Gruka",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Gruka.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

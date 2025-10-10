@@ -3,18 +3,16 @@ speed += acceleration;
 direction += angular_velocity;
 
 // 時間による自動削除の処理
-if (auto_destory_lifetime_enabled == true)
+lifetime_count++;
+
+// 自動削除が有効、かつスポーンが終わっている場合のみ、削除チェックを行う
+if (auto_destory_lifetime_enabled == true && is_spawning == false)
 {
-	//　自動削除が有効ならばカウントを増やす
-	lifetime_count += 1;
-	
-	if (lifetime_count >= lifetime)
+	if (lifetime_count > lifetime)
 	{
-		// カウントが指定されたライフタイムを上回れば削除
 		instance_destroy();
 	}
 }
-
 // 画面端にぶつかったら反射する処理
 if (reflect_enabled == true && reflect_count < reflect_times)
 {
@@ -30,10 +28,32 @@ if (reflect_enabled == true && reflect_count < reflect_times)
 	
 }
 
+//遅延画像処理
+if (count_frame <= delay_frame) {
+	
+	// delay_frameが0だとゼロ除算になるので念のためチェック
+	if (delay_frame > 0) {
+		// 進捗率を計算 (0.0 から 1.0 の範囲になる)
+		var _progress = count_frame / delay_frame;
+	
+		// lerpを使って各値を補間する
+		image_alpha = lerp(0, 1, _progress);
+		image_xscale = lerp(3, 1, _progress);
+		image_yscale = lerp(3, 1, _progress);
+	}
+	
+	if(image_alpha == 1){
+		is_spawning = false;
+	}
+	// フレームをカウントアップ
+	count_frame++;
+}
+
 //フェーズの切り替えで削除
 current_state = ObjBattleManager.current_state;
 if!(current_state == shooting_state){
 	instance_destroy()
 }
+
 
 
