@@ -2,7 +2,7 @@ function shot_set_move (_finst, _fspeed, _fangle, _fgravity, _fg_dir, _faccel, _
 {		
 	//弾の移動系プロパティを設定
 	//　処理内容をメソッド変数として宣言
-	var _move = function(_inst, _speed, _angle, _gravity, _g_dir, _accel, _ang_vel, _s_init = false, _a_init = false)
+	var _move = function(_inst, _speed, _angle, _gravity, _g_dir, _accel, _ang_vel, _s_init = true, _a_init = true)
 	{
 		// インスタンスが配列でない場合配列に変換する
 		if (!is_array(_inst))
@@ -188,3 +188,8 @@ function shot_set_reflect (_inst, _enable, _edge, _times) //反射関連のプ�
 		}
 }
 	
+	
+function bget_angle_enemy_to_player(_enemy_instance)
+{
+	return point_direction(_enemy_instance.x, _enemy_instance.y, ObjBattlePlayer.x, ObjBattlePlayer.y);
+}

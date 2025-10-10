@@ -12,7 +12,7 @@ function bset_objmove_interpolation(_start_x, _start_y, _target_x, _target_y, _f
 	
 }
 
-function bset_objEnemy_changePhase(_tx=288,_ty=150,_frame=40,_wait=20,_type=2){
+function bset_objEnemy_changeState(_tx=288,_ty=150,_frame=40,_wait=20,_type=2){
 	bset_objmove_interpolation(x, y, _tx, _ty, _frame, _type)
 	bset_objEnemy_idle(_frame + _wait)
 }		
@@ -22,7 +22,3 @@ function bset_objEnemy_idle(_frame=0){
 	alarm[0] = _frame
 }
 
-function bget_angle_enemy_to_player(_enemy_instance)
-{
-	return point_direction(_enemy_instance.x, _enemy_instance.y, ObjBattlePlayer.x, ObjBattlePlayer.y);
-}
