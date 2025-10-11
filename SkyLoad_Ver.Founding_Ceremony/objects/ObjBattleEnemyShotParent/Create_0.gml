@@ -13,8 +13,19 @@ reflect_edge = [false, false, false, false];
 reflect_times = 0;
 reflect_count = 0;
 invicible = false;
+is_spawning = true;
+color = noone;
 
 shooting_phase = ObjBattleManager.current_phase;
 current_phase = 0;
 
+
+// 何フレームかけて出現させるか
+delay_frame = 20; // 例えば60フレーム(1秒)
+count_frame = 0;
+
+// 初期状態を見えないように設定
+image_alpha = 0;
+image_xscale = 3;
+image_yscale = 3;
 

@@ -42,7 +42,7 @@ if (keyboard_check(ord("Z")) && ObjBattleManager.is_battle_started == true)
 {
 	counter ++;
 	if(counter % 10 == 0 || counter == 1){
-		instance_create_layer(x-32, y-32, "Instances", ObjBattlePlayerShot);
+		instance_create_layer(x, y+40, "Instances", ObjBattlePlayerShot);
 		
 	}
 }

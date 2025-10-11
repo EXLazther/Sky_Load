@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"IsakuNormal1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"IsakuNormal1",
+  "parent":{
+    "name":"Isaku",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Isaku.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -27,7 +27,7 @@ function shot_create_circle	(_xorigin = 0, _yorigin = 0, _speed = 0, _angle = 0,
 	return _shot;
 }
 
-function shot_create_ways(_xorigin = 0, _yorigin = 0, _speed = 0, _base_angle = 0, _ways = 1, _angle_interval = 10, _id = 0)
+function shot_create_ways(_xorigin = 0, _yorigin = 0, _speed = 0, _base_angle = 0, _ways = 1, _angle_interval = 0, _id = 0)
 {
 	
 	var _shot[];
