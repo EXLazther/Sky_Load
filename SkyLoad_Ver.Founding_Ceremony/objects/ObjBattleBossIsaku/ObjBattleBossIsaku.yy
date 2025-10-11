@@ -9,8 +9,8 @@
   "name":"ObjBattleBossIsaku",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/BattleSystems/Object/Enemy/Bosses.yy",
+    "name":"Isaku",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Isaku.yy",
   },
   "parentObjectId":{
     "name":"ObjBattleBossParant",
