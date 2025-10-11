@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_mob_1_tathi",
-    "path":"sprites/Spr_mob_1_tathi/Spr_mob_1_tathi.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

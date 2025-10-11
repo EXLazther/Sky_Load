@@ -4,7 +4,6 @@ movespd=2;
 face=DOWN;
 image_xscale=0.5;
 image_yscale=0.5;
-image_speed=8
 sprite[RIGHT]=Spr_kohaku_right;
 sprite[UP]=Spr_kohaku_up;
 sprite[LEFT]=Spr_kohaku_left;

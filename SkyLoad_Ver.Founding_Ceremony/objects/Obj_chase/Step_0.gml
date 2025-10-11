@@ -16,9 +16,8 @@ if(instance_exists(Obj_Player)&&!instance_exists(Obj_textbox)&&!instance_exists(
         if (dy > 0) fase = DOWN;
         else        fase = UP;
     }
-
+	image_speed=1.5
 	sprite_index=sprite[fase];
-	show_debug_message(5)
 }
 else if(!instance_exists(Obj_Player)&&!instance_exists(Obj_textbox))
 {

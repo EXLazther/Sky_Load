@@ -1,23 +1,8 @@
-if (is_undefined(movespd)) {
-    movespd = 4; // デフォルト値を仮設定
-}
-
-
 if(keyboard_check(ord("Q")))
 {
 	instance_create_layer(Obj_Player.x,Obj_Player.y,"Instances",Obj_flash);
 	Obj_flash.set_alpha=1;
 	instance_destroy(Obj_wall);
-}
-if(keyboard_check(vk_shift))
-{
-	image_speed=16
-	movespd=4
-}
-else if(!keyboard_check(vk_shift))
-{
-	image_speed=8
-	movespd=2
 }
 // 入力取得
 rightkey = keyboard_check(vk_right);
@@ -58,10 +43,20 @@ if (!instance_exists(m_ScrObjMoveInter)) {
     if (yspd > 0 && face == UP)   { face = DOWN; }
 	
     sprite_index = sprite[face];
+	if(!keyboard_check(vk_shift))
+	{
+		movespd=2
+		image_speed=1
+	}
+	else if(keyboard_check(vk_shift))
+	{
+		movespd=4
+		image_speed=2
+	}
 
     // 衝突の計算
     if (place_meeting(x + xspd, y, Obj_wall)) {
-        xspd = 0;
+        xspd = 0; 
     }
     if (place_meeting(x, y + yspd, Obj_wall)) {
         yspd = 0;
