@@ -16,16 +16,20 @@ if (auto_destory_lifetime_enabled == true && is_spawning == false)
 // 画面端にぶつかったら反射する処理
 if (reflect_enabled == true && reflect_count < reflect_times)
 {
-	if ((x <= 0 && reflect_edge[2]) || (x >= room_width && reflect_edge[3])) {
+	auto_destroy_outroom_enabled = false;
+	
+	if ((x <= 68 && reflect_edge[2]) || (x >= 534 && reflect_edge[3])) {
 	    hspeed *= -1; // X方向の速度を反転させる
 		reflect_count += 1;
 	}
 
-	if ((y <= 0 && reflect_edge[0])|| (y >= room_height && reflect_edge[1])) {
+	if ((y <= 37 && reflect_edge[0])|| (y >= 540 && reflect_edge[1])) {
 	    vspeed *= -1; // Y方向の速度を反転させる
 		reflect_count += 1;
 	}
 	
+}else if(reflect_enabled == true && reflect_count >= reflect_times){
+	auto_destroy_outroom_enabled = true;
 }
 
 //遅延画像処理
