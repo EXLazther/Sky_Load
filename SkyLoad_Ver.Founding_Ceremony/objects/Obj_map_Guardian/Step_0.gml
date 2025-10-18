@@ -1,0 +1,11 @@
+mask_index=sprite[RIGHT]
+sprite_index=sprite[RIGHT];
+depth=100;
+if(!instance_exists(m_ScrObjMoveInter))
+{
+	image_index=0;
+}
+if(instance_exists(Obj_flash))
+{
+	instance_destroy();
+}

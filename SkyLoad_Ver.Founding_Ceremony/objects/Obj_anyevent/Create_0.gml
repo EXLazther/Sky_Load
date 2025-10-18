@@ -18,3 +18,7 @@ set_move_frame=0;
 set_move_destroy=0;
 
 set_symbol=[];
+
+//会話後アイテム収得
+item=global.item_list[m_ITEM_NAME.BROOCH];
+item_foryou=0;

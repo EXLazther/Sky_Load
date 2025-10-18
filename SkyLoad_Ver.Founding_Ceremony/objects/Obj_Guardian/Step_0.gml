@@ -18,52 +18,40 @@ if(instance_exists(Obj_Player)&&!instance_exists(Obj_textbox)&&!instance_exists(
 	image_speed=1.5
 	sprite_index=sprite[fase];
 }
-else if(!instance_exists(Obj_Player)&&!instance_exists(Obj_textbox))
+if(!instance_exists(Obj_Player)&&!instance_exists(Obj_textbox))
 {
+	
 	x=chaser_x;
 	y=chaser_y;
 	image_index=0;
 }
-if(instance_exists(Obj_textbox)&&end_text!=0)
+if(instance_exists(Obj_textbox)&&end_text>0)
 {
+	path_end();
 	image_index=0;
 }
 	
 var _s=id;
-if(place_meeting(x-10,y, Obj_Player)&&!instance_exists(Obj_textbox)&&end_text==0)
+if(place_meeting(x+30,y+30, Obj_Player)||place_meeting(x+30,y-30, Obj_Player)&&!instance_exists(Obj_textbox)&&end_text==0)
 {
-	sprite[fase]=LEFT
+	if(Obj_Player.y<y)
+	{
+		fase=DOWN;
+	}
+	if(Obj_Player.y>y)
+	{
+		fase=UP;
+	}
+	if(Obj_Player.x<x)
+	{
+		fase=LEFT;
+	}
+	if(Obj_Player.x>x)
+	{
+		fase=RIGHT;
+	}
+	sprite_index=sprite[fase];
 	path_end();
-	end_text=1;
-	with(instance_create_depth(0, 0, -9999, Obj_textbox))
-	{
-		m_scr_game_text(_s.text_id,_s.system_id);
-	}
-	
-}
-if(place_meeting(x+20,y, Obj_Player)&&!instance_exists(Obj_textbox)&&end_text==0)
-{
-	sprite[fase]=RIGHT
-	end_text=1;
-	with(instance_create_depth(0, 0, -9999, Obj_textbox))
-	{
-		m_scr_game_text(_s.text_id,_s.system_id);
-	}
-	
-}if(place_meeting(x,y+20, Obj_Player)&&!instance_exists(Obj_textbox)&&end_text==0)
-{
-	sprite[fase]=DOWN
-	path_end();
-	end_text=1;
-	with(instance_create_depth(0, 0, -9999, Obj_textbox))
-	{
-		m_scr_game_text(_s.text_id,_s.system_id);
-	}
-	
-}
-if(place_meeting(x,y-10, Obj_Player)&&!instance_exists(Obj_textbox)&&end_text==0)
-{
-	sprite[fase]=UP
 	end_text=1;
 	with(instance_create_depth(0, 0, -9999, Obj_textbox))
 	{

@@ -1,4 +1,9 @@
 //選ばれたアイテムを収得
+
+if(player_HP>=100)
+{
+	global.player_health=100;
+}
 selected_item=-1;
 accept_key=keyboard_check_pressed(ord("Z"));
 cancel_key=keyboard_check_pressed(ord("X"));
@@ -31,9 +36,10 @@ if (global.itemstatus==1)
 		if (accept_key)
 		{
         var _item = inv[selected_item];
-		    if (is_struct(_item) && is_callable(_item.effect))
+		var _data=global.item_list[_item]
+		    if (is_struct(_data) && is_callable(_data.effect))
 			{
-				_item.effect();
+				_data.effect();
 				array_delete(inv,selected_item,1);
 				selected_item=-1;
 				pos=0;

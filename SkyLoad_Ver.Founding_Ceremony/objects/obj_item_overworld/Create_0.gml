@@ -1,4 +1,4 @@
-item = global.item_list.brooch; // ここは各アイテムに応じて変更可能
+item = global.item_list[m_ITEM_NAME.BROOCH];
 
 // インスタンス固有情報
 item_name = 0;

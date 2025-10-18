@@ -1,4 +1,5 @@
 var _s = id; 
+show_debug_message(set_text_type)
 if place_meeting(x,y, Obj_Player) &&!instance_exists(Obj_textbox)&&end_text==0
 {
 	end_text=2;
@@ -12,9 +13,10 @@ if !instance_exists(Obj_textbox)&&end_text==2
 {
 	end_text=1;
 }
-
-if end_text==1&&set_text_type==0&&!instance_exists(Obj_changeroom)
+//会話後ルーム移動
+if end_text==1&&set_text_type==0&&!instance_exists(Obj_changeroom)&&!instance_exists(Obj_textbox)
 {
+
 		var inst=instance_create_depth(0,0,-9999,Obj_changeroom);
 		inst.target_x=target_x;
 		inst.target_y=target_y;
@@ -23,18 +25,36 @@ if end_text==1&&set_text_type==0&&!instance_exists(Obj_changeroom)
 		end_text=3;
 }
 
+//会話後キャラクター操作
 if end_text==1&&set_text_type==1
 {
 		map_objmove_setevent(event_id);	
 		end_text=3;
 
 }
-
+//会話後会話
 if end_text==1&&set_text_type==2&&!instance_exists(Obj_textbox)&&!instance_exists(m_ScrObjMoveInter)
 {
 	with( instance_create_depth(0, 0, -9999, Obj_textbox))
 	{
 		m_scr_game_text(_s.text_id1,"2");
+	}
+	end_text=3;
+}
+//会話後アイテム入手
+if end_text==1&&set_text_type==3&&!instance_exists(Obj_textbox)&&!instance_exists(m_ScrObjMoveInter)
+{
+	if(item_foryou==0)
+	{
+		m_item_add(item); // アイテムをインベントリに追加
+		item_foryou+=1;
+	}
+	else
+	{
+		with( instance_create_depth(0, 0, -9999, Obj_textbox))
+		{
+			m_scr_game_text("item",_s.system_id);
+		}
 	}
 	end_text=3;
 }
@@ -44,13 +64,21 @@ if(end_text==3&&!instance_exists(Obj_textbox))
 	{
 		switch(set_text_move)
 		{
-			case 1:
+			case 1://会話
 			set_text_type=2;
 			end_text=1;
 			break;
 		
-			case 2:
+			case 2://オブジェクト操作
 			set_text_type=1;
+			end_text=1;
+			break;
+			case 3://room移動
+			set_text_type=0;
+			end_text=1;
+			break;
+			case 4:
+			set_text_type=3;
 			end_text=1;
 			break;
 		}

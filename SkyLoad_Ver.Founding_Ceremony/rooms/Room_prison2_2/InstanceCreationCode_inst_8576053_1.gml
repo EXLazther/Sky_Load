@@ -9,4 +9,5 @@ sprite[UP]=Spr_guardian_up;
 sprite[DOWN]=Spr_guardian_down;
 sprite[LEFT]=Spr_guardian_left;
 sprite[RIGHT]=Spr_guardian_right;
-set_path=Path_Guardian_2
+set_path=Path_Guardian_3;
+set_reverse=true;

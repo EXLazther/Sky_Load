@@ -5,20 +5,6 @@ enum m_move
 	MOVEING
 }
 
-//アイテム
-enum m_ITEM_NAME
-{
-	BROOCH,
-	REAGEL,
-	YAKUSOU,
-	CANDY,
-	CHEST,
-	INSTANTLIFE,
-	WOOD,
-	BAG
-}
-
-global.item=[]
 
 enum b_WEAPON_NAME
 {

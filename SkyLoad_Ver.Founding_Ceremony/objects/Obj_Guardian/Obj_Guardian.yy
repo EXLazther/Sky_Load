@@ -14,7 +14,10 @@
     "name":"test_obj",
     "path":"folders/オブジェクト/system_object/test_obj.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

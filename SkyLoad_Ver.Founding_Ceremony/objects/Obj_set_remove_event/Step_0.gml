@@ -39,8 +39,10 @@ if end_text==1&&set_text_type==2&&!instance_exists(Obj_textbox)&&!instance_exist
 	}
 	end_text=3;
 }
-
-
+if end_text==1&&set_text_type==3&&!instance_exists(Obj_textbox)&&!instance_exists(m_ScrObjMoveInter)
+{
+	end_text=3;
+}
 
 if(end_text==3&&!instance_exists(Obj_textbox))
 {
@@ -60,6 +62,7 @@ if(end_text==3&&!instance_exists(Obj_textbox))
 			case 3:
 			set_text_type=0;
 			end_text=1;
+			break;
 		}
 	}
 	if(set_text_move==0)

@@ -1,9 +1,12 @@
+
 if(keyboard_check(ord("Q")))
 {
-	instance_create_layer(Obj_Player.x,Obj_Player.y,"Instances",Obj_flash);
-	Obj_flash.set_alpha=1;
+	/*instance_create_layer(Obj_Player.x,Obj_Player.y,"Instances",Obj_flash);
+	Obj_flash.set_type=1;
+	Obj_flash.set_alpha=1;*/
 	instance_destroy(Obj_wall);
 }
+
 // 入力取得
 rightkey = keyboard_check(vk_right);
 leftkey  = keyboard_check(vk_left);
@@ -96,4 +99,3 @@ if (xspd == 0 && yspd == 0 && set_animation==0)
 {
     image_index = 0;
 }
- 

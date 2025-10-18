@@ -19,6 +19,29 @@ function map_objmove_setevent(_event_id)
 	
 	switch(_event_id)
 	{
+		//1章
+		case "event_1_1":
+		instance_create_layer(0,0,"Instances",Obj_flash);
+		Obj_flash.set_type=1;
+		Obj_flash.set_alpha=1;
+		Obj_flash.set_flash=0.005;
+		Obj_anyevent.set_text_move=0;
+		break;
+		case "event_1_2":
+			instance_create_layer(629,-60,"Instances",Obj_isaku);
+			map_objmove_interpolation(672,60,672,250,90,0,Obj_isaku);
+			Obj_anyevent.set_text_move=1;
+			break;
+		
+		case "event_1_3":
+			if(instance_exists(Obj_isaku))
+			{
+				instance_destroy(Obj_isaku)
+			}
+			Obj_set_remove_event.text_id1="event_17_5";
+			Obj_set_remove_event.set_text_move=1;
+			break;
+		//2章
 		case "event_1":
 		var _objrian=instance_create_layer(629,-60,"Instances",Obj_story_symbol);
 		var _objrean=instance_create_layer(710,-60,"Instances",Obj_story_symbol);
@@ -30,7 +53,6 @@ function map_objmove_setevent(_event_id)
 			map_objmove_interpolation(_objrian.x, _objrian.y, _objrian.x, Obj_Player.y-100, 60, 0, _objrian);
 			Obj_anyevent.set_text_move=1;
 		break;
-
 		case "event_2":
 		
 		for(var i=0;i<array_length(Obj_anyevent.set_symbol);i++)
@@ -66,14 +88,15 @@ function map_objmove_setevent(_event_id)
 			set_timer(map_objmove_interpolation,[Obj_rian.x,Obj_rian.y,342,Obj_rian.y,60,0,Obj_rian],30,1);
 			set_timer(map_objmove_interpolation,[342,Obj_rean.y,342,-60,60,0,Obj_rean],60,1);
 			set_timer(map_objmove_interpolation,[342,Obj_rian.y,342,-60,60,0,Obj_rian],90,1);
-			Obj_anyevent.set_text_move=0;
+			Obj_reception.set_text_move=0;
 		break;
 		
 		case "event_6":
 			map_objmove_interpolation(0,204,Obj_Player.x-60,204,60,0,Obj_rean);
 			set_timer(map_objmove_interpolation,[0,236,Obj_Player.x-60,236,60,0,Obj_rian],30,1);
-			Obj_set_remove_event.set_text_move=1;
-			Obj_set_remove_event.event_id="event_7";
+			Obj_reception.set_text_move=1;
+			Obj_Player.fase=LEFT;
+			Obj_reception.event_id="event_7";
 			break;
 		
 		case "event_7":
@@ -81,7 +104,7 @@ function map_objmove_setevent(_event_id)
 			set_timer(map_objmove_interpolation,[Obj_Player.x-60,204,587,204,5,0,Obj_rean],5,1);
 			set_timer(map_objmove_interpolation,[587,236,587,837,120,0,Obj_rian],5,1);
 			set_timer(map_objmove_interpolation,[587,204,587,837,120,0,Obj_rean],30,1);
-			Obj_set_remove_event.set_text_move=0;
+			Obj_reception.set_text_move=0;
 			break;
 			
 		case "event_8":
@@ -111,7 +134,16 @@ function map_objmove_setevent(_event_id)
 				Obj_anyevent.set_text_move=0;
 			}
 			break;
-		
+			
+		case "flash":
+			instance_create_layer(0,0,"Instances",Obj_flash);
+			Obj_flash.set_type=2;
+			Obj_flash.set_alpha=0;
+			Obj_anyevent.set_text_move=1;
+			break;
+		case "wait":
+			Obj_anyevent.set_text_move=3;
+			break;
 		case "fortisland_test":
 			Obj_anyevent.set_text_move=1;
 			break;

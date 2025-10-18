@@ -1,3 +1,4 @@
+
 var _s=id;
 if(ds_map_exists(global.text_setted,"event_26")&&!ds_map_exists(global.text_setted,"event_29"))
 {

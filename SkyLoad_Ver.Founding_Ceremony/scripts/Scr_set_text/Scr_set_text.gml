@@ -910,13 +910,13 @@ function m_set_symbolindex(_index)
 	switch(spr)
 	{
 		case "mob_1_tathi":
-		sprite_index=Spr_mob_1_tathi;
+		sprite_index=Spr_mob_1_down_anime;
 		break;
 		case "mob_1_left":
-		sprite_index=Spr_mob_1_left;
+		sprite_index=Spr_mob_1_left_anime;
 		break;
 		case "mob_1_right":
-		sprite_index=Spr_mob_1_right;
+		sprite_index=Spr_mob_1_right_anime;
 		break;
 		case "mob_2_tathi":
 		sprite_index=Spr_mob_2_tathi;

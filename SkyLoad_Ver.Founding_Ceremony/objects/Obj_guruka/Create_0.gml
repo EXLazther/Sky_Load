@@ -1,0 +1,10 @@
+text_id="";
+system_id="";
+positionx=x;
+positiony=y;
+face=DOWN;
+sprite[RIGHT]=Spr_kohaku_right;
+sprite[UP]=Spr_kohaku_up;
+sprite[LEFT]=Spr_kohaku_left;
+sprite[DOWN]=Spr_kohaku_down;
+face=DOWN;

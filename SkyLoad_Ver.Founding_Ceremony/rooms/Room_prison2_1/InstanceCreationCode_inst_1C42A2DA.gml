@@ -10,3 +10,5 @@ sprite[DOWN]=Spr_guardian_down;
 sprite[LEFT]=Spr_guardian_left;
 sprite[RIGHT]=Spr_guardian_right;
 set_path=Path_Guardian_2
+set_reverse=true;
+set_position=0.5

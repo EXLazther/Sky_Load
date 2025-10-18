@@ -24,78 +24,26 @@ function m_item_add(_item){
 	return _added;
 }
 
-//アイテム製造管理
-global.item_list=
+//アイテム
+enum m_ITEM_NAME
 {
-	brooch: m_create_item(
-		"？？のブローチ",
-		"誰のかわからないブローチ\n触ると記憶が流れてくる",
-		Spr_item,
-		function()
-		{
-			global.player_atk+=3;
-		}
-	) ,
-	reagel: m_create_item(
-		"リーゲルの果実",
-		"プルプルとしたリンゴのような果物。\n味はかなりさっぱりしている\nHPを15増加",
-		Spr_item,
-			function(){
-				global.player_health+=15;
-				}
-		),
-		yakusou: m_create_item(
-			"薬草",
-			"森に生えている草を調合したもの\nHPを10増加",
-			Spr_item,
-			function()
-			{
-				global.player_health+=10;
-			}
-		),
-		candy: m_create_item(
-			"飴",
-			"花屋の裏に落ちていた飴\nHPを5増加",
-			Spr_item,
-			function()
-			{
-				global.player_health+=5;
-			}
-		),
-		chest: m_create_item(
-			"戦闘テクニックのメモ",
-			"被弾したときのリカバリー方法が書かれてるメモ\nDEFを5増加",
-			Spr_item,
-			function()
-			{
-				global.player_def+=5;
-			}
-		),
-		instant_life: m_create_item(
-			"簡易治療薬",
-			"近年登場したばかりの人工宝物\nHPを50増加",
-			Spr_item,
-			function()
-			{
-				global.player_health+=50;
-			}
-		),
-		wood: m_create_item(
-			"木の枝",
-			"何の変哲もない木の枝\nATKを2増加",
-			Spr_item,
-			function()
-			{
-				global.player_atk+=2;
-			}
-		),
-		bag: m_create_item(
-			"バック",
-			"少し大きめなバック\n",
-			Spr_item,
-			function()
-			{
-				Obj_item_manager.inv_max+=6;
-			}
-		)
-	}
+	BROOCH,
+	REAGEL,
+	YAKUSOU,
+	CANDY,
+	CHEST,
+	INSTANTLIFE,
+	WOOD,
+	BAG
+}
+
+global.item_list=array_create(8);
+//アイテム製造管理
+global.item_list[m_ITEM_NAME.BROOCH]=m_create_item("？？のブローチ","誰のかわからないブローチ\n触ると記憶が流れてくる",Spr_item,function(){global.player_atk+=3;})
+global.item_list[m_ITEM_NAME.REAGEL]=m_create_item("リーゲルの果実","プルプルとしたリンゴのような果物。\n味はかなりさっぱりしている\nHPを15増加",Spr_item,function(){global.player_health+=15;})
+global.item_list[m_ITEM_NAME.YAKUSOU]=m_create_item("薬草","森に生えている草を調合したもの\nHPを10増加",Spr_item,function(){global.player_health+=10;})
+global.item_list[m_ITEM_NAME.CANDY]=m_create_item("飴","花屋の裏に落ちていた飴\nHPを5増加",Spr_item,function(){global.player_health+=5;})
+global.item_list[m_ITEM_NAME.CHEST]=m_create_item("戦闘テクニックのメモ","被弾したときのリカバリー方法が書かれてるメモ\nDEFを5増加",Spr_item,function(){global.player_def+=5;})
+global.item_list[m_ITEM_NAME.INSTANTLIFE]=m_create_item("簡易治療薬","近年登場したばかりの人工宝物\nHPを50増加",Spr_item,function(){global.player_health+=50;})
+global.item_list[m_ITEM_NAME.WOOD]=m_create_item("木の枝","何の変哲もない木の枝\nATKを2増加",Spr_item,function(){global.player_atk+=2;})
+global.item_list[m_ITEM_NAME.BAG]=m_create_item("バック","少し大きめなバック\n",Spr_item,function(){Obj_item_manager.inv_max+=6;})

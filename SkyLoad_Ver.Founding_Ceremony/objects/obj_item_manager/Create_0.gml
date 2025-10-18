@@ -1,5 +1,6 @@
 depth=-9999;
 global.font=Fnt_fnt_jp;	
+player_HP=global.player_health;
 //インベントリの作成
 inv=[];
 selected_item=-1;

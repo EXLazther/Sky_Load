@@ -2,3 +2,9 @@ text_id="";
 system_id="";
 positionx=x;
 positiony=y;
+/*
+fase=DOWN;
+sprite[UP]=0;
+sprite[DOWN]=0;
+sprite[LEFT]=0;
+sprite[RIGHT]=0;

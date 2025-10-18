@@ -1,3 +1,19 @@
+/*var dx = x - chaser_x;
+    var dy = y - chaser_y;
+	chaser_x=x
+	chaser_y=y
+
+    if (abs(dx) > abs(dy)) {
+        if (dx > 0) fase = RIGHT;
+        else        fase = LEFT;
+    } else if (abs(dy) > 0) {
+        if (dy > 0) fase = DOWN;
+        else        fase = UP;
+    }
+	image_speed=1.5
+	sprite_index=sprite[fase];
+	
+*/
 var _s=id
 if(!instance_exists(m_ScrObjMoveInter))
 {

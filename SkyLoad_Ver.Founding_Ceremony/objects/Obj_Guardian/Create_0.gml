@@ -19,9 +19,9 @@ sprite[DOWN]=0;
 sprite[LEFT]=0;
 sprite[RIGHT]=0;
 
-
 set_reverse=false
 //パス設定
 set_path=0;
+set_position=0;
 image_xscale=0.5;
 image_yscale=0.5;

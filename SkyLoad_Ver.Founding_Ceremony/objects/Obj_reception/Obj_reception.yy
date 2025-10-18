@@ -34,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_mob_1_down_anime",
+    "path":"sprites/Spr_mob_1_down_anime/Spr_mob_1_down_anime.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
