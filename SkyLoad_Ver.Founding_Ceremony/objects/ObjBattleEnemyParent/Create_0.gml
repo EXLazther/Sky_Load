@@ -6,6 +6,8 @@ def = 0;
 previous_phase = 0;
 current_frame = 0;
 is_idle = false;
+my_timer_ids = [];
+returned_value = noone;
 
 // 自分が通知を受け取るリスナーであることをObjBattleManagerに登録する
 // 念のため、ObjBattleManagerが存在するか確認

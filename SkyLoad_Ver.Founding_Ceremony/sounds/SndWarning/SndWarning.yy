@@ -12,8 +12,8 @@
   "duration":1.1617007,
   "name":"SndWarning",
   "parent":{
-    "name":"Object",
-    "path":"folders/BattleSystems/Object.yy",
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

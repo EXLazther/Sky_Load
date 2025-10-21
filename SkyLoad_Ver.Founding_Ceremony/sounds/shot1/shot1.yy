@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"shot1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.7861678,
+  "name":"shot1",
+  "parent":{
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"shot1.wav",
+  "type":0,
+  "volume":0.3,
+}

@@ -12,8 +12,8 @@
   "duration":109.92326,
   "name":"gulca",
   "parent":{
-    "name":"Object",
-    "path":"folders/BattleSystems/Object.yy",
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

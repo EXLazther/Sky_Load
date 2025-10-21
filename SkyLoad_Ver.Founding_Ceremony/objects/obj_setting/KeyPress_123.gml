@@ -1,6 +1,6 @@
 /// @description 説明をここに挿入
 // このエディターでコードを作成することができます
 target_rm = RoomBattle
-global.encounting_enemy = ObjBattleBossIsaku;
+global.encounting_enemy = ObjBattleTest1;
 global.encounting_enemy_type = 0;
 room_goto(target_rm);

@@ -12,10 +12,22 @@ function bset_objmove_interpolation(_start_x, _start_y, _target_x, _target_y, _f
 	
 }
 
-function bset_objEnemy_changeState(_tx=288,_ty=150,_frame=40,_wait=20,_type=2){
+function bset_objEnemy_changeState(_tx=288,_ty=200,_frame=40,_wait=20,_type=2){
 	bset_objmove_interpolation(x, y, _tx, _ty, _frame, _type)
 	bset_objEnemy_idle(_frame + _wait)
 }		
+
+function 
+bset_objEnemy_generalMove(
+_frame,
+_left = BATTLE_BORDER.LEFT_BORDER+120,
+_right = BATTLE_BORDER.RIGHT_BORDER-120,
+_up = BATTLE_BORDER.UP_BORDER+100,
+_bottom = BATTLE_BORDER.UP_BORDER+150
+)
+{
+	bset_objmove_interpolation(x,y,random_range(_left,_right), random_range(_up,_bottom),_frame, INTERPOLATION_TYPE.ACCELE_DEACCELE)	
+}
 
 function bset_objEnemy_idle(_frame=0){
 	is_idle = true;

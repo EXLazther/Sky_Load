@@ -42,4 +42,26 @@ function shot_create_ways(_xorigin = 0, _yorigin = 0, _speed = 0, _base_angle = 
 	return _shot;
 }
 
+function laser_create_shoot(_xorigin = 0, _yorigin = 0, _speed = 0, _angle = 0, _width = 1, _length = 10, _charge_speed = 1, _id = 0){
+	
+	var _laser = shot_create(_xorigin, _yorigin, 0, _angle, _id);
+	_laser.target_xscale = _length;
+	_laser.yscale = _width;
+	_laser.charge_speed = _charge_speed;
+	_laser.move_speed = _speed;
+	
+	return _laser;
+	
+}
 
+function laser_create_shoot_circle(_xorigin = 0, _yorigin = 0, _speed = 0, _angle = 0, _ways= 1 , _width = 1, _length = 10, _charge_speed = 1, _id = 0){
+	
+	var _laser[];
+	
+	for (var _i = 0; _i < _ways; _i++;){
+		_laser[_i] = laser_create_shoot(_xorigin, _yorigin, _speed, _angle+360/_ways*_i, _width, _length, _charge_speed, _id);
+		//　円形になるようにshot_createを実行
+	}
+	
+	return _laser;
+}

@@ -12,8 +12,8 @@
   "duration":0.14473923,
   "name":"se_shot1",
   "parent":{
-    "name":"Object",
-    "path":"folders/BattleSystems/Object.yy",
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

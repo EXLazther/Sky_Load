@@ -12,8 +12,8 @@
   "duration":0.29106575,
   "name":"maou_se_system21",
   "parent":{
-    "name":"Object",
-    "path":"folders/BattleSystems/Object.yy",
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"ObjBattleEnemyRedBall",
-  "eventList":[],
+  "%Name":"ObjBattleEnemyBallMBlue",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"ObjBattleEnemyRedBall",
+  "name":"ObjBattleEnemyBallMBlue",
   "overriddenProperties":[],
   "parent":{
-    "name":"EnemyShot",
-    "path":"folders/BattleSystems/Object/EnemyShot.yy",
+    "name":"Ball_M",
+    "path":"folders/BattleSystems/Object/EnemyShot/Ball_M.yy",
   },
   "parentObjectId":{
     "name":"ObjBattleEnemyShotParent",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprEnemyShotRedBall",
-    "path":"sprites/SprEnemyShotRedBall/SprEnemyShotRedBall.yy",
+    "name":"SprEnemyShotBallMBlue",
+    "path":"sprites/SprEnemyShotBallMBlue/SprEnemyShotBallMBlue.yy",
   },
   "spriteMaskId":null,
   "visible":true,

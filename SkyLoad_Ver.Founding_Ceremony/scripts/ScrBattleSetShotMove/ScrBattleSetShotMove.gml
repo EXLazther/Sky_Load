@@ -131,6 +131,12 @@ function shot_set_property (_finst, _fproperty_idx, _fvalue, _delay)//弾のプ�
 				case 20 :
 					_inst[_i].invicible = _value;
 					break;
+				case 21 :
+					_inst[_i].speed_min = _value;
+					break;
+				case 22 :
+					_inst[_i].speed_max = _value;
+					break;
 				}
 			}
 		}

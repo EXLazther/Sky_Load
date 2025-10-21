@@ -8,8 +8,8 @@
   "name":"ObjBattleEnemySquareGreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"EnemyShot",
-    "path":"folders/BattleSystems/Object/EnemyShot.yy",
+    "name":"Square",
+    "path":"folders/BattleSystems/Object/EnemyShot/Square.yy",
   },
   "parentObjectId":{
     "name":"ObjBattleEnemyShotParent",
