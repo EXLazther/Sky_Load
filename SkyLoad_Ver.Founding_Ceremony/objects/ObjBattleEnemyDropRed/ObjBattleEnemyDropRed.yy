@@ -8,8 +8,8 @@
   "name":"ObjBattleEnemyDropRed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ball_M",
-    "path":"folders/BattleSystems/Object/EnemyShot/Ball_M.yy",
+    "name":"Drop",
+    "path":"folders/BattleSystems/Object/EnemyShot/Drop.yy",
   },
   "parentObjectId":{
     "name":"ObjBattleEnemyShotParent",

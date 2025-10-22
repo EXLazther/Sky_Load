@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprEnemyLaserBlue",
-    "path":"sprites/SprEnemyLaserBlue/SprEnemyLaserBlue.yy",
+    "name":"SprEnemyLaserRed",
+    "path":"sprites/SprEnemyLaserRed/SprEnemyLaserRed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

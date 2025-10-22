@@ -199,3 +199,63 @@ function bget_angle_enemy_to_player(_enemy_instance)
 {
 	return point_direction(_enemy_instance.x, _enemy_instance.y, ObjBattlePlayer.x, ObjBattlePlayer.y);
 }
+
+function get_pentagram_edge_points(num_points_per_edge, center_x, center_y, outer_radius, _start_angle_degrees = 90) {
+    
+    // --- 1. 定数と頂点の準備 ---
+    
+    var PHI = (1 + sqrt(5)) / 2;
+    var inner_radius = outer_radius / (PHI * PHI);
+    
+    var vertices = []; 
+    
+    // 角度の定義
+    // ★ 修正点: 固定値 (pi/2) ではなく、引数で受け取った度数をラジアンに変換して使用
+    var start_angle = degtorad(_start_angle_degrees);
+    
+    var angle_increment = 2 * pi / 5;  // 72度
+    var inner_angle_offset = pi / 5;   // 36度
+
+    // 5つの外側頂点と5つの内側頂点を計算
+    for (var i = 0; i < 5; i++) {
+        var outer_angle = start_angle + i * angle_increment;
+        var outer_x = center_x + outer_radius * cos(outer_angle);
+        var outer_y = center_y + outer_radius * sin(outer_angle);
+        array_push(vertices, { x: outer_x, y: outer_y });
+        
+        var inner_angle = outer_angle + inner_angle_offset;
+        var inner_x = center_x + inner_radius * cos(inner_angle);
+        var inner_y = center_y + inner_radius * sin(inner_angle);
+        array_push(vertices, { x: inner_x, y: inner_y });
+    }
+
+    // --- 2. 辺上の点を線形補間で計算 (ここは変更なし) ---
+    
+    var edge_points = [];
+    var num_vertices = array_length(vertices);
+    
+    if (num_points_per_edge <= 0) {
+        return [];
+    }
+
+    for (var i = 0; i < num_vertices; i++) {
+        var p1 = vertices[i];
+        var p2 = vertices[(i + 1) % num_vertices];
+        
+        var x1 = p1.x;
+        var y1 = p1.y;
+        var x2 = p2.x;
+        var y2 = p2.y;
+        
+        for (var j = 0; j < num_points_per_edge; j++) {
+            var t = j / num_points_per_edge;
+            
+            var lerp_x = lerp(x1, x2, t);
+            var lerp_y = lerp(y1, y2, t);
+            
+            array_push(edge_points, { x: lerp_x, y: lerp_y });
+        }
+    }
+            
+    return edge_points;
+}

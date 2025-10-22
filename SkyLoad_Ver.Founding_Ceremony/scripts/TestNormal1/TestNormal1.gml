@@ -6,7 +6,7 @@ function TestNormal1(){
 		
 		var _shot_pattern1 = function(){
 			
-			var _shot1 = shot_create_circle(x,y,4,angle1,10,SHOT_ID.BALL_PURPLE)
+			var _shot1 = shot_create_circle(x,y,4,angle1,5,SHOT_ID.BALL_PURPLE)
 			//移動処理
 			shot_set_property(_shot1, SHOT_PROPERTY_ID.ANG_VEL,4*d1,0)
 			shot_set_property(_shot1, SHOT_PROPERTY_ID.ACCEL,-0.05,30)
@@ -19,7 +19,7 @@ function TestNormal1(){
 			shot_set_property(_shot1, SHOT_PROPERTY_ID.LIFETIME, 300, 0)
 		
 		
-			var _shot2 = shot_create_circle(x,y,6,-angle1,10,SHOT_ID.BALL_RED)
+			var _shot2 = shot_create_circle(x,y,6,-angle1,5,SHOT_ID.BALL_RED)
 			shot_set_property(_shot2, SHOT_PROPERTY_ID.ANG_VEL,-6*d1,0)
 			shot_set_property(_shot2, SHOT_PROPERTY_ID.ACCEL,-0.2,30)
 			shot_set_property(_shot2, SHOT_PROPERTY_ID.ACCEL,-0.15,60)

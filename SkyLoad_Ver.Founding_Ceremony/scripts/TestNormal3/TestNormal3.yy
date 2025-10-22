@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"TestNormal3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TestNormal3",
+  "parent":{
+    "name":"Bosses",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
