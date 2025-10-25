@@ -1,31 +1,33 @@
-//一時停止処理
-global.stop=0;
-restart=0;
-//メニュー処理
-width=200;
-height=300;
+// 一時停止処理
+global.stop = 0;
+restart = 0;
 
-op_border=32;
-op_space=32;
+// メニュー処理
+width = 200;
+height = 300;
 
-pos=0;
-//ポーズメニュー
-option[0,0]="ステータス";
-option[0,1]="アイテム";
-option[0,2]="戻る";
-//ステータス画面
-option[1,0]="装備";
-option[1,1]="戻る";
-//セッティング
-option[2,0]="アイテムを表示";
-option[2,1]="戻る";
+op_border = 32;
+op_space = 32;
 
-//オプションレベル
-op_length=0;
+pos = 0;
 
-//メニューレベル
-menu_level=0;
+option = [
+    // 0: ポーズメニュー
+    ["ステータス", "アイテム", "タイトルへ", "戻る"],
 
-global.itemstatus=0;
+    // 1: ステータス画面
+    ["装備", "戻る"],
 
-status=false;
+    // 2: セッティング
+    ["アイテムを表示", "戻る"],
+
+    // 3: タイトル確認
+    ["タイトルへ戻る", "戻る"]
+];
+
+op_length = 0;
+menu_level = 0;
+
+global.itemstatus = 0;
+status = false;
+Max_HP=100;

@@ -617,6 +617,28 @@ function m_set_text(_text,_name,_alpha){
 			txtb_spr=Spr_textbox;
 			break;
 			
+			//国王
+			case "king":
+			speaker_sprite1[page_number]=Spr_king;
+			txtb_spr=Spr_textbox;
+			break;
+			case "king_openmouth":
+			speaker_sprite1[page_number]=Spr_king_mouth_wide_open;
+			txtb_spr=Spr_textbox;
+			break;
+			case "king_question":
+			speaker_sprite1[page_number]=Spr_king_question;
+			txtb_spr=Spr_textbox;
+			break;
+			case "king_smile":
+			speaker_sprite1[page_number]=Spr_king_smile;
+			txtb_spr=Spr_textbox;
+			break;
+			case "king_suprised":
+			speaker_sprite1[page_number]=Spr_king_suprised;
+			txtb_spr=Spr_textbox;
+			break;
+			
 			//レアン
 			case "rean":
 			speaker_sprite1[page_number]=Spr_rean;
@@ -708,6 +730,35 @@ function m_set_text(_text,_name,_alpha){
 			break;
 			case "religion_rian_smile":
 			speaker_sprite1[page_number]=Spr_rian_religion_smile;
+			txtb_spr=Spr_textbox;
+			break;
+			
+			case "joji":
+			speaker_sprite1[page_number]=Spr_joji;
+			txtb_spr=Spr_textbox;
+			break;
+			case "joji_angry1":
+			speaker_sprite1[page_number]=Spr_joji_angry_1;
+			txtb_spr=Spr_textbox;
+			break;
+			case "joji_angry2":
+			speaker_sprite1[page_number]=Spr_joji_angry_2;
+			txtb_spr=Spr_textbox;
+			break;
+			case "joji_concentration":
+			speaker_sprite1[page_number]=Spr_joji_concentration;
+			txtb_spr=Spr_textbox;
+			break;
+			case "joji_disgusted":
+			speaker_sprite1[page_number]=Spr_joji_disgusted;
+			txtb_spr=Spr_textbox;
+			break;
+			case "joji_question":
+			speaker_sprite1[page_number]=Spr_joji_question;
+			txtb_spr=Spr_textbox;
+			break;
+			case "joji_suprised":
+			speaker_sprite1[page_number]=Spr_joji_suprised;
 			txtb_spr=Spr_textbox;
 			break;
 			

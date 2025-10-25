@@ -10,8 +10,8 @@
   "name":"Obj_map_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"オブジェクト",
-    "path":"folders/オブジェクト.yy",
+    "name":"mapsymbol_obj",
+    "path":"folders/オブジェクト/system_object/mapsymbol_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,

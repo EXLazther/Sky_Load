@@ -154,6 +154,9 @@ function m_scr_game_text(_text_id,_system_text){
 		case "talk_1_9":
 			m_set_text("ほら、さっさと行くぞ","グルカ","no","no");
 			break;
+		case "talk_1_10":
+			m_set_text("あいつらどうやら同じ場所ぐるぐる見てるだけみたいだな","グルカ","no","no");
+			break;
 		
 		//2章
 		case "talk_2_1":
@@ -226,11 +229,12 @@ function m_scr_game_text(_text_id,_system_text){
 			
 		case "event_2":
 			m_set_text("上出来ですね","声の主","no","eltia_ki","2");
-			m_set_text("それでは次は身の守り方を知りましょうか","声の主","no","eltia","2");
+			m_set_text("それでは次は身の守り方を知りましょうか\n丁度いいカニが来てますし","声の主","no","eltia","2");
 			m_set_text("最初にXキーを押すことで戦闘が始まります","声の主","no","eltia","2");
 			m_set_text("相手の攻撃に当たらないよう気を付けてください\n下にあるあなたの体力バーがなくなると負けてしまいますのでお気をつけて","声の主","no","eltia","2");
 			m_set_text("移動方法は変わりませんが攻撃が出来ます\nZキーで攻撃しますよ","声の主","no","eltia","2");
-			m_set_text("頑張ってください","声の主","no","eltia","2");
+			m_set_text("それでは頑張ってください","声の主","no","eltia","2");
+			
 			break;
 		case "event_2_1":
 			m_set_text("さすがです","声の主","no","eltia_ki","2");
@@ -320,32 +324,32 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("あの～？何か勘違いしてるのでは…","コハク","gate_konwaku_1","no","1");
 			m_set_text("'この状況'で対向からくる理由なんざ一つだろ","帝国兵","gate_kyoufu_1","no","1");
 			m_set_text("'この状況'？　\nあ！ちょっと！？","コハク","gate_odoroki","no","1");
-			m_set_text("'…","コハク","gate_odoroki","no","1");
+			m_set_text("…","コハク","gate_odoroki","no","1");
 			m_set_text("いけませんねぇ…手荒なのは好ましくないですよ","コハク？","in_eltia_badsmile","","1");
 			m_set_text("何！？うわぁぁぁぁぁぁ！！！","帝国兵","in_eltia_badsmile","","2")
 			Obj_anyevent.event_id="event_1_1";
 			global.set_destroy=1;
 			break;
 		case "event_11":
-			m_set_text("あらら\nやっちゃいましたね","エルティア","no","eltia_gimon","2");
+			m_set_text("あらら\nやっちゃいましたね","エルティア","","eltia_gimon","2");
 			m_set_text("エルティア！？何で今まで反応してくれなかったのよ！","コハク","gate_do","eltia_gimon","1");
 			m_set_text("すみません\nどうやらそちらから私と会話することができないようですね","エルティア","gate_do","eltia_ai","2");
 			m_set_text("ひとまず逃げましょう\n追手が来ますからね","エルティア","gate_do","eltia","2");
 			m_set_text("どうやらそこの草むらに通れそうな道がありますよ","エルティア","gate_konwaku_1","eltia_ki","2");
-			m_set_text("えぇ…","コハク","gate_konwaku_1","no","1");
-			m_set_text("(そういえば私どうやって倒したんだろ…？)","コハク","gate_konwaku_1","no","1");
+			m_set_text("えぇ…","コハク","gate_konwaku_1","","1");
+			m_set_text("(そういえば私どうやって倒したんだろ…？)","コハク","gate_konwaku_1","","1");
 			break;
 		case "event_12":
-			m_set_text("この森はかなり複雑ですね","エルティア","no","eltia","2");
-			m_set_text("ですが安心してください\n私が導きます","エルティア","no","eltia_ki","2");
-			m_set_text("おい！森に向かって足跡が伸びてるぞ！","帝国兵","gate_kyoufu_1","no","3");
+			m_set_text("この森はかなり複雑ですね","エルティア","","eltia","2");
+			m_set_text("ですが安心してください\n私が導きます","エルティア","","eltia_ki","2");
+			m_set_text("おい！森に向かって足跡が伸びてるぞ！","帝国兵","gate_kyoufu_1","","3");
 			m_set_text("走りましょうか","エルティア","gate_magao","eltia_raku","2");
 			m_set_text("何されるかわからないもんね！","コハク","gate_kyoufu_3","eltia_raku","1");
 			global.set_destroy=0;
 			break;
 		case "event_13":
-			m_set_text("貴様監視の目を逃れて近づくとは何者だ","帝国兵","no","no");
-			m_set_text("どういうこと！？先回りされた？","コハク","gate_odoroki","no","1");
+			m_set_text("貴様監視の目を逃れて近づくとは何者だ","帝国兵","","no");
+			m_set_text("どういうこと！？先回りされた？","コハク","gate_odoroki","","1");
 			m_set_text("どうやら逃げているうちに帝国側に来てしまったようですね","エルティア","gate_odoroki","eltia_gimon","2");
 			m_set_text("こいつを捕まえろ！","帝国兵","gate_odoroki","eltia_gimon","3");
 			m_set_text("うわぁぁぁ！！！","コハク","gate_odoroki","eltia_gimon","1");
@@ -353,8 +357,8 @@ function m_scr_game_text(_text_id,_system_text){
 		case "event_14":
 			m_wall_event(Obj_wall_event.wall_id);
 			m_set_text("う～ん…","コハク","gate_kizetsu_2","","1");
-			m_set_text("あ、起きたか？","獣の少女","","guruka_magao","2");
 			m_set_text("ッハ！","コハク","gate_odoroki","guruka_magao","1");
+			m_set_text("お、起きたか？","獣の少女","","guruka_magao","2");
 			m_set_text("ここは！？","コハク","gate_odoroki","guruka_magao","1");
 			m_set_text("バシ帝国の地下牢だぜ","獣の少女","gate_konwaku_1","guruka_magao","2");
 			m_set_text("あんたは何をしてここに連れてこられたんだ？","獣の少女","gate_konwaku_1","guruka_magao","2");
@@ -392,41 +396,41 @@ function m_scr_game_text(_text_id,_system_text){
 			Obj_Player.m_set_textoption+=1;
 				m_set_text("…冗談だろ？","グルカ","no","guruka_odoroki","2");
 				m_set_text("とりあえずここから脱出する\n付いてこい","グルカ","no","guruka_magao","2");
-				m_set_text("付いていきましょう\nあなたの役に立つと思いますよ","エルティア","no","guruka_magao","2");
+				m_set_text("付いていきましょう\n彼女は恐らく出口を知ってます","エルティア","no","guruka_magao","2");
 				break;		
 		case "event_16":
 			m_set_text("ところでグルカってさ","コハク","gate_interested","no","1");
-			m_set_text("その服装は趣味なの？","コハク","gate_interested","no","1");
-			m_set_text("俺の基本行動は特殊でな　そのための服さ","グルカ","gate_interested","guruka_purasu","2");
+			m_set_text("何をしてここにいるの？","コハク","gate_interested","no","1");
+			m_set_text("王国側に雇われて捜査してたんだが見つかっちまってな","グルカ","gate_interested","guruka_purasu","2");
 			m_set_text("なるほど","コハク","gate_ki","guruka_purasu","1");
 			break;
 		case "event_17":
-			m_set_text("なんだここは","グルカ","no","guruka_magao","1");
-			m_set_text("何かのための広場でしょうかね？","エルティア","no","guruka_magao","2");
-			m_set_text("王国のネズミがコソコソ何をしてるんだ？","？？？","no","","2");
-			Obj_anyevent.event_id="event_1_2";
-			Obj_anyevent.text_id1="event_17_1";
+			m_set_text("なんだここは","グルカ","guruka_magao","","1");
+			m_set_text("何かのための広場でしょうかね？","エルティア","guruka_magao","eltia_gimon","2");
+			m_set_text("王国のネズミがコソコソ何をしてるんだ？","？？？","guruka_magao","eltia_gimon","3");
+			Obj_battleevent.event_id="event_1_2";
+			Obj_battleevent.text_id1="event_17_1";
 			break;
 			case "event_17_1":
-			m_set_text("ここがどこかわかっての振る舞いか？","？？？","no","isaku_do","2");
-			m_set_text("おいおい勘弁してくれや…","グルカ","no","guruka_odoroki","2");
-			m_set_text("なんでお前がここにいるんだ…","グルカ","no","guruka_odoroki","2");
+			m_set_text("ここがどこかわかっての振る舞いか？","？？？","","isaku_do","2");
+			m_set_text("おいおい勘弁してくれや…","グルカ","guruka_odoroki","isaku_do","1");
+			m_set_text("なんでお前がここにいるんだ…","グルカ","guruka_odoroki","isaku_do","1");
 			m_set_text("口を慎め猫男","？？？","guruka_odoroki","isaku_do","2");
 			m_scr_option("猫男！？","event_17_3");
 			m_scr_option("貴方は誰なの？","event_17_2");
 			break;
 			case "event_17_2":
-				m_set_text("こいつは帝国７災獣の内の一人…\n怠惰担当の'イサク'だ","グルカ","guruka_magao","isaku","2");
-				m_set_text("気をつけろ　本気を出せばチリどころじゃすまないぞ","グルカ","guruka_magao","isaku","2");
-				m_set_text("シャーシャーやかましいな\nそろそろ消し飛ばすか","イサク","guruka_magao","isaku_warai","2");
-				Obj_anyevent.set_text_move=0;
+				m_set_text("こいつは帝国７災獣の内の一人…\n怠惰担当の'イサク'だ","グルカ","guruka_magao","isaku_do","1");
+				m_set_text("気をつけろ　本気を出せばチリどころじゃすまないぞ","グルカ","guruka_magao","isaku_do","1");
+				m_set_text("シャーシャーやかましいな\nさっさと消し飛ばすか","イサク","guruka_magao","isaku_warai","2");
+				Obj_battleevent.set_text_move=3;
 				break;
 			case "event_17_3":
 				Obj_Player.m_set_textoption+=1;
-				m_set_text("そんなの今はどうでもいいだろ！","グルカ","guruka_odoroki","isaku","1");
-				m_set_text("よりにもよって'イサク'だ…","グルカ","guruka_odoroki","isaku_emi","1");
+				m_set_text("そんなの今はどうでもいいだろ！","グルカ","guruka_odoroki","isaku_do","1");
+				m_set_text("よりにもよって'イサク'だ…","グルカ","guruka_odoroki","isaku_do","1");
 				m_set_text("さて、フェリスの為の研究材料にしてやろうか","イサク","guruka_odoroki","isaku_emi","2");
-				Obj_anyevent.set_text_move=0;
+				Obj_battleevent.set_text_move=3;
 				Obj_Player.set_remove_number=1;
 				break;
 			case "event_17_4":
@@ -442,37 +446,37 @@ function m_scr_game_text(_text_id,_system_text){
 				break;
 				
 		case "event_18":
-			m_set_text("これは…空間転送のための陣ですね","エルティア","no","eltia_gimon","2");
-			m_set_text("しかも使い切りのようです","エルティア","no","eltia_gimon","2");
-			m_set_text("何でこんなところにこいつがあるんだ？","グルカ","guruka_purasu","eltia_gimon","2");
+			m_set_text("これは…空間転送のための陣ですね","エルティア","","eltia_gimon","2");
+			m_set_text("しかも使い切りのようです","エルティア","","eltia_gimon","2");
+			m_set_text("こいつは転移術式じゃねぇか\n何でこんなところにこいつがあるんだ？","グルカ","guruka_purasu","eltia_gimon","2");
 			m_set_text("まぁいい\n追手が来る前に行くぞ","グルカ","guruka_magao","eltia_gimon","2");
 			break;
 		case "event_19":
-			m_set_text("よし、上手くいった","グルカ","no","guruka_emi","2");
-			m_set_text("おぬしら何者じゃ！\n突然光ったと思ったら現れおって！","国王","no","no","3");
-			m_set_text("お…？おぬしグルカか","国王","no","no","3");
-			m_set_text("国王陛下\n帝国側からただいま帰還いたしました","グルカ","no","guruka_magao","2");
-			m_set_text("また、帝国７災獣怠惰と交戦、再起不能といたしました","グルカ","no","guruka_magao","2");
-			m_set_text("なるほど\nして、この者は？","国王","no","guruka_magao","2");
-			m_set_text("彼女はコハク\n怠惰撃退の功労者でございます","グルカ","no","guruka_magao","2");
-			m_set_text("ふむ\nその功績をたたえて宝物庫から一つ好きなものを授けよう","国王","no","guruka_magao","2");
-			m_set_text("受け取っておきましょう\nそれにこれから先役立つものがあるかもしれないですし","エルティア","no","eltia_raku","2");
+			m_set_text("よし、上手くいった","グルカ","guruka_emi","","2");
+			m_set_text("おぬしら何者じゃ！\n突然光ったと思ったら現れおって！","国王","guruka_emi","king_openmouth","2");
+			m_set_text("お…？おぬしグルカか","国王","guruka_emi","king_question","2");
+			m_set_text("突然の来訪をお許しください国王陛下\nただいま帝国側からただいま帰還いたしました","グルカ","guruka_magao","king_question","1");
+			m_set_text("また、帝国７災獣怠惰と交戦いたしました","グルカ","guruka_magao","king_question","1");
+			m_set_text("なるほど\nして、この者は？","国王","guruka_magao","king_question","2");
+			m_set_text("彼女はコハク\n怠惰撃退の功労者でございます","グルカ","guruka_magao","king_question","1");
+			m_set_text("ふむ\nその功績をたたえて宝物庫から一つ好きなものを授けよう","国王","guruka_magao","king_smile","2");
+			m_set_text("受け取っておきましょう\nそれにこれから先役立つものがあるかもしれないですし","エルティア","guruka_magao","eltia_raku","2");
 			m_scr_option("エルティアがそういうなら…","option_3");
 			m_scr_option("光栄であります","option_3");
 			break;
 				case "option_3":
-				m_set_text("本来は正式にやるのであるがな…","国王","no","no","3");
-				m_set_text("本当に申し訳ない","国王","no","no","3");
-				m_set_text("宝物庫は階段の方向に向かうとあるぞ","国王","no","no","3");
+				m_set_text("本来は授与式などをやりたいところだが…","国王","","king","2");
+				m_set_text("本当に申し訳ない","国王","","king","2");
+				m_set_text("宝物庫はここを出てまっすぐ向かうと右側じゃ","国王","","king","2");
 			m_wall_event(Obj_wall_event.wall_id);
 				break;
 		case "event_20":
-			m_set_text("これは…ブローチ？","コハク","gate_konwaku_1","no","1");
-			m_set_text("だいぶ古い感じがするけど…","コハク","gate_konwaku_1","no","1");
-			m_set_text("っ！？","コハク","gate_kizetsu_1","no","1");
-			m_set_text("コハクはこれがいいのか","？？？","no","no","3");
-			m_set_text("流石は□□□の………だ","？？？","no","no","3");
-			m_set_text("これは…私の記憶…？","コハク","gate_ai","no","1");
+			m_set_text("これは…ブローチ？","コハク","gate_konwaku_1","","1");
+			m_set_text("だいぶ古い感じがするけど…","コハク","gate_konwaku_1","","1");
+			m_set_text("っ！？","コハク","gate_kizetsu_1","","1");
+			m_set_text("コハクはこれがいいのか","？？？","","","3");
+			m_set_text("流石は□□□の………だ","？？？","","","3");
+			m_set_text("これは…私の記憶…？","コハク","gate_ai","","1");
 			m_set_text("おや、なにか起こりました？","エルティア","gate_ai","eltia_gimon","2");
 			m_set_text("エルティア今の見れた？","コハク","gate_ai","eltia_gimon","1");
 			m_set_text("いえ、私のほうでは何も","エルティア","gate_ai","eltia_gimon","2");
@@ -483,6 +487,11 @@ function m_scr_game_text(_text_id,_system_text){
 		
 		case "event_21":
 			m_set_text("…なぁ","グルカ","gate_konwaku_2","guruka_purasu","2");
+			Obj_battleevent.event_id="event_1_4";
+			Obj_battleevent.text_id1="event_21_1_1";
+			Obj_battleevent.set_text_type=1;
+			break;
+			case "event_21_1_1":
 			m_set_text("あんたこれからどうするんだ？","グルカ","gate_konwaku_2","guruka_purasu","2");
 			m_set_text("どうするってそりゃ","コハク","gate_konwaku_2","guruka_purasu","1");
 			m_scr_option("他の島に行こうと思うよ","event_21_1");
@@ -495,6 +504,7 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("そうか…","グルカ","gate_raku","guruka_purasu","2");
 				m_set_text("だが他の島ではもっと強いやつが襲ってくるかもしれないからな","グルカ","gate_raku","guruka_purasu","2");
 				m_set_text("少しだけ稽古つけてやるよ","グルカ","gate_raku","guruka_purasu","2");
+				Obj_battleevent.set_text_move=3;
 				break;
 			case "event_21_2":
 				m_set_text("なら俺と一緒に来ないか？","グルカ","gate_odoroki","guruka_emi","2");
@@ -510,11 +520,12 @@ function m_scr_game_text(_text_id,_system_text){
 				m_set_text("それならば…","コハク","","","3");
 				m_set_text("申し訳ないけど誘いは辞退させてもらうよ","コハク","gate_ai","guruka_purasu","1");
 				m_set_text("そうか…","グルカ","gate_konwaku_1","guruka_purasu","2");
-				m_set_text("なら止めねぇが…\nもう一度あの攻撃を見せてくれ","グルカ","gate_konwaku_2","guruka_purasu","2");
-				m_set_text("あれはどちらかというと舞のための動きに見えた","グルカ","gate_konwaku_2","guruka_purasu","2");
-				m_set_text("あれは今後参考になるかもしれねぇ","グルカ","gate_interested","guruka_purasu","2");
+				m_set_text("なら止めねぇが…\nもう一度戦わせてくれ","グルカ","gate_konwaku_2","guruka_purasu","2");
+				m_set_text("今後７災獣以上のやつと戦うかもしれねぇからな","グルカ","gate_konwaku_2","guruka_purasu","2");
+				m_set_text("備えあればなんとやらっていうだろ？","グルカ","gate_interested","guruka_purasu","2");
 				m_set_text("…わかった\n手加減はしないよ！","コハク","gate_raku","guruka_emi","1");
 				m_set_text("もちろんこっちこそな！","グルカ","gate_raku","guruka_emi","2");
+				Obj_battleevent.set_text_move=3;
 				break;
 			case "event_21_3":
 				Obj_Player.m_set_textoption+=1;
@@ -534,11 +545,13 @@ function m_scr_game_text(_text_id,_system_text){
 			break;
 		}
 			m_set_text("まぁこれなら問題ねぇか","グルカ","no","yarare_understand","2");
-			m_set_text("グルカはこの後どうするの？","グルカ","gate_konwaku_2","yarare_understand","2");
+			m_set_text("グルカはこの後どうするの？","コハク","gate_konwaku_2","yarare_understand","1");
 			m_set_text("俺は傭兵業を続けるさ","グルカ","gate_interested","yarare_nigawarai","2");
 			m_set_text("安心しろ　今生の別れじゃねぇんだ","グルカ","gate_interested","yarare_ki","2");
 			m_set_text("今度会うときは腕上げて来いよ？","グルカ","gate_raku","guruka_emi","2");
 			m_set_text("うん！","コハク","gate_raku","guruka_usiro","1");
+			m_set_text("じゃぁな","グルカ","gate_raku","guruka_usiro","2");
+			m_wall_event(Obj_wall_event.wall_id);
 			break;
 		case "event_22_1":
 			m_set_text("チッやりやがったな…","グルカ","no","yarare_do","2");
@@ -556,7 +569,7 @@ function m_scr_game_text(_text_id,_system_text){
 			m_scr_option("霊と機械の楽園'バヨウトウ'!","option_4");
 			break;
 			case"option_4":
-			m_set_text("簡易門(インスタントゲート)起動…","コハク","gate_tsuujou","","1");
+			m_set_text("簡易門(インスタントゲート)起動…！","コハク","gate_tsuujou","","1");
 			Obj_anyevent.set_text_type=0;
 			instance_create_layer(0,0,"Instances",Obj_flash);
 			Obj_flash.set_type=2;
@@ -646,26 +659,26 @@ function m_scr_game_text(_text_id,_system_text){
 			
 		case "event_28":
 			m_set_text("ジョー爺！やっほー！","リアン","rian_smile_left","","1");
-			m_set_text("大人しくせんかい！やかましい！","？？？","rian_smile_left","","5");
-			m_set_text("でも今日はとっておきがあるから","レアン","rean_smile_left","","5");
-			m_set_text("全く…都合がいいこと言いおって…","？？？","rean_smile_left","","5");
+			m_set_text("大人しくせんかい！やかましい！","？？？","rian_smile_left","joji_angry1","5");
+			m_set_text("でも今日はとっておきがあるから","レアン","rean_smile_left","joji_angry1","5");
+			m_set_text("全く…都合がいいこと言いおって…","？？？","rean_smile_left","joji_disgusted","5");
 			m_set_text("お邪魔します…","コハク","new_kohaku_scary1","","5");
 			Obj_anyevent.set_text_move=1;
 			Obj_anyevent.text_id1="event_28_1";
 			break;
 			case "event_28_1":
-			m_set_text("おぉ、お客人か儂は何でも修理する修理屋のジョージじゃ","ジョージ","","","2");
-			m_set_text("ニマ・コハクです\n実は宝物が壊れちゃったらしくて","コハク","new_kohaku_what1","","1");
-			m_set_text("これなんですけど…","コハク","new_kohaku_what1","","1");
-			m_set_text("ふむ、量産型の天与か　この場で修理はできるが値段は張るぞ","ジョージ","new_kohaku_what1","","2");
-			m_set_text("えぇ…エルティア　いまぐらい持ってるっけ？","コハク","new_kohaku_what2","","1");
+			m_set_text("おぉ、お客人か儂は何でも修理する修理屋のジョージじゃ","ジョージ","","joji_suprised","2");
+			m_set_text("ニマ・コハクです\n実は宝物が壊れちゃったらしくて","コハク","new_kohaku_what1","joji_suprised","1");
+			m_set_text("これなんですけど…","コハク","new_kohaku_what1","joji_suprised","1");
+			m_set_text("ふむ、量産型の天与か　この場で修理はできるが値段は張るぞ","ジョージ","new_kohaku_what1","joji_concentration","2");
+			m_set_text("えぇ…エルティア　いまぐらい持ってるっけ？","コハク","new_kohaku_what2","joji_concentration","1");
 			m_set_text("589リダですね","エルティア","new_kohaku_what2","eltia_gimon","2");
 			m_set_text("えーっと…修理費はどのくらいですか？","コハク","new_kohaku_what1","eltia_gimon","1");
-			m_set_text("大体333万リダぐらいだな","ジョージ","new_kohaku_suprise","","2");
-			m_set_text("どうしよ…そんな持ち合わせは…","コハク","new_kohaku_suprise","","1");
+			m_set_text("大体333万リダぐらいだな","ジョージ","new_kohaku_suprise","joji","2");
+			m_set_text("どうしよ…そんな持ち合わせは…","コハク","new_kohaku_suprise","joji","1");
 			m_set_text("ん～？ないなら稼げばいいじゃん！隣で丁度大会やってるよ","リアン","new_kohaku_suprise","rian_smile","2");
-			m_set_text("そーそ、おねーさん強そうだし","レアン","rean_smile_left","rian_smile","2");
-			m_set_text("ふむ、少し足りんが優勝賞金全額で免除してやろう","ジョージ","rean_smile_left","","2");
+			m_set_text("そーそ、おねーさん強そうだし","レアン","rean_smile_left","rian_smile","1");
+			m_set_text("ふむ、少し足りんが優勝賞金全額で免除してやろう","ジョージ","rean_smile_left","joji","2");
 			m_set_text("なるほど、いい機会ですし参加してきませんか？","エルティア","rean_smile_left","eltia_raku","2");
 			m_scr_option("参加する！","event_29");
 			m_scr_option("どうしよう…","option_5_no");
@@ -688,9 +701,9 @@ function m_scr_game_text(_text_id,_system_text){
 			Obj_anyevent.set_text_move=2;
 			break;
 			case "event_29_1":
-			m_set_text("そうそう　では優勝することを見越して預かっておくぞ","ジョージ","new_kohaku_suprise","","2");
-			m_set_text("え、まだ優勝できると決まったわけじゃ…","コハク","new_kohaku_suprise","","1");
-			m_set_text("なーに　出来んかったら暫く働けばいいんじゃ\nというわけで預かっとくぞい","ジョージ","new_kohaku_suprise","","2");
+			m_set_text("そうそう　では優勝することを見越して預かっておくぞ","ジョージ","new_kohaku_suprise","joji","2");
+			m_set_text("え、まだ優勝できると決まったわけじゃ…","コハク","new_kohaku_suprise","joji","1");
+			m_set_text("なーに　出来んかったら暫く働けばいいんじゃ\nというわけで預かっとくぞい","ジョージ","new_kohaku_suprise","joji","2");
 			Obj_anyevent.set_text_move=0;
 			Obj_Player.set_remove_number=1;
 			break;
@@ -808,23 +821,23 @@ function m_scr_game_text(_text_id,_system_text){
 			map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,320,30,0,Obj_Player);
 			set_timer(map_objmove_interpolation,[Obj_Player.x,320,Obj_jji.x,320,30,0,Obj_Player],30,1);
 			set_timer(map_objmove_interpolation,[Obj_jji.x,320,Obj_jji.x,160,60,0,Obj_Player],60,1);
-			m_set_text("大人しくせんかい！","ジョージ","","");
-			m_set_text("おぉ、お前さん戻ったか\nしっかり優勝はしてきたんじゃろうな？","ジョージ","","");
-			m_set_text("もちろん　はい、これお代","コハク","kohaku_raku","");
-			m_set_text("おう、しっかり受け取ったぞ\nそれじゃこれが例の物じゃ","ジョージ","kohaku_raku","");
-			m_set_text("ジョー爺から修理された簡易門を受け取った","","","");
-			m_set_text("ッ…","コハク","gate_kyoufu_1","");
+			m_set_text("大人しくせんかい！","ジョージ","","joji_angry2","2");
+			m_set_text("おぉ、お前さん戻ったか\nしっかり優勝はしてきたんじゃろうな？","ジョージ","","joji","2");
+			m_set_text("もちろん　はい、これお代","コハク","kohaku_raku","joji","1");
+			m_set_text("おう、しっかり受け取ったぞ\nそれじゃこれが例の物じゃ","ジョージ","kohaku_raku","joji","2");
+			m_set_text("ジョー爺から修理された簡易門を受け取った","kohaku_raku","joji","3");
+			m_set_text("ッ…","コハク","gate_kyoufu_1","joji");
 			m_set_text("あたまがいたい","","","");
 			m_set_text("きさま…を…　…っ…！","？？？","","");
 			m_set_text("おや、………","エルティア？","","new_eltia","5");
 			m_set_text("これは…？えるてぃあ…？","コハク","","","1");
 			m_set_text("おねーさん！","リアン","","rian_question","2");
 			m_set_text("ハッ！","コハク","new_kohaku_what2","","1");
-			m_set_text("どうした？急にボーッとしおって","ジョージ","new_kohaku_what2","","2");
-			m_set_text("いえ、なにも…","コハク","new_kohaku_suprise","","1");
-			m_set_text("？まぁよい　簡易門は来た時と同じ場所で使用せい","ジョージ","new_kohaku_suprise","","2");
-			m_set_text("分かった！ジョージおじいさんありがとう！","コハク","new_kohaku_smile","","1");
-			m_set_text("おう、気を付けてな","ジョージ","new_kohaku_suprise","","2");
+			m_set_text("どうした？急にボーッとしおって","ジョージ","new_kohaku_what2","joji_question","2");
+			m_set_text("いえ、なにも…","コハク","new_kohaku_suprise","joji_question","1");
+			m_set_text("？まぁよい　簡易門は来た時と同じ場所で使用せい","ジョージ","new_kohaku_suprise","joji_question","2");
+			m_set_text("分かった！ジョージおじいさんありがとう！","コハク","new_kohaku_smile","joji","1");
+			m_set_text("おう、気を付けてな","ジョージ","new_kohaku_suprise","joji","2");
 			Obj_set_remove_event.set_text_move=0;
 			break;
 			

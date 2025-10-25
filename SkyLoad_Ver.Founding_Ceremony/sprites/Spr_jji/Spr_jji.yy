@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Spr_mob",
-    "path":"folders/スプライト/Spr_mapChara/Spr_mob.yy",
+    "name":"m_Spr_mob",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_mob.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

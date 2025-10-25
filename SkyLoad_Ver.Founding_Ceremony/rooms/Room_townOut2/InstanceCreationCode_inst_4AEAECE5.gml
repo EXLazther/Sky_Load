@@ -1,3 +1,3 @@
-item=7;
+item=4;
 instance_set_id=5;
-text_id="wood";
+text_id="chest";

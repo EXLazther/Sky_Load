@@ -62,15 +62,15 @@ if global.show_box == false
 	
 	if(flip[page]==true)
 	{
-		set_fase=-1;
+		set_face=-1;
 	}
 	else if(flip[page]==false)
 	{
-		set_fase=1;
+		set_face=1;
 	}
     var _sprite_x = textbox_x + portrait_x_offset[page] + 150;
 
-    draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y + 150,image_xscale * speaker_side[page]*set_fase, image_yscale, 0, color_left[page], 1);
+    draw_sprite_ext(sprite_index, image_index, _sprite_x, character_y + 150,image_xscale * speaker_side[page]*set_face, image_yscale, 0, color_left[page], 1);
 	}
 
 	if (speaker_sprite1[page] != noone) {
@@ -86,15 +86,15 @@ if global.show_box == false
 
 	if(flip1[page]==true)
 	{
-		set_fase1=-1;
+		set_face1=-1;
 	}
 	else if(flip1[page]==false)
 	{
-		set_fase1=1;
+		set_face1=1;
 	}
     var _sprite_x = textbox_x + portrait_x_offset[page];
     var _sprite_right_x = _sprite_x + spr_w * image_xscale;
-    draw_sprite_ext(sprite_index, image_index, _sprite_right_x + 120, character_y + 150,image_xscale * speaker_side[page]*set_fase1, image_yscale, 0, color_right[page], 1);
+    draw_sprite_ext(sprite_index, image_index, _sprite_right_x + 120, character_y + 150,image_xscale * speaker_side[page]*set_face1, image_yscale, 0, color_right[page], 1);
 	}
 
 

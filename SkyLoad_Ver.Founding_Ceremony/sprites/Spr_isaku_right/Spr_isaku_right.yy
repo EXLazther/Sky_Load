@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Spr_isaku",
-    "path":"folders/スプライト/Spr_mapChara/Spr_isaku.yy",
+    "name":"m_Spr_isaku",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_isaku.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

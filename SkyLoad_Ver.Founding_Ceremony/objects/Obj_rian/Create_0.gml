@@ -3,7 +3,7 @@ system_id="";
 positionx=x;
 positiony=y;
 /*
-fase=DOWN;
+face=DOWN;
 sprite[UP]=0;
 sprite[DOWN]=0;
 sprite[LEFT]=0;

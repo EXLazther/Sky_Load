@@ -4,14 +4,14 @@
 	chaser_y=y
 
     if (abs(dx) > abs(dy)) {
-        if (dx > 0) fase = RIGHT;
-        else        fase = LEFT;
+        if (dx > 0) face = RIGHT;
+        else        face = LEFT;
     } else if (abs(dy) > 0) {
-        if (dy > 0) fase = DOWN;
-        else        fase = UP;
+        if (dy > 0) face = DOWN;
+        else        face = UP;
     }
 	image_speed=1.5
-	sprite_index=sprite[fase];
+	sprite_index=sprite[face];
 	
 */
 var _s=id

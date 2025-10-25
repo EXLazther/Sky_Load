@@ -22,7 +22,7 @@ if(sprite_id=="heishi_tathi"&&global.set_destroy==1&&!instance_exists(Obj_textbo
 }
 m_set_symbolindex(sprite_id);
 
-
+image_index=0;
 
 /*if (x == 352 && y== 352) {
 	    mob_x = 580;

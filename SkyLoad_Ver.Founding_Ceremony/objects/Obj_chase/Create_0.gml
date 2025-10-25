@@ -13,7 +13,7 @@ target_y=0;
 target_rm=0;
 target_face=0;
 //スプライト設定
-fase=DOWN;
+face=DOWN;
 sprite[UP]=0;
 sprite[DOWN]=0;
 sprite[LEFT]=0;

@@ -1,3 +1,4 @@
+image_index=0;
 var _s = id; 
 if place_meeting(x +10,y+10, Obj_Player) && keyboard_check_pressed(ord("Z")) && !instance_exists(Obj_textbox)
 {

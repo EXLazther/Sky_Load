@@ -30,7 +30,7 @@ function map_objmove_setevent(_event_id)
 		case "event_1_2":
 			instance_create_layer(629,-60,"Instances",Obj_isaku);
 			map_objmove_interpolation(672,60,672,250,90,0,Obj_isaku);
-			Obj_anyevent.set_text_move=1;
+			Obj_battleevent.set_text_move=1;
 			break;
 		
 		case "event_1_3":
@@ -38,9 +38,20 @@ function map_objmove_setevent(_event_id)
 			{
 				instance_destroy(Obj_isaku)
 			}
+			instance_create_layer(0,0,"Instances",Obj_flash);
+			Obj_flash.set_type=2;
+			Obj_flash.set_alpha=0;
 			Obj_set_remove_event.text_id1="event_17_5";
 			Obj_set_remove_event.set_text_move=1;
 			break;
+		case "event_1_4":
+			instance_create_layer(Obj_Player.x,0,"Instances",Obj_guruka);
+			map_objmove_interpolation(Obj_Player.x,90,Obj_Player.x,Obj_Player.y-90,120,0,Obj_guruka);
+			Obj_Player.face=UP;
+			Obj_battleevent.set_text_move=1;
+			break;
+		
+			
 		//2章
 		case "event_1":
 		var _objrian=instance_create_layer(629,-60,"Instances",Obj_story_symbol);
@@ -95,7 +106,7 @@ function map_objmove_setevent(_event_id)
 			map_objmove_interpolation(0,204,Obj_Player.x-60,204,60,0,Obj_rean);
 			set_timer(map_objmove_interpolation,[0,236,Obj_Player.x-60,236,60,0,Obj_rian],30,1);
 			Obj_reception.set_text_move=1;
-			Obj_Player.fase=LEFT;
+			Obj_Player.face=LEFT;
 			Obj_reception.event_id="event_7";
 			break;
 		

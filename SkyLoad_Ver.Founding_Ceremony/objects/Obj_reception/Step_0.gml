@@ -1,23 +1,7 @@
 image_index=0;
-if(!ds_map_exists(global.text_setted,"event_30"))
-{
-	text_id="event_30";
-	set_event=true;
-}
-if(ds_map_exists(global.text_setted,"event_30")&&!ds_map_exists(global.text_setted,"event_32"))
-{
-	text_id="talk_2_9";
-}
-if(ds_map_exists(global.text_setted,"event_30")&&Obj_Player.set_remove_number==1)
-{
-	text_id="event_34";
-	set_event=true;
-}
-if(ds_map_exists(global.text_setted,"event_34"))
-{
-	text_id="talk_10"
-}
 var _s = id; 
+
+show_debug_message(_s.text_id)
 if(place_meeting(x-20,y+60, Obj_Player) && keyboard_check_pressed(ord("Z")) && !instance_exists(Obj_textbox)&&end_text==0)
 {
 	with( instance_create_depth(0, 0, -9999, Obj_textbox))

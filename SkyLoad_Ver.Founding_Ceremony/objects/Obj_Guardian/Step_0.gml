@@ -9,14 +9,14 @@ if(instance_exists(Obj_Player)&&!instance_exists(Obj_textbox)&&!instance_exists(
 	chaser_y=y
 
     if (abs(dx) > abs(dy)) {
-        if (dx > 0) fase = RIGHT;
-        else        fase = LEFT;
+        if (dx > 0) face = RIGHT;
+        else        face = LEFT;
     } else if (abs(dy) > 0) {
-        if (dy > 0) fase = DOWN;
-        else        fase = UP;
+        if (dy > 0) face = DOWN;
+        else        face = UP;
     }
 	image_speed=1.5
-	sprite_index=sprite[fase];
+	sprite_index=sprite[face];
 }
 if(!instance_exists(Obj_Player)&&!instance_exists(Obj_textbox))
 {
@@ -36,21 +36,21 @@ if(place_meeting(x+30,y+30, Obj_Player)||place_meeting(x+30,y-30, Obj_Player)&&!
 {
 	if(Obj_Player.y<y)
 	{
-		fase=DOWN;
+		face=DOWN;
 	}
 	if(Obj_Player.y>y)
 	{
-		fase=UP;
+		face=UP;
 	}
 	if(Obj_Player.x<x)
 	{
-		fase=LEFT;
+		face=LEFT;
 	}
 	if(Obj_Player.x>x)
 	{
-		fase=RIGHT;
+		face=RIGHT;
 	}
-	sprite_index=sprite[fase];
+	sprite_index=sprite[face];
 	path_end();
 	end_text=1;
 	with(instance_create_depth(0, 0, -9999, Obj_textbox))

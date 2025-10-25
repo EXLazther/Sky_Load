@@ -12,7 +12,10 @@
     "name":"1章",
     "path":"folders/オブジェクト/system_object/text_obj/text_event_obj/1章.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

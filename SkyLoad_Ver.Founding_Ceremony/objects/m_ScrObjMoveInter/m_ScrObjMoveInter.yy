@@ -9,8 +9,8 @@
   "name":"m_ScrObjMoveInter",
   "overriddenProperties":[],
   "parent":{
-    "name":"system_object",
-    "path":"folders/オブジェクト/system_object.yy",
+    "name":"test_obj",
+    "path":"folders/オブジェクト/system_object/test_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,

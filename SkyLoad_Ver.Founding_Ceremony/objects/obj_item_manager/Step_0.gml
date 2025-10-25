@@ -1,9 +1,5 @@
 //選ばれたアイテムを収得
 
-if(player_HP>=100)
-{
-	global.player_health=100;
-}
 selected_item=-1;
 accept_key=keyboard_check_pressed(ord("Z"));
 cancel_key=keyboard_check_pressed(ord("X"));

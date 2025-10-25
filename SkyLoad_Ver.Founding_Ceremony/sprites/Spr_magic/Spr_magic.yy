@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Spr_magic",
-    "path":"folders/スプライト/Spr_mapChara/Spr_magic.yy",
+    "name":"m_Spr_magic",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_magic.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

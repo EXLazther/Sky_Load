@@ -66,8 +66,8 @@ sprite_set_left=350;
 
 width=350;
 height=300;
-set_fase=1;
-set_fase1=1;
+set_face=1;
+set_face1=1;
 color_left=c_white;
 color_right=c_white;
 auto_frame=0;

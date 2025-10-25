@@ -12,7 +12,6 @@ face=DOWN;
 
 global.show_text=0;
 global.show_box=false;
-
 player_x = x;
 player_y = y;
 

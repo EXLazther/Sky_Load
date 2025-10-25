@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Spr_mob_1",
-    "path":"folders/スプライト/Spr_mapChara/Spr_mob/Spr_mob_1.yy",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_mob/Spr_mob_1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
