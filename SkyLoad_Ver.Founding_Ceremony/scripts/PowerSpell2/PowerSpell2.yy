@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"PowerSpell2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PowerSpell2",
+  "parent":{
+    "name":"Power",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Power.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

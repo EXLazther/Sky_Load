@@ -9726,7 +9726,10 @@
   "sdfSpread":12,
   "size":11.0,
   "styleName":"Thin",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }

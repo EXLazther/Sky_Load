@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprEnemyShotDropRed_1",
-    "path":"sprites/SprEnemyShotDropRed_1/SprEnemyShotDropRed_1.yy",
+    "name":"SprEnemyShotDropRed",
+    "path":"sprites/SprEnemyShotDropRed/SprEnemyShotDropRed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

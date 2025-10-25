@@ -1,12 +1,6 @@
 global.enemy_shot =
 [
-//Ball
-ObjBattleEnemyBallBlue,
-ObjBattleEnemyBallGreen,
-ObjBattleEnemyBallPurple,
-ObjBattleEnemyBallRed,
-ObjBattleEnemyBallSkyBlue,
-ObjBattleEnemyBallYellow,
+
 //Ball_L
 ObjBattleEnemyBallLBlue,
 ObjBattleEnemyBallLGreen,
@@ -15,6 +9,13 @@ ObjBattleEnemyBallLRed,
 ObjBattleEnemyBallMBlue,
 ObjBattleEnemyBallMGreen,
 ObjBattleEnemyBallMRed,
+//Ball
+ObjBattleEnemyBallBlue,
+ObjBattleEnemyBallGreen,
+ObjBattleEnemyBallPurple,
+ObjBattleEnemyBallRed,
+ObjBattleEnemyBallSkyBlue,
+ObjBattleEnemyBallYellow,
 //Drop
 ObjBattleEnemyDropBlue,
 ObjBattleEnemyDropGreen,
@@ -53,13 +54,7 @@ global.current_room = 0;
 
 enum SHOT_ID
 {
-	//Ball
-	BALL_BLUE,
-	BALL_GREEN,
-	BALL_PURPLE,
-	BALL_RED,
-	BALL_SKYBLUE,
-	BALL_YELLOW,
+	
 	//Ball_L
 	BALL_L_BLUE,
 	BALL_L_GREEN,
@@ -68,6 +63,13 @@ enum SHOT_ID
 	BALL_M_BLUE,
 	BALL_M_GREEN,
 	BALL_M_RED,
+	//Ball
+	BALL_BLUE,
+	BALL_GREEN,
+	BALL_PURPLE,
+	BALL_RED,
+	BALL_SKYBLUE,
+	BALL_YELLOW,
 	//Drop
 	DROP_BLUE,
 	DROP_GREEN,
@@ -93,7 +95,9 @@ enum BATTLE_BORDER
 	LEFT_BORDER = 68,
 	RIGHT_BORDER = 534,
 	UP_BORDER = 37,
-	BOTTOM_BORDER = 540
+	BOTTOM_BORDER = 540,
+	CENTER_X = (BATTLE_BORDER.RIGHT_BORDER-BATTLE_BORDER.LEFT_BORDER)/2+BATTLE_BORDER.LEFT_BORDER,
+	CENTER_Y = (BATTLE_BORDER.BOTTOM_BORDER-BATTLE_BORDER.UP_BORDER)/2+BATTLE_BORDER.UP_BORDER,
 }
 
 enum ENEMY_TYPE{

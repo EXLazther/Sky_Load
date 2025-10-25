@@ -18,7 +18,6 @@ if (ObjBattleManager.is_battle_started) {
 		}
 	}
     
-	
 	if(ObjBattleManager.current_state == 7){
 		ObjBattleManager.is_battle_victory = true;
 	}

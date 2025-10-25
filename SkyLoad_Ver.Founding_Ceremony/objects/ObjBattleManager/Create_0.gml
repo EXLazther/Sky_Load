@@ -12,6 +12,6 @@ enemy = global.encounting_enemy;
 
 
 //敵のスポーン
-instance_create_layer(288, 150, "Instances", enemy);
+instance_create_layer(BATTLE_BORDER.CENTER_X, BATTLE_BORDER.CENTER_Y-100, "Instances", enemy);
 instance_deactivate_object(Obj_Player);
 

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprEnemyShotBallMGreen",
-    "path":"sprites/SprEnemyShotBallMGreen/SprEnemyShotBallMGreen.yy",
+    "name":"SprEnemyShotDropGreen",
+    "path":"sprites/SprEnemyShotDropGreen/SprEnemyShotDropGreen.yy",
   },
   "spriteMaskId":null,
   "visible":true,

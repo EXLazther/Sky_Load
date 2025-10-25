@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"TestSpell2",
   "parent":{
-    "name":"Bosses",
-    "path":"folders/BattleSystems/Object/Enemy/Bosses.yy",
+    "name":"Test",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Test.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

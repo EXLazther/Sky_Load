@@ -9,8 +9,8 @@
   "name":"ObjBattleTest1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/BattleSystems/Object/Enemy/Bosses.yy",
+    "name":"Test",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Test.yy",
   },
   "parentObjectId":{
     "name":"ObjBattleBossParant",

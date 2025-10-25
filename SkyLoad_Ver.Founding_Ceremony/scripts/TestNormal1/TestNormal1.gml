@@ -49,9 +49,4 @@ function TestNormal1(){
 		
 	}
 	
-	if(current_frame % 10 == 0){
-		
-		//var _laser1 =  shot_create(x,y,0,angle1,SHOT_ID.LASER_BLUE)
-	}
-	
 }
