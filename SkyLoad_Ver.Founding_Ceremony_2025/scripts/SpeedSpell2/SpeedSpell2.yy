@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SpeedSpell2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SpeedSpell2",
+  "parent":{
+    "name":"Speed",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Speed.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"TestSpell3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TestSpell3",
+  "parent":{
+    "name":"Test",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Test.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"se_beam05",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.4702041,
+  "name":"se_beam05",
+  "parent":{
+    "name":"Isaku",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Isaku.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"se_beam05.mp3",
+  "type":0,
+  "volume":1.0,
+}

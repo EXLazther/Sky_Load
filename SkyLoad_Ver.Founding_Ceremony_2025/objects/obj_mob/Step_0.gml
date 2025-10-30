@@ -1,0 +1,35 @@
+var _s = id; 
+if place_meeting(x +10,y+10, Obj_Player) && keyboard_check_pressed(ord("Z")) && !instance_exists(Obj_textbox)
+{
+	with( instance_create_depth(0, 0, -9999, Obj_textbox))
+		{
+		m_scr_game_text(_s.text_id,_s.system_id);
+		}
+		
+}
+
+
+if place_meeting(x -10,y-10, Obj_Player) && keyboard_check_pressed(ord("Z")) && !instance_exists(Obj_textbox)
+{
+		with( instance_create_depth(0, 0, -9999, Obj_textbox))
+		{
+			m_scr_game_text(_s.text_id,_s.system_id);
+		}
+}
+m_set_symbolindex(sprite_id);
+
+image_index=0;
+
+/*if (x == 352 && y== 352) {
+	    mob_x = 580;
+	    mob_y = 384;
+	    move_mob( mob_x, mob_y, 1);
+}
+if instance_exists(Obj_textbox)
+{
+	speed=0;
+}
+if speed==0&&!instance_exists(Obj_textbox)
+{
+	move_towards_point(mob_x,mob_y,1);
+}

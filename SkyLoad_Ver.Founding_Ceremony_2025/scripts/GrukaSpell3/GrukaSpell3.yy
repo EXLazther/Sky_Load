@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"GrukaSpell3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GrukaSpell3",
+  "parent":{
+    "name":"Gruka",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Gruka.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

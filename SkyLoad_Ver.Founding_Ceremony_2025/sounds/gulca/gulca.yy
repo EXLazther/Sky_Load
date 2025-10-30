@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"gulca",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":160,
+  "compression":0,
+  "conversionMode":0,
+  "duration":109.92326,
+  "name":"gulca",
+  "parent":{
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"gulca.mp3",
+  "type":1,
+  "volume":0.2,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SndWarning",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.1617007,
+  "name":"SndWarning",
+  "parent":{
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SndWarning.wav",
+  "type":1,
+  "volume":1.0,
+}

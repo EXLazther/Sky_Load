@@ -1,9 +1,0 @@
-if(visible==false)
-{
-	visible=true
-}
-if(room=Room_start)&&!ds_map_exists(global.text_setted,"event_1")
-{
-	x=416;
-	y=96;
-}

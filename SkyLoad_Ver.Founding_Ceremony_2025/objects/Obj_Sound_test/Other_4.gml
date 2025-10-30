@@ -1,0 +1,14 @@
+if(!audio_is_playing(Snd_sea_2))
+{
+	if(room!=set_room||room!=Room_Title)
+	{
+		audio_play_sound(Snd_sea_2,10,true);
+	}
+}
+if(audio_is_playing(Snd_sea_2))
+{
+	if(room==set_room||room==Room_Title)
+	{
+		audio_stop_sound(Snd_sea_2);
+	}
+}

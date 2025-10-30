@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"enemy_powereffect",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.743628,
+  "name":"enemy_powereffect",
+  "parent":{
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"enemy_powereffect.wav",
+  "type":0,
+  "volume":0.5,
+}
