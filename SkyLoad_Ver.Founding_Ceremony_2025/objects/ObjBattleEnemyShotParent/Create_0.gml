@@ -1,5 +1,5 @@
 // プロパティの初期化
-damage = 0;
+//damage = 0;
 acceleration = 0;
 angular_velocity = 0;
 speed_min = 0;
