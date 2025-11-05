@@ -16,9 +16,10 @@
 
 sprite_index=sprite[face];
 mask_index=sprite[DOWN];
-
-set_face=Obj_Player.face;
-
+if(instance_exists(Obj_Player))
+{
+	set_face=Obj_Player.face;
+}
 if(!instance_exists(m_ScrObjMoveInter))
 {
 	image_index=0

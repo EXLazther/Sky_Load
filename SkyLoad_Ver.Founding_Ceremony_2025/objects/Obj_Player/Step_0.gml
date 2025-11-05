@@ -13,9 +13,11 @@ upkey    = keyboard_check(vk_up);
 downkey  = keyboard_check(vk_down);
 
 // x速度とy速度を取得
+if(!instance_exists(m_ScrObjMoveInter))
+{
 xspd = (rightkey - leftkey) * movespd;
 yspd = (downkey - upkey) * movespd;
-
+}
 // ポーズ処理
 if (instance_exists(obj_pause)) {
     xspd = 0;
@@ -98,7 +100,7 @@ if (xspd == 0 && yspd == 0 && set_animation==0)
 {
     image_index = 0;
 }
-if(global.player_health<=35&&set_hp_counter==0)
+if(global.player_health<=35&&set_hp_counter==0&&room!=Room_fortIsland5)
 {
 	instance_create_layer(x,y,"Instances",Obj_aleat)
 	set_hp_counter+=1

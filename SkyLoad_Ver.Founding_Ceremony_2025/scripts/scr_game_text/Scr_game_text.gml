@@ -42,6 +42,10 @@ function m_scr_game_text(_text_id,_system_text){
 			break;
 		
 			//イベント用会話文
+		case "town_talk_1":
+			m_set_text("街の人に聞き込みをしてみよう","","","");
+			break;
+		
 		case "prison_talk_1":
 			m_set_text("貴様なぜここにいる！","帝国兵士","no","no");
 			break;
@@ -89,8 +93,10 @@ function m_scr_game_text(_text_id,_system_text){
 		case "system_text22":
 			m_set_text("工事中のようだ","","no","no");
 			break;
+			
+			
 		case "system_eventtext_1":
-			m_set_text("周りに聞き込みをしよう","","");
+			m_set_text("ここがどこか周りに聞き込みをしよう","","");
 			break;	
 		case "system_eventtext_2":
 			m_set_text("謎の少女の話を聞こう","","");
@@ -108,7 +114,11 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("こっちは後で調べよう","","");
 			break;	
 		case "system_eventtext_7":
-			m_set_text("周りの兵士たちから話を聞いてみよう","","","");
+			m_set_text("広い街だなぁ…外に出るにはどうしたらいいんだろ？","コハク","","");
+			m_set_text("この近くにいる兵士たちから話を聞いてみよう","","","");
+			break;
+		case "system_eventtext_8":
+			m_set_text("この近くにいる兵士たちから話を聞いてみよう","","","");
 			break;
 		//会話用コード
 		case "talk_1_1":
@@ -302,7 +312,6 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("相手の攻撃に当たらないよう気を付けてください\n下にあるあなたの体力バーがなくなると負けてしまいますのでお気をつけて","声の主","no","eltia","2");
 			m_set_text("移動方法は変わりませんが攻撃が出来ます\nZキーで攻撃しますよ","声の主","no","eltia","2");
 			m_set_text("それでは頑張ってください","声の主","no","eltia","2");
-			
 			break;
 		case "event_2_1":
 			m_set_text("さすがです","声の主","no","eltia_ki","2");
@@ -364,6 +373,7 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("エルティアからの反応はない","","gate_konwaku_2","no","1");
 			m_set_text("もう…","","gate_futekusare","no","1");
 			m_set_text("とりあえず聞き込みね","コハク","gate_interested","no","1");
+			m_set_text("街の住人に聞き込みをしてみよう","","","","1");
 			break;
 		case "event_8":
 			m_set_text("よかった…街から出れたみたい","コハク","gate_tsuujou","no","1");
@@ -632,8 +642,7 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("簡易門(インスタントゲート)起動…！","コハク","gate_tsuujou","","1");
 			Obj_anyevent.set_text_type=0;
 			instance_create_layer(0,0,"Instances",Obj_flash);
-			Obj_flash.set_type=2;
-			Obj_flash.set_alpha=0;
+			Obj_flash.set_alpha=1;
 			break;
 		//建学祭用
 		case "continue":
@@ -841,8 +850,8 @@ function m_scr_game_text(_text_id,_system_text){
 			break;
 			
 		case "event_32_boss_3":
-			//instance_create_layer(Obj_Player.x,Obj_Player.y-60,"Instances",Obj_story_symbol);
-			//Obj_story_symbol.set_index="Power";
+			instance_create_layer(Obj_Player.x,Obj_Player.y-60,"Instances",Obj_story_symbol);
+			Obj_story_symbol.set_index="Power";
 			m_set_text("そろそろですかね","エルティア","in_eltia","");
 			m_set_text("ッ！","コハク","kohaku_odoroki","");
 			m_set_text("エルティアありがとう","コハク","kohaku_ki","");
@@ -937,7 +946,6 @@ function m_scr_game_text(_text_id,_system_text){
 			case "event_36_2":
 				instance_create_layer(Obj_Player.x,Obj_Player.y,"Instances",Obj_flash);
 				Obj_flash.set_alpha=1;
-				Obj_Player.visible=false;
 				m_set_text("行っちゃったねぇ","レアン","Obj","");
 				m_set_text("付いていきたかったなぁ…","リアン","","");
 				m_set_text("しょうがないよ　まだ終わってないんだから","レアン","","");

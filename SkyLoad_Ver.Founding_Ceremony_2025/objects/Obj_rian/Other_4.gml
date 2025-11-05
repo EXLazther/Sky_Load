@@ -1,3 +1,4 @@
+var Player=instance_find(Obj_Player,0);
 switch(room)
 {
 	case Room_fortIsland2:	
@@ -40,7 +41,7 @@ switch(room)
 		x=352;
 		y=320;
 	}
-	else if(ds_map_exists(global.text_setted,"event_34")&&Obj_Player.set_remove_number==1)
+	else if(ds_map_exists(global.text_setted,"event_34")&&Player!=noone&&Player.set_remove_number==1)
 	{
 		x=289;
 		y=418;

@@ -1,6 +1,6 @@
-if(visible==false)
+if(room==Room_tobeContinue)
 {
-	visible=true
+	visible=false
 }
 if(room=Room_start)&&!ds_map_exists(global.text_setted,"event_1")
 {

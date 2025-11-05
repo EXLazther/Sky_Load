@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_bba",
-    "path":"sprites/Spr_bba/Spr_bba.yy",
+    "name":"m_Spr_jji",
+    "path":"sprites/m_Spr_jji/m_Spr_jji.yy",
   },
   "spriteMaskId":null,
   "visible":true,

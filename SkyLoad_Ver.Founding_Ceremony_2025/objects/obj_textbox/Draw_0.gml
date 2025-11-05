@@ -114,7 +114,10 @@ if global.show_box == false
 	
 	//オプション
 	if draw_char==text_length[page]&&page==page_number-1{
-
+		if(set_auto_text)
+		{
+			set_auto_text=false
+		}
 		//オプション選択
 		option_pos+=keyboard_check_pressed(vk_down)-keyboard_check_pressed(vk_up);
 		option_pos=clamp(option_pos,0,option_number-1);
@@ -143,4 +146,9 @@ if global.show_box == false
 	draw_text_ext(_txtb_x + border-42, _txtb_y+ border, _drawtext, line_sep, line_width);
 	draw_text_ext(_txtb_x + border+475, _txtb_y+ border+25, "Zキーで進める",line_sep, line_width);
 	draw_text_ext(_txtb_x+border-38,_txtb_y-25,_drawname,line_sep,line_width);
+	if(set_auto_text)
+	{
+		draw_sprite_ext(txtb_spr, txtb_img, textbox_x + border+595, _txtb_y-35,120/105,32/txtb_spr_h,0,c_white,1);
+		draw_text_ext(_txtb_x+border+535,_txtb_y-30,"auto",line_sep,line_width);
+	}
 }

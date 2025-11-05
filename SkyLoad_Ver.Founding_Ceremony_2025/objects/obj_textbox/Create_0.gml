@@ -71,7 +71,8 @@ set_face1=1;
 color_left=c_white;
 color_right=c_white;
 auto_frame=0;
-
+auto_timer=0;
+set_auto_text=false;
 //可変性テキストボックス
 variability_textbox=0
 textbox_x=0;

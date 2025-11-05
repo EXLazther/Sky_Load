@@ -998,6 +998,11 @@ function m_set_symbolindex(_index)
 		case "speed":
 		sprite_index=m_Spr_speed;
 		break;
+		case "Power":
+		sprite_index=m_Spr_power;
+		image_xscale=0.5;
+		image_yscale=0.5;
+		break;
 	}
 		
 }

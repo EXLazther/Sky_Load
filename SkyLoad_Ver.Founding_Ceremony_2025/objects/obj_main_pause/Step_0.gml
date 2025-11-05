@@ -1,22 +1,23 @@
-
-if(global.player_health>=Max_HP)
+if (global.player_health >= Max_HP)
 {
-	global.player_health=100;
+	global.player_health = 100;
 }
+
 // 一時停止処理
 depth = -99999;
 accept_key = keyboard_check_pressed(ord("Z"));
 cancel_key = keyboard_check_pressed(ord("X"));
 
-if (keyboard_check_pressed(vk_space) && !instance_exists(Obj_textbox)&&!instance_exists(m_ScrObjMoveInter))
+if (keyboard_check_pressed(vk_space) && !instance_exists(Obj_textbox) && !instance_exists(m_ScrObjMoveInter) && room != RoomBattle)
 {
-	
-	if (instance_exists(Obj_Player)) instance_deactivate_object(Obj_Player);
-
-	if (global.stop == 0 && restart == 0)
+	if (room != Room_fortIsland5)
 	{
-		global.stop = 1;
-		restart = 1;
+		if (instance_exists(Obj_Player)) instance_deactivate_object(Obj_Player);
+		if (global.stop == 0 && restart == 0)
+		{
+			global.stop = 1;
+			restart = 1;
+		}
 	}
 }
 
@@ -40,8 +41,38 @@ if (global.stop == 1 && global.itemstatus == 0)
 	pos += down_key - up_key;
 	if (pos >= op_length) pos = 0;
 	if (pos < 0) pos = op_length - 1;
-	if (cancel_key) pos = op_length - 1;
+	var _itemmanager=object_get_visible(Obj_item_manager);
+	// 🔽 キャンセルキー処理 (Xキー)
+	if(_itemmanager==false)
+	{
+	if (cancel_key)
+	{
+		// pos が一番下のときのみ実行
+		if (pos == op_length - 1)
+		{
+			switch (menu_level)
+			{
+				case 0:
+					// メインメニュー中 → ポーズ解除
+					restart = 0;
+				break;
 
+				case 1:
+				case 2:
+				case 3:
+					// サブメニュー中 → メインメニューに戻る
+					menu_level = 0;
+					pos = 0;
+				break;
+			}
+		}
+		else
+		{
+			pos=op_length-1;
+		}
+	}
+
+	// 🔽 決定キー処理 (Zキー)
 	if (accept_key)
 	{
 		var _sml = menu_level;
@@ -88,8 +119,8 @@ if (global.stop == 1 && global.itemstatus == 0)
 						inst.target_x = 0;
 						inst.target_y = 0;
 						inst.target_rm = Room_Title;
-						restart=0;
-						menu_level=0;
+						restart = 0;
+						menu_level = 0;
 						break;
 					}
 
@@ -103,5 +134,6 @@ if (global.stop == 1 && global.itemstatus == 0)
 
 		// 正しいオプション数を更新
 		op_length = array_length(option[menu_level]);
+	}
 	}
 }

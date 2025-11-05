@@ -1,5 +1,6 @@
 image_index=0;
 var _s = id; 
+var Player=instance_find(Obj_Player,0);
 if(!ds_map_exists(global.text_setted,"event_30"))
 {
 	text_id="event_30";
@@ -9,14 +10,16 @@ if(ds_map_exists(global.text_setted,"event_30")&&!ds_map_exists(global.text_sett
 {
 	text_id="talk_2_9";
 }
-if(ds_map_exists(global.text_setted,"event_30")&&Obj_Player.set_remove_number==1)
+if(ds_map_exists(global.text_setted,"event_30")&&Player!=noone &&Player.set_remove_number==1)
 {
 	text_id="event_34";
 	set_event=true;
 }
 if(ds_map_exists(global.text_setted,"event_34"))
 {
-	text_id="talk_10"
+	text_id="talk_2_10"
+	set_event=false;
+	set_text_move=0;
 }
 if(place_meeting(x-10,y+30, Obj_Player) && keyboard_check_pressed(ord("Z")) && !instance_exists(Obj_textbox)&&end_text==0)
 {

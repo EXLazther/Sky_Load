@@ -4,16 +4,20 @@ if(!instance_exists(m_ScrObjMoveInter))
 }
 mask_index=sprite[DOWN];
 sprite_index=sprite[face]
-set_x=x-Obj_Player.x;
-set_y=y-Obj_Player.y;
-set_face=Obj_Player.face;
 
+var Player=instance_find(Obj_Player,0);
+if(Player!=noone)
+{
+set_x=x-Player.x;
+set_y=y-Player.y;
+set_face=Player.face;
+}
 var _s=id
-if(Obj_Player.set_remove_number==1)
+if(Player!=noone&&Player.set_remove_number==1)
 {
 	text_id="talk_1_10";
 }
-if(Obj_Player.set_remove_number!=1)
+if(Player!=noone&&Player.set_remove_number!=1)
 {
 	text_id="talk_1_9";
 }

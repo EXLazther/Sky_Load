@@ -1,4 +1,4 @@
-
+autokey=keyboard_check_pressed(vk_shift);
 switch(name_length[page])
 {
 	case 1:
@@ -48,19 +48,19 @@ if (name_char < name_length[page]) {
 
 if(text_length[page]<=10)
 {
-	auto_frame=120;
+	auto_frame=210;
 }
 else if(text_length[page]>=10&&text_length[page]<=20)
 {
-	auto_frame=150;
+	auto_frame=240;
 }
 else if(text_length[page]>=20&&text_length[page]<=30)
 {
-	auto_frame=180;
+	auto_frame=270;
 }
 else if(text_length[page]>=30&&text_length[page]<=40)
 {
-	auto_frame=210;
+	auto_frame=300;
 }
 else if(option_number>0)
 {
@@ -68,18 +68,28 @@ else if(option_number>0)
 }
 else
 {
-	auto_frame=240;
+	auto_frame=330;
 }
 
+if(autokey&&set_auto_text==false)
+{
+	auto_timer=0;
+	set_auto_text=true;
+}
+else if(autokey&&set_auto_text==true)
+{
+	set_auto_text=false;
+}
 //ページをめくる
 // カウンターが存在しなければ初期化
 if (!variable_instance_exists(id, "auto_timer")) {
     auto_timer = 0;
 }
-
-// フレームごとにカウント
-auto_timer++;
-
+if(set_auto_text==true)
+{
+	// フレームごとにカウント
+	auto_timer++;
+}
 // キー入力 または 180フレーム経過で進む
 if (accept_key || auto_timer >= auto_frame)
 {
