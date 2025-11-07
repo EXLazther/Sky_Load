@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_kohaku_tere_1",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c4e1ed5e-4f3b-47a8-9da8-657145310244","name":"c4e1ed5e-4f3b-47a8-9da8-657145310244","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c4e1ed5e-4f3b-47a8-9da8-657145310244","name":"c4e1ed5e-4f3b-47a8-9da8-657145310244","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":400.0,
+    "seqWidth":400.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

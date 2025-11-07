@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ScrBattleEnemyMove",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScrBattleEnemyMove",
+  "parent":{
+    "name":"Script",
+    "path":"folders/BattleSystems/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

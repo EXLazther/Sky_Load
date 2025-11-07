@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_kohaku_konwaku_1",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"96605432-aba9-4d5b-a1c3-935e8d1e4de0","name":"96605432-aba9-4d5b-a1c3-935e8d1e4de0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"96605432-aba9-4d5b-a1c3-935e8d1e4de0","name":"96605432-aba9-4d5b-a1c3-935e8d1e4de0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

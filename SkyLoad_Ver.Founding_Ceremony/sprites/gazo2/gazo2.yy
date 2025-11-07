@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"gazo2",
   "bboxMode":0,
   "bbox_bottom":952,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7a38df92-d6ec-4376-9a95-fa38f3a75f92","name":"7a38df92-d6ec-4376-9a95-fa38f3a75f92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a38df92-d6ec-4376-9a95-fa38f3a75f92","name":"7a38df92-d6ec-4376-9a95-fa38f3a75f92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

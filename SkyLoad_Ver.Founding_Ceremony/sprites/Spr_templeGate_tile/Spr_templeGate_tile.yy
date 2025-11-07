@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_templeGate_tile",
   "bboxMode":0,
   "bbox_bottom":511,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"585a0aa1-ebb5-4354-b62c-9cec11a567b0","name":"585a0aa1-ebb5-4354-b62c-9cec11a567b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"585a0aa1-ebb5-4354-b62c-9cec11a567b0","name":"585a0aa1-ebb5-4354-b62c-9cec11a567b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

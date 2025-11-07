@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_gate_tere_2",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c9c14ffc-941f-4b4c-9c21-3e002be13fbd","name":"c9c14ffc-941f-4b4c-9c21-3e002be13fbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9c14ffc-941f-4b4c-9c21-3e002be13fbd","name":"c9c14ffc-941f-4b4c-9c21-3e002be13fbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

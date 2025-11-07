@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_stairs_tile",
   "bboxMode":0,
   "bbox_bottom":511,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a0329f08-79e5-4d1d-80db-6f2c32541422","name":"a0329f08-79e5-4d1d-80db-6f2c32541422","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a0329f08-79e5-4d1d-80db-6f2c32541422","name":"a0329f08-79e5-4d1d-80db-6f2c32541422","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

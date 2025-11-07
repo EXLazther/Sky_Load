@@ -18,6 +18,7 @@ if result=1
 	for(var i=0;i<array_length(inv);i++)
 	{
 		var _col=c_white;
+		var _data=global.item_list[inv[i]]
 		draw_text(x-100,y+yspr+op_border+55,"------------------------------------------------------------------------------");
 		if pos==i{_col=c_yellow;};
 		draw_set_color(_col);
@@ -29,11 +30,11 @@ if result=1
 			xx+=180;
 			yy-=190;
 		}
-			draw_text(xx,yy+op_space*i-90,inv[i].name);
+			draw_text(xx,yy+op_space*i-90,_data.name);
 		
 		//説明
 		if pos==i{
-		draw_text(x+op_border-100,y+yspr+op_border+70,inv[i].description);
+		draw_text(x+op_border-100,y+yspr+op_border+70,_data.description);
 		};
 		draw_set_color(c_white);
 	}

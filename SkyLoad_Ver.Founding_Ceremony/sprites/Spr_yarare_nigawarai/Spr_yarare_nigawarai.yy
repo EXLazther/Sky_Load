@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_yarare_nigawarai",
   "bboxMode":0,
   "bbox_bottom":317,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ad6bde91-eb29-4625-8fd9-b930915a9a84","name":"ad6bde91-eb29-4625-8fd9-b930915a9a84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad6bde91-eb29-4625-8fd9-b930915a9a84","name":"ad6bde91-eb29-4625-8fd9-b930915a9a84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

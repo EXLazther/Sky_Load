@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_bigwood_tile",
   "bboxMode":0,
   "bbox_bottom":511,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1c581065-9ee2-4eb2-b807-064f62ca2fbf","name":"1c581065-9ee2-4eb2-b807-064f62ca2fbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1c581065-9ee2-4eb2-b807-064f62ca2fbf","name":"1c581065-9ee2-4eb2-b807-064f62ca2fbf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

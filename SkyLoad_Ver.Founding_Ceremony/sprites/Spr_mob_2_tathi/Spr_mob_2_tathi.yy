@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_mob_2_tathi",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1694b9e3-3237-4fd7-bb32-5fab0acc512b","name":"1694b9e3-3237-4fd7-bb32-5fab0acc512b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1694b9e3-3237-4fd7-bb32-5fab0acc512b","name":"1694b9e3-3237-4fd7-bb32-5fab0acc512b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Spr_mob_2",
-    "path":"folders/スプライト/Spr_mapChara/Spr_mob/Spr_mob_2.yy",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_mob/Spr_mob_2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

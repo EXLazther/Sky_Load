@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"SprEnemyShotStarYellow",
   "bboxMode":0,
   "bbox_bottom":45,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"302213fb-0a83-4552-9106-4af9e4c1fe66","name":"302213fb-0a83-4552-9106-4af9e4c1fe66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"302213fb-0a83-4552-9106-4af9e4c1fe66","name":"302213fb-0a83-4552-9106-4af9e4c1fe66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

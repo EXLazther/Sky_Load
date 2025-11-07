@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_guruka_usiro",
   "bboxMode":0,
   "bbox_bottom":392,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4a1ec8fe-d394-4fff-a24f-a353650f5f53","name":"4a1ec8fe-d394-4fff-a24f-a353650f5f53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a1ec8fe-d394-4fff-a24f-a353650f5f53","name":"4a1ec8fe-d394-4fff-a24f-a353650f5f53","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

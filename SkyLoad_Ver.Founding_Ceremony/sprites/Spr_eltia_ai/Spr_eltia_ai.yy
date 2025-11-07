@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_eltia_ai",
   "bboxMode":0,
   "bbox_bottom":385,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5ca525a1-6436-4d41-a594-cd3ec4dcea86","name":"5ca525a1-6436-4d41-a594-cd3ec4dcea86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5ca525a1-6436-4d41-a594-cd3ec4dcea86","name":"5ca525a1-6436-4d41-a594-cd3ec4dcea86","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":400.0,
+    "seqWidth":400.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_roomChanger",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"62318672-318f-4850-8d2d-e22acd8fceda","name":"62318672-318f-4850-8d2d-e22acd8fceda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62318672-318f-4850-8d2d-e22acd8fceda","name":"62318672-318f-4850-8d2d-e22acd8fceda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":64.0,
+    "seqWidth":64.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

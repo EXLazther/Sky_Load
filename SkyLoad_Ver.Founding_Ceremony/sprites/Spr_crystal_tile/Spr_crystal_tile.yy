@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_crystal_tile",
   "bboxMode":0,
   "bbox_bottom":229,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e35ee6d2-e229-4c67-b0c0-a0c1a3381d50","name":"e35ee6d2-e229-4c67-b0c0-a0c1a3381d50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e35ee6d2-e229-4c67-b0c0-a0c1a3381d50","name":"e35ee6d2-e229-4c67-b0c0-a0c1a3381d50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

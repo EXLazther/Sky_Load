@@ -2,6 +2,7 @@ function IsakuNormal1(){
 if (current_frame % 60 == 0 || current_frame == 1){
 				
 					shot_create_circle(x,y,3,random_range(0,360),8,SHOT_ID.SQUARE_PURPLE);
+					audio_play_sound(shot1,1,0)
 			}
 				
 			if (current_frame % 180 == 0 || current_frame == 1){

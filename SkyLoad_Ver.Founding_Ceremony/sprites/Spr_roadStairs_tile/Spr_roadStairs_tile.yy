@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_roadStairs_tile",
   "bboxMode":0,
   "bbox_bottom":511,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"46a5d665-3668-4037-8dd9-5c68fec5df56","name":"46a5d665-3668-4037-8dd9-5c68fec5df56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46a5d665-3668-4037-8dd9-5c68fec5df56","name":"46a5d665-3668-4037-8dd9-5c68fec5df56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

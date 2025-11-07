@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_title_haikei",
   "bboxMode":0,
   "bbox_bottom":767,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"011cf8a7-45fe-4287-b9d4-71ee6cdce950","name":"011cf8a7-45fe-4287-b9d4-71ee6cdce950","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"011cf8a7-45fe-4287-b9d4-71ee6cdce950","name":"011cf8a7-45fe-4287-b9d4-71ee6cdce950","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

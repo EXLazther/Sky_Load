@@ -10,10 +10,13 @@
   "name":"Obj_mob",
   "overriddenProperties":[],
   "parent":{
-    "name":"オブジェクト",
-    "path":"folders/オブジェクト.yy",
+    "name":"mapsymbol_obj",
+    "path":"folders/オブジェクト/system_object/mapsymbol_obj.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_mob_1_tathi",
-    "path":"sprites/Spr_mob_1_tathi/Spr_mob_1_tathi.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

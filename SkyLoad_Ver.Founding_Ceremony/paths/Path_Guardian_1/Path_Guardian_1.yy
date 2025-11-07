@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_Guardian_1",
+  "closed":false,
+  "kind":0,
+  "name":"Path_Guardian_1",
+  "parent":{
+    "name":"パス",
+    "path":"folders/パス.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1280.0,"y":672.0,},
+    {"speed":100.0,"x":96.0,"y":672.0,},
+    {"speed":100.0,"x":96.0,"y":288.0,},
+    {"speed":100.0,"x":1280.0,"y":288.0,},
+    {"speed":100.0,"x":1280.0,"y":672.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

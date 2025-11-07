@@ -1,2 +1,2 @@
-text_id="event 12";
+text_id="event_12";
 system_id="2";

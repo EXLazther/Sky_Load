@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_Spr_kohaku_ki",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"070eaa41-b32d-4eda-9f2e-521f9884fff7","name":"070eaa41-b32d-4eda-9f2e-521f9884fff7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"070eaa41-b32d-4eda-9f2e-521f9884fff7","name":"070eaa41-b32d-4eda-9f2e-521f9884fff7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":400.0,
+    "seqWidth":400.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

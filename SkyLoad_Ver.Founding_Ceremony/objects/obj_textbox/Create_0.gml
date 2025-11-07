@@ -1,14 +1,14 @@
 depth=-9999;
 
 //キャラ描画
-character_y=camera_get_view_y(view_camera[0])+90;
+character_y=0;
 //テキストボックスの様々なパラメーターについて。
 //テキストボックスの幅、高さの設定
 textbox_width = 638;
 textbox_height = 60;
 
 //テキストボックスの側面から文字までの距離(余白)の設定
-border = 5;
+border = 6;
 
 //行間の大きさの設定
 line_sep = 20;
@@ -44,7 +44,7 @@ draw_char = 0;
 name_char=0;
 //文字速度の設定
 text_spd = 1;
-
+atuo_timer=0;
 //オプション
 option[0]="";
 option_link_id[0]=-1;
@@ -66,6 +66,14 @@ sprite_set_left=350;
 
 width=350;
 height=300;
-
+set_face=1;
+set_face1=1;
 color_left=c_white;
 color_right=c_white;
+auto_frame=0;
+auto_timer=0;
+set_auto_text=false;
+//可変性テキストボックス
+variability_textbox=0
+textbox_x=0;
+textbox_y=0

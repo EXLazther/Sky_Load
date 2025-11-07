@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_lake_tile",
   "bboxMode":0,
   "bbox_bottom":383,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2511810a-8dc7-42a7-965f-d5f8f623656a","name":"2511810a-8dc7-42a7-965f-d5f8f623656a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2511810a-8dc7-42a7-965f-d5f8f623656a","name":"2511810a-8dc7-42a7-965f-d5f8f623656a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

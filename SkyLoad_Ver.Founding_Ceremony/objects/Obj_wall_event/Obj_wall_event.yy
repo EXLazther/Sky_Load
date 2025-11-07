@@ -4,7 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_wall_event",
@@ -14,8 +14,8 @@
     "path":"folders/オブジェクト/system_object.yy",
   },
   "parentObjectId":{
-    "name":"Obk_wall",
-    "path":"objects/Obk_wall/Obk_wall.yy",
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

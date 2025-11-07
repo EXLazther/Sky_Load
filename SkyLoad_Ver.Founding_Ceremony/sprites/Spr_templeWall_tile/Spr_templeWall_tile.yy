@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_templeWall_tile",
   "bboxMode":0,
   "bbox_bottom":479,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fa9837b9-b17d-45d5-95ac-ebd79b3c1f50","name":"fa9837b9-b17d-45d5-95ac-ebd79b3c1f50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fa9837b9-b17d-45d5-95ac-ebd79b3c1f50","name":"fa9837b9-b17d-45d5-95ac-ebd79b3c1f50","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_water_tile",
   "bboxMode":0,
   "bbox_bottom":383,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc180a1c-1b3a-490e-a56d-fe3fc620e72b","name":"dc180a1c-1b3a-490e-a56d-fe3fc620e72b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc180a1c-1b3a-490e-a56d-fe3fc620e72b","name":"dc180a1c-1b3a-490e-a56d-fe3fc620e72b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

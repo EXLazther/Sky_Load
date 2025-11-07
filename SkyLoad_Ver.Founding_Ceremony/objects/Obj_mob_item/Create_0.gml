@@ -8,6 +8,6 @@ makeflag=true;
 wait_timer=100;
 xspdx=0;
 yspdy=0;
-item=global.item_list.brooch;
+item=global.item_list[m_ITEM_NAME.BROOCH];
 item_foryou=0;
 instance_setid=0;

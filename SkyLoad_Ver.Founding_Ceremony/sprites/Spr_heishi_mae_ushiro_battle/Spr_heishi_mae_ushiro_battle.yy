@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_heishi_mae_ushiro_battle",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"85082d36-ace2-42c8-b3c7-1ea51b519192","name":"85082d36-ace2-42c8-b3c7-1ea51b519192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85082d36-ace2-42c8-b3c7-1ea51b519192","name":"85082d36-ace2-42c8-b3c7-1ea51b519192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

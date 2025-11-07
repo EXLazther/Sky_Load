@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_guruka_right",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8ac1e3f8-7ad4-4cdc-952b-7294b44219ba","name":"8ac1e3f8-7ad4-4cdc-952b-7294b44219ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ac1e3f8-7ad4-4cdc-952b-7294b44219ba","name":"8ac1e3f8-7ad4-4cdc-952b-7294b44219ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

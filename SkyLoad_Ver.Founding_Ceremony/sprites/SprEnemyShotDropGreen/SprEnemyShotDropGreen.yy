@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"SprEnemyShotDropGreen",
   "bboxMode":0,
   "bbox_bottom":38,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a0b29f8c-4cc9-46b2-87dd-89598e820a32","name":"a0b29f8c-4cc9-46b2-87dd-89598e820a32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a0b29f8c-4cc9-46b2-87dd-89598e820a32","name":"a0b29f8c-4cc9-46b2-87dd-89598e820a32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

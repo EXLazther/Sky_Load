@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_flashflower_tile",
   "bboxMode":0,
   "bbox_bottom":255,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ebc902ff-9deb-44a8-ad22-604cd621716e","name":"ebc902ff-9deb-44a8-ad22-604cd621716e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ebc902ff-9deb-44a8-ad22-604cd621716e","name":"ebc902ff-9deb-44a8-ad22-604cd621716e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

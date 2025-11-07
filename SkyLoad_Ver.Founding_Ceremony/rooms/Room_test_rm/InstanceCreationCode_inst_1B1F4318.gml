@@ -1,3 +1,3 @@
-item=global.item_list.reagel;
+item=5;
 instance_set_id=3;
 text_id="reagel";

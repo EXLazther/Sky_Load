@@ -1,4 +1,5 @@
 //選ばれたアイテムを収得
+
 selected_item=-1;
 accept_key=keyboard_check_pressed(ord("Z"));
 cancel_key=keyboard_check_pressed(ord("X"));
@@ -14,7 +15,7 @@ if (global.itemstatus==1)
 	if pos>=op_length{pos=0};
 	if pos<0{pos=op_length-1}
 	if cancel_key{pos=op_length-1};
-		if(inv>[6])
+	if(inv>[6])
 	{
 		pos+=(right_key-left_key)*6;
 		if pos>=op_length{pos=op_length-1};
@@ -26,17 +27,20 @@ if (global.itemstatus==1)
 		selected_item=pos;
 	}
 
-	if selected_item!=-1
+	if (selected_item != -1)
 	{
-		//アイテムの使用処理
-		if accept_key
+		if (accept_key)
 		{
-			inv[selected_item].efect();
+        var _item = inv[selected_item];
+		var _data=global.item_list[_item]
+		    if (is_struct(_data) && is_callable(_data.effect))
+			{
+				_data.effect();
+				array_delete(inv,selected_item,1);
+				selected_item=-1;
+				pos=0;
+			}
 		}
 	}
-	if(cancel_key)
-	{
-		global.itemstatus=0;
-		result=0;
-	}
+	if(cancel_key) { global.itemstatus=0; result=0; } 
 }

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_guruka_odoroki",
   "bboxMode":0,
   "bbox_bottom":386,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"533534d3-4a5a-474b-bf03-a3ffab927232","name":"533534d3-4a5a-474b-bf03-a3ffab927232","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"533534d3-4a5a-474b-bf03-a3ffab927232","name":"533534d3-4a5a-474b-bf03-a3ffab927232","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

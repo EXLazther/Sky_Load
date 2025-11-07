@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_door_tile",
   "bboxMode":0,
   "bbox_bottom":511,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"38bd3fdf-f130-4715-bb07-a6fe90f2cd7e","name":"38bd3fdf-f130-4715-bb07-a6fe90f2cd7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38bd3fdf-f130-4715-bb07-a6fe90f2cd7e","name":"38bd3fdf-f130-4715-bb07-a6fe90f2cd7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

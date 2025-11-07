@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_house_tile",
   "bboxMode":0,
   "bbox_bottom":255,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8bf79b8f-da18-4c5d-aa17-836fd9f86c77","name":"8bf79b8f-da18-4c5d-aa17-836fd9f86c77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8bf79b8f-da18-4c5d-aa17-836fd9f86c77","name":"8bf79b8f-da18-4c5d-aa17-836fd9f86c77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

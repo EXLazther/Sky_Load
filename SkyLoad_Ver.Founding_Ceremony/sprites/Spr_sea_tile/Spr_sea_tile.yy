@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_sea_tile",
   "bboxMode":0,
   "bbox_bottom":383,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b070c4bd-6243-48b1-aa18-d3edaa714ff2","name":"b070c4bd-6243-48b1-aa18-d3edaa714ff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b070c4bd-6243-48b1-aa18-d3edaa714ff2","name":"b070c4bd-6243-48b1-aa18-d3edaa714ff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

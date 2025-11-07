@@ -15,3 +15,9 @@ enemy = global.encounting_enemy;
 instance_create_layer(BATTLE_BORDER.CENTER_X, BATTLE_BORDER.CENTER_Y-100, "Instances", enemy);
 instance_deactivate_object(Obj_Player);
 
+// 背景オブジェクトを生成 (depth 1000で)
+instance_create_depth(0, 0, 1000, ObjBattleBackgroundManager);
+
+// 背景モードを指示
+ObjBattleBackgroundManager.current_mode = BG_MODE_SKY; // 空をスクロールさせる
+// ObjBattleBackgroundManager.current_mode = BG_MODE_NONE; // 何も表示しない場合

@@ -1,3 +1,3 @@
-//text_id="event 22";
-text_id="ifevent_2";
+text_id="event_22";
+//text_id="ifevent_2";
 system_id="2";

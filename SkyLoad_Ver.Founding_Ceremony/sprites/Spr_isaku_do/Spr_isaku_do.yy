@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_isaku_do",
   "bboxMode":0,
   "bbox_bottom":391,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"55ae22b8-77bd-48e4-8647-c1e1a9537923","name":"55ae22b8-77bd-48e4-8647-c1e1a9537923","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55ae22b8-77bd-48e4-8647-c1e1a9537923","name":"55ae22b8-77bd-48e4-8647-c1e1a9537923","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

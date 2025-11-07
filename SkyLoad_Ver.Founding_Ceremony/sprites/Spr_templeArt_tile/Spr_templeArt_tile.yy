@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_templeArt_tile",
   "bboxMode":0,
   "bbox_bottom":511,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c01e8bdf-46dd-47ce-8dbe-3a59bc02b21c","name":"c01e8bdf-46dd-47ce-8dbe-3a59bc02b21c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c01e8bdf-46dd-47ce-8dbe-3a59bc02b21c","name":"c01e8bdf-46dd-47ce-8dbe-3a59bc02b21c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_grass_tile",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bbd78dcf-41f0-416b-b60f-ff08f18208a8","name":"bbd78dcf-41f0-416b-b60f-ff08f18208a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bbd78dcf-41f0-416b-b60f-ff08f18208a8","name":"bbd78dcf-41f0-416b-b60f-ff08f18208a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

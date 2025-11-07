@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_eltia_raku",
   "bboxMode":0,
   "bbox_bottom":385,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f308a647-c055-4fa6-ad7f-ee2149dea075","name":"f308a647-c055-4fa6-ad7f-ee2149dea075","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f308a647-c055-4fa6-ad7f-ee2149dea075","name":"f308a647-c055-4fa6-ad7f-ee2149dea075","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

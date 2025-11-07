@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_roadSet_tile",
   "bboxMode":0,
   "bbox_bottom":383,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b9b31d69-def3-4aa5-9d74-e3f55a462c8f","name":"b9b31d69-def3-4aa5-9d74-e3f55a462c8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b9b31d69-def3-4aa5-9d74-e3f55a462c8f","name":"b9b31d69-def3-4aa5-9d74-e3f55a462c8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

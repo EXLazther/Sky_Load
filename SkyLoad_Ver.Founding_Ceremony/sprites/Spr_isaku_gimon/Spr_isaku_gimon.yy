@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_isaku_gimon",
   "bboxMode":0,
   "bbox_bottom":391,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"949f91df-b7c7-4102-9d84-b105617e1638","name":"949f91df-b7c7-4102-9d84-b105617e1638","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"949f91df-b7c7-4102-9d84-b105617e1638","name":"949f91df-b7c7-4102-9d84-b105617e1638","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

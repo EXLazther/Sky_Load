@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"gulca",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":160,
+  "channelFormat":1,
   "compression":0,
+  "compressionQuality":5,
   "conversionMode":0,
   "duration":109.92326,
+  "exportDir":"",
   "name":"gulca",
   "parent":{
     "name":"SE",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"gulca.mp3",
-  "type":1,
   "volume":0.2,
 }

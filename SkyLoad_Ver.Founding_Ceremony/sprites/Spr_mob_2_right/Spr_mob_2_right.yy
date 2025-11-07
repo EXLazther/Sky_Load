@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_mob_2_right",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"145bb8a0-6928-41d0-8379-b221533a8c38","name":"145bb8a0-6928-41d0-8379-b221533a8c38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"145bb8a0-6928-41d0-8379-b221533a8c38","name":"145bb8a0-6928-41d0-8379-b221533a8c38","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Spr_mob_2",
-    "path":"folders/スプライト/Spr_mapChara/Spr_mob/Spr_mob_2.yy",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_mob/Spr_mob_2.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

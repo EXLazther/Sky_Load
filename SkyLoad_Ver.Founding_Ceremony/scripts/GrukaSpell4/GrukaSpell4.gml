@@ -1,14 +1,16 @@
 function GrukaSpell4(){
 if (current_frame % 180 == 0  || current_frame == 1){
+	audio_play_sound(shot1,1,0)
 				for(var _i=0; _i<5; _i++;){
 					var _shot4 = shot_create(x,y,2, bget_angle_enemy_to_player(self),SHOT_ID.BALL_RED);
 					shot_set_property(_shot4,SHOT_PROPERTY_ID.DIRECTION,bget_angle_enemy_to_player(self)+(_i-2)*15, 50);
 					shot_set_property(_shot4,SHOT_PROPERTY_ID.SPEED,5, 50);
+					
 				}
 			}
 			
 			if (ObjBattleManager.current_frame % 60 == 0  || ObjBattleManager.current_frame == 1){
-				
+				audio_play_sound(kira,1,0)
 				var _x1 = ObjBattlePlayer.x;
 				var _y1 = ObjBattlePlayer.y;
 				

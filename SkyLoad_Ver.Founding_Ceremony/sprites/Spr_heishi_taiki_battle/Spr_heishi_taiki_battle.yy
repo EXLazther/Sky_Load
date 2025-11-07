@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_heishi_taiki_battle",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52da4482-331c-4171-8eba-4ffb6b2dcaf3","name":"52da4482-331c-4171-8eba-4ffb6b2dcaf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52da4482-331c-4171-8eba-4ffb6b2dcaf3","name":"52da4482-331c-4171-8eba-4ffb6b2dcaf3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

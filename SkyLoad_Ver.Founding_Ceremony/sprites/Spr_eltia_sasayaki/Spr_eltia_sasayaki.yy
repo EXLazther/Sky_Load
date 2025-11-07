@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_eltia_sasayaki",
   "bboxMode":0,
   "bbox_bottom":385,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0da23f5b-864e-43e3-bd96-9d44946af352","name":"0da23f5b-864e-43e3-bd96-9d44946af352","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0da23f5b-864e-43e3-bd96-9d44946af352","name":"0da23f5b-864e-43e3-bd96-9d44946af352","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

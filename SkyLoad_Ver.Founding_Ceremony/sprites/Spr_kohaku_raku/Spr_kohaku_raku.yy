@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_kohaku_raku",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ea1c60d0-22c2-40dd-9771-71b4a1abec32","name":"ea1c60d0-22c2-40dd-9771-71b4a1abec32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea1c60d0-22c2-40dd-9771-71b4a1abec32","name":"ea1c60d0-22c2-40dd-9771-71b4a1abec32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

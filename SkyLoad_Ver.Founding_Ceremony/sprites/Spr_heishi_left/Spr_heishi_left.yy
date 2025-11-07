@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_heishi_left",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"44484af8-b99e-4f82-9315-038dd49416d2","name":"44484af8-b99e-4f82-9315-038dd49416d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44484af8-b99e-4f82-9315-038dd49416d2","name":"44484af8-b99e-4f82-9315-038dd49416d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

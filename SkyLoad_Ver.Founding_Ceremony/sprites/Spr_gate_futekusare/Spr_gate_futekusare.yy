@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_gate_futekusare",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1e07e59d-a989-4adc-a6ae-46fe05833f19","name":"1e07e59d-a989-4adc-a6ae-46fe05833f19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e07e59d-a989-4adc-a6ae-46fe05833f19","name":"1e07e59d-a989-4adc-a6ae-46fe05833f19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

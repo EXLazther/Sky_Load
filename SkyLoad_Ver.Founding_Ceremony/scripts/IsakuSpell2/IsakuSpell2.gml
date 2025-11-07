@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 を参照してください
 function IsakuSpell2(){
 if (current_frame % 400 == 0 || current_frame == 1){
+	audio_play_sound(shot1,1,0)
 				
 				target_road_x = random_range(150, 500);
 				bset_objmove_interpolation(x, y, target_road_x, 100, 30, 2);

@@ -1,4 +1,4 @@
-target_x=400;
-target_y=40;
-target_rm=Room_elf_2;
+target_x=426;
+target_y=560;
+target_rm=Room_stage1Town;
 target_face=DOWN;

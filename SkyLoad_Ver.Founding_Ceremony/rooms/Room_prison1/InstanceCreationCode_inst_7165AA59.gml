@@ -1,1 +1,2 @@
-talk_id="3";
+wall_id=2;
+text_id="system_eventtext_2"

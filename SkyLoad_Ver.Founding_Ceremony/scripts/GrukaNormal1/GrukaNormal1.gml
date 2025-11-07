@@ -3,6 +3,7 @@ function GrukaNormal1() {
 				
 				var _shot1 = shot_create(x+cosdeg(angle1)*40, y+sindeg(angle1)*40, 1, -angle1, SHOT_ID.CLAW)
 				angle1 += 33	
+				audio_play_sound(shot1,1,0)
 				
 		}
 		

@@ -143,3 +143,21 @@ enum INTERPOLATION_TYPE
 	DEACCELERATION,
 	ACCELE_DEACCELE
 }
+
+global.enemy_list = [
+    {
+        obj: ObjBattleBossGruka, name: "グルカ",		  
+        patterns: [
+            { id: 0, name: "通常1" },
+            { id: 1, name: "烈爪撃" }
+        ]
+    },
+    {
+        obj: ObjBattleBossIsaku, name: "イサク",
+        patterns: [
+            { id: 0, name: "通常1" },
+            { id: 1, name: "突進" },
+            { id: 2, name: "全方位弾" }
+        ]
+    }
+];

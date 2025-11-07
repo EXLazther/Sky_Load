@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_kohaku_kizetsu_1",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c855447a-51cb-4e4d-8d28-1ef87f6a5ea7","name":"c855447a-51cb-4e4d-8d28-1ef87f6a5ea7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c855447a-51cb-4e4d-8d28-1ef87f6a5ea7","name":"c855447a-51cb-4e4d-8d28-1ef87f6a5ea7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

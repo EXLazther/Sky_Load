@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_guruka_magao",
   "bboxMode":0,
   "bbox_bottom":386,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9f2b1e39-bb20-4e4c-b773-985ef3e63221","name":"9f2b1e39-bb20-4e4c-b773-985ef3e63221","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f2b1e39-bb20-4e4c-b773-985ef3e63221","name":"9f2b1e39-bb20-4e4c-b773-985ef3e63221","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

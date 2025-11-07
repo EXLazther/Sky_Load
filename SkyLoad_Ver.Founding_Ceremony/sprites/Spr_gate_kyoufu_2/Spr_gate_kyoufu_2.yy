@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_gate_kyoufu_2",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0cd90fc5-73f3-4cc4-b4a7-6ee0d96db296","name":"0cd90fc5-73f3-4cc4-b4a7-6ee0d96db296","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0cd90fc5-73f3-4cc4-b4a7-6ee0d96db296","name":"0cd90fc5-73f3-4cc4-b4a7-6ee0d96db296","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

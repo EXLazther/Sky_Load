@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_yarare_do",
   "bboxMode":0,
   "bbox_bottom":317,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52a813ff-d11e-4754-935d-cde9e9348a2a","name":"52a813ff-d11e-4754-935d-cde9e9348a2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52a813ff-d11e-4754-935d-cde9e9348a2a","name":"52a813ff-d11e-4754-935d-cde9e9348a2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

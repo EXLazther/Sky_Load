@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"SprEnemyShotBallSkyBlue",
   "bboxMode":0,
   "bbox_bottom":40,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6fcbe33d-5987-41d0-92eb-a411c7c553c5","name":"6fcbe33d-5987-41d0-92eb-a411c7c553c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6fcbe33d-5987-41d0-92eb-a411c7c553c5","name":"6fcbe33d-5987-41d0-92eb-a411c7c553c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

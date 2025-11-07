@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_eltia_fusime",
   "bboxMode":0,
   "bbox_bottom":385,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a225d6da-4232-4fe5-8645-73a73950c4ae","name":"a225d6da-4232-4fe5-8645-73a73950c4ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a225d6da-4232-4fe5-8645-73a73950c4ae","name":"a225d6da-4232-4fe5-8645-73a73950c4ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

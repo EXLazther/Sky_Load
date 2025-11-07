@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_isaku_warai",
   "bboxMode":0,
   "bbox_bottom":391,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a23cf262-aa39-467c-ac39-e8dd091d08c8","name":"a23cf262-aa39-467c-ac39-e8dd091d08c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a23cf262-aa39-467c-ac39-e8dd091d08c8","name":"a23cf262-aa39-467c-ac39-e8dd091d08c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

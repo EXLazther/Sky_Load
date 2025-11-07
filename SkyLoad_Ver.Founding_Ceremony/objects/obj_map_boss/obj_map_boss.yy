@@ -10,8 +10,8 @@
   "name":"Obj_map_boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"オブジェクト",
-    "path":"folders/オブジェクト.yy",
+    "name":"mapsymbol_obj",
+    "path":"folders/オブジェクト/system_object/mapsymbol_obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_isaku_down",
-    "path":"sprites/Spr_isaku_down/Spr_isaku_down.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

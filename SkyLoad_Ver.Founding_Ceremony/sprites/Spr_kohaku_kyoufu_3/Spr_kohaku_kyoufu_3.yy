@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_kohaku_kyoufu_3",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"503c0aa3-af81-4e63-a1ea-3dfb9d65033a","name":"503c0aa3-af81-4e63-a1ea-3dfb9d65033a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"503c0aa3-af81-4e63-a1ea-3dfb9d65033a","name":"503c0aa3-af81-4e63-a1ea-3dfb9d65033a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_mob_1_left_anime",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"83a481be-2ae9-4854-97b4-c99c359839d4","name":"83a481be-2ae9-4854-97b4-c99c359839d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83a481be-2ae9-4854-97b4-c99c359839d4","name":"83a481be-2ae9-4854-97b4-c99c359839d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Spr_mob_1",
-    "path":"folders/スプライト/Spr_mapChara/Spr_mob/Spr_mob_1.yy",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_mob/Spr_mob_1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

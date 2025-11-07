@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_templeBridge_tile",
   "bboxMode":0,
   "bbox_bottom":319,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"27022a84-0356-4e25-973b-9c9510838a8a","name":"27022a84-0356-4e25-973b-9c9510838a8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27022a84-0356-4e25-973b-9c9510838a8a","name":"27022a84-0356-4e25-973b-9c9510838a8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

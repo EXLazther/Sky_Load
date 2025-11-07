@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprEnemyDefault",
-    "path":"sprites/SprEnemyDefault/SprEnemyDefault.yy",
+    "name":"_______",
+    "path":"sprites/_______/_______.yy",
   },
   "spriteMaskId":null,
   "visible":true,

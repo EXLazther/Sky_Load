@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"damage",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.6198639,
+  "exportDir":"",
+  "name":"damage",
+  "parent":{
+    "name":"SE",
+    "path":"folders/BattleSystems/Object/SE.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"damage.mp3",
+  "volume":1.0,
+}

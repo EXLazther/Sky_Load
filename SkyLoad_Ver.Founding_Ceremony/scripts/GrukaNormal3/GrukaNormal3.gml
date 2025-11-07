@@ -12,6 +12,7 @@ if (current_frame % 400 == 0 || current_frame == 1){
 					}
 				}
 				shoot_delay1 = ObjBattleManager.current_frame+200;
+				audio_play_sound(shot1,1,0)
 			}
 			
 			if (ObjBattleManager.current_frame == shoot_delay1){
@@ -26,5 +27,6 @@ if (current_frame % 400 == 0 || current_frame == 1){
 						var _shot5 = shot_create(_x2+_i*3*-40, y+_i*7-30, (_j+1)/2, 90, SHOT_ID.BALL_BLUE);
 					}
 				}
+				
 			}
 }

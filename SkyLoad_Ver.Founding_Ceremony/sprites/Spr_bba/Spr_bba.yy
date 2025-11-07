@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_bba",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fb151a7f-906a-4cde-ae48-36736fec5153","name":"fb151a7f-906a-4cde-ae48-36736fec5153","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fb151a7f-906a-4cde-ae48-36736fec5153","name":"fb151a7f-906a-4cde-ae48-36736fec5153","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Spr_mob",
-    "path":"folders/スプライト/Spr_mapChara/Spr_mob.yy",
+    "name":"m_Spr_mob",
+    "path":"folders/スプライト/Spr_mapChara/m_Spr_mob.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":32.0,
+    "seqWidth":32.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

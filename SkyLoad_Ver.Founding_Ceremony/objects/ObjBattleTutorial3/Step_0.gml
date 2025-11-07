@@ -1,15 +1,8 @@
 if (ObjBattleManager.is_battle_started) {
 
-	switch ObjBattleManager.current_phase {
+	switch ObjBattleManager.current_state {
 		
 		case 0:
-			if (ObjBattleManager.current_frame >= 30){
-				ObjBattleManager.current_phase = 1;
-				ObjBattleManager.current_frame = 0;
-				
-				
-				
-			}
 			break;
 		
 		case 1:
@@ -23,6 +16,8 @@ if (ObjBattleManager.is_battle_started) {
 					}
 					is_enemy_shooted = true;
 				}
+				
+				audio_play_sound(shot1,1,0)
 			}
 			
 			break;
@@ -30,9 +25,8 @@ if (ObjBattleManager.is_battle_started) {
 	
 	}
 	
-	if(ObjBattleManager.boss_health <= 0){
+	if(ObjBattleManager.current_state == 2){
 		ObjBattleManager.is_battle_victory = true;
-		instance_create_layer(x,y,"Particles",PartEliminate);
 	}
 	
 	

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_MapConsts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_MapConsts",
+  "parent":{
+    "name":"text",
+    "path":"folders/スクリプト/text.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

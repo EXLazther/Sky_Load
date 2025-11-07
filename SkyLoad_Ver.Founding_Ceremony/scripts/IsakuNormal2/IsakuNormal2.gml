@@ -8,6 +8,7 @@ if (current_frame % 30 == 0 || current_frame == 1){
 			if (current_frame % 60 == 0 || current_frame == 1){
 				
 					shot_create_circle(x,y,1,random_range(0,360),5,SHOT_ID.SQUARE_RED);
+					audio_play_sound(shot1,1,0)
 			}
 				
 			if (current_frame % 180 == 0 || current_frame == 1){

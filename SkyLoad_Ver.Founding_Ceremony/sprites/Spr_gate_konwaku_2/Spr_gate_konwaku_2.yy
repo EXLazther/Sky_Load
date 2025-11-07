@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_gate_konwaku_2",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0f3093bc-2b0d-4f5a-9b08-8aa3373d1405","name":"0f3093bc-2b0d-4f5a-9b08-8aa3373d1405","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f3093bc-2b0d-4f5a-9b08-8aa3373d1405","name":"0f3093bc-2b0d-4f5a-9b08-8aa3373d1405","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

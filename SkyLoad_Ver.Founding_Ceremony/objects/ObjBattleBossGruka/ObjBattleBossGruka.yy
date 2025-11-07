@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"__158_20241030044150",
-    "path":"sprites/__158_20241030044150/__158_20241030044150.yy",
+    "name":"Spr_guruka_stand",
+    "path":"sprites/Spr_guruka_stand/Spr_guruka_stand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

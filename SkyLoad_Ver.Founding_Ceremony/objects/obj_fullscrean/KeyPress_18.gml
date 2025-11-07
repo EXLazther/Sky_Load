@@ -4,4 +4,3 @@ if(window_get_fullscreen()){
   }else{
    window_set_fullscreen(true);
 }
-

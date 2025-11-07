@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_gate_magao",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"31ce143b-7fca-4f0f-b5f4-95267cd3706a","name":"31ce143b-7fca-4f0f-b5f4-95267cd3706a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31ce143b-7fca-4f0f-b5f4-95267cd3706a","name":"31ce143b-7fca-4f0f-b5f4-95267cd3706a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -27,5 +27,6 @@ if (current_frame % 400 == 0 || current_frame == 1){
 			
 			if (current_frame % 5 == 0 && rush == true){
 				shot_create_circle(x,y,random_range(1,3),random_range(0,359),2,irandom_range(SHOT_ID.SQUARE_RED, SHOT_ID.SQUARE_GREEN));
+				audio_play_sound(shot1,1,0)
 			}
 }

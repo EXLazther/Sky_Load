@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_road_tile",
   "bboxMode":0,
   "bbox_bottom":383,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4fa6d36-1a06-4e48-9158-64e7bc5cb2ae","name":"a4fa6d36-1a06-4e48-9158-64e7bc5cb2ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4fa6d36-1a06-4e48-9158-64e7bc5cb2ae","name":"a4fa6d36-1a06-4e48-9158-64e7bc5cb2ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

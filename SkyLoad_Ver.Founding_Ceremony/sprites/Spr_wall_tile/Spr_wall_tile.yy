@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_wall_tile",
   "bboxMode":0,
   "bbox_bottom":479,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8e343984-4151-4c70-89ca-726397ed37f0","name":"8e343984-4151-4c70-89ca-726397ed37f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8e343984-4151-4c70-89ca-726397ed37f0","name":"8e343984-4151-4c70-89ca-726397ed37f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

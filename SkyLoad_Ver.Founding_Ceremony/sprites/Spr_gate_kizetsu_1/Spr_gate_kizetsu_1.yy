@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_gate_kizetsu_1",
   "bboxMode":0,
   "bbox_bottom":394,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"905c4f70-1fa8-4ac0-bd5d-ab904abe5ba9","name":"905c4f70-1fa8-4ac0-bd5d-ab904abe5ba9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"905c4f70-1fa8-4ac0-bd5d-ab904abe5ba9","name":"905c4f70-1fa8-4ac0-bd5d-ab904abe5ba9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
