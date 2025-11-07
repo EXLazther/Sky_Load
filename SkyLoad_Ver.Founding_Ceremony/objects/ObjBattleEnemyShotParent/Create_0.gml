@@ -4,6 +4,7 @@ acceleration = 0;
 angular_velocity = 0;
 speed_min = 0;
 speed_max = 100;
+saved_speed = 0;
 lifetime = 0;
 lifetime_count = 0;
 launcher = 0;
@@ -30,4 +31,6 @@ count_frame = 0;
 image_alpha = 0;
 image_xscale = 3;
 image_yscale = 3;
+
+
 

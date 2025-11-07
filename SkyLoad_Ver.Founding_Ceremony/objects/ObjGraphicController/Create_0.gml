@@ -7,8 +7,8 @@
 global.title_w = 1274;
 global.title_h = 768;
 
-global.stg_w = 460;
-global.stg_h = 576;
+global.stg_w = 613;
+global.stg_h = 768;
 
 global.rpg_w = 637;
 global.rpg_h = 384;

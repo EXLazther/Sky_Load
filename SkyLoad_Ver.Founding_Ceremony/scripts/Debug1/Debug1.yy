@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Debug1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Debug1",
+  "parent":{
+    "name":"Debug",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Debug.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

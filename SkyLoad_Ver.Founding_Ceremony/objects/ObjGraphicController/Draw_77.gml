@@ -19,7 +19,7 @@ switch (global.current_mode) {
         draw_rectangle(0, 0, _current_w, _current_h, false);
 
         // 2. STG画面の計算
-        var _scale = _current_h / 576; 
+        var _scale = _current_h / 768; 
         var _draw_w = global.stg_w * _scale;
         var _draw_h = global.stg_h * _scale;
         

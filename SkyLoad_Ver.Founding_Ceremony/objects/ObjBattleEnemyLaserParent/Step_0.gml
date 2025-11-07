@@ -20,12 +20,12 @@ if (reflect_enabled == true && reflect_count < reflect_times)
 {
 	auto_destroy_outroom_enabled = false;
 	
-	if ((x <= 68 && reflect_edge[2]) || (x >= 534 && reflect_edge[3])) {
+	if ((x <= 0 && reflect_edge[2]) || (x >= BORDER.R && reflect_edge[3])) {
 	    hspeed *= -1; // X方向の速度を反転させる
 		reflect_count += 1;
 	}
 
-	if ((y <= 37 && reflect_edge[0])|| (y >= 540 && reflect_edge[1])) {
+	if ((y <= 0 && reflect_edge[0])|| (y >= BORDER.B && reflect_edge[1])) {
 	    vspeed *= -1; // Y方向の速度を反転させる
 		reflect_count += 1;
 	}
@@ -39,12 +39,12 @@ if (reflect_enabled == true && reflect_count < reflect_times)
 if (reflect_enabled == false && auto_destroy_outroom_enabled == true)
 {
 	
-	if (x <= 68 || x >= 534) {
+	if (x <= 0 || x >= BORDER.R) {
 	    instance_destroy()
 		
 	}
 
-	if (y <= 37 || y >= 540) {
+	if (y <= 0 || y >= BORDER.B) {
 	    instance_destroy()
 		
 	}

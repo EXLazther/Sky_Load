@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"PartCharge",
+  "%Name":"ObjBattleDebug",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"PartCharge",
+  "name":"ObjBattleDebug",
   "overriddenProperties":[],
   "parent":{
-    "name":"Particle Systems",
-    "path":"folders/BattleSystems/Particle Systems.yy",
+    "name":"Debug",
+    "path":"folders/BattleSystems/Object/Enemy/Bosses/Debug.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"ObjBattleBossParant",
+    "path":"objects/ObjBattleBossParant/ObjBattleBossParant.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"SprEnemyDefault",
+    "path":"sprites/SprEnemyDefault/SprEnemyDefault.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

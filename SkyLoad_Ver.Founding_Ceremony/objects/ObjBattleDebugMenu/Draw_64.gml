@@ -59,3 +59,5 @@ if (menu_active) {
         }
     }
 }
+
+depth = -100

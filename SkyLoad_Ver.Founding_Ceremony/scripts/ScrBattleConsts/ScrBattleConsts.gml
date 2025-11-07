@@ -92,10 +92,10 @@ enum SHOT_ID
 
 enum BORDER
 {	
-	R = 460,
-	B = 576,
-	CX = 460 /2,
-	CY = 576 / 2
+	R = 613,
+	B = 768,
+	CX = 613 /2,
+	CY = 768 / 2
 }
 
 enum ENEMY_TYPE{
@@ -143,11 +143,26 @@ enum INTERPOLATION_TYPE
 }
 
 global.enemy_list = [
+	{
+        obj: ObjBattleDebug, name: "デバッグ用",
+        patterns: [
+            { id: 0, name: "通常1" },
+            { id: 1, name: "残像が示す運命" },
+            { id: 2, name: "通常2" },
+            { id: 3, name: "マワレマワレ" }
+        ]
+    },
     {
         obj: ObjBattleBossGruka, name: "グルカ",		  
         patterns: [
             { id: 0, name: "通常1" },
-            { id: 1, name: "烈爪撃" }
+            { id: 1, name: "烈爪撃" },
+			{ id: 2, name: "通常2" },
+			{ id: 3, name: "弾幕爆弾" },
+			{ id: 4, name: "通常3" },
+			{ id: 5, name: "紅のカザグルマ" },
+			{ id: 6, name: "通常4" },
+			{ id: 7, name: "捕縛術" }
         ]
     },
     {
@@ -157,5 +172,34 @@ global.enemy_list = [
             { id: 1, name: "突進" },
             { id: 2, name: "全方位弾" }
         ]
-    }
+	},
+	{
+        obj: ObjBattleTest1, name: "スター",
+        patterns: [
+            { id: 0, name: "通常1" },
+            { id: 1, name: "ゲイザースター" },
+            { id: 2, name: "通常2" },
+            { id: 3, name: "星の降る夜" },
+            { id: 4, name: "通常3" },
+            { id: 5, name: "銀河生誕" }
+        ]
+    },
+    {
+        obj: ObjBattleSpeed, name: "スピード",
+        patterns: [
+            { id: 0, name: "通常1" },
+            { id: 1, name: "残像が示す運命" },
+            { id: 2, name: "通常2" },
+            { id: 3, name: "マワレマワレ" }
+        ]
+    },
+	{
+        obj: ObjBattlePower, name: "パワー",
+        patterns: [
+            { id: 0, name: "通常1" },
+            { id: 1, name: "怪力乱神" },
+            { id: 2, name: "通常2" },
+            { id: 3, name: "龍殺宝珠" }
+        ]
+    },
 ];
