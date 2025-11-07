@@ -5,8 +5,8 @@ function SpeedSpell2(){
 	
 	
 	if(current_frame == 1){
-		var target_x = (BATTLE_BORDER.RIGHT_BORDER-BATTLE_BORDER.LEFT_BORDER)/2+BATTLE_BORDER.LEFT_BORDER
-		bset_objmove_interpolation(x,y,BATTLE_BORDER.CENTER_X,BATTLE_BORDER.CENTER_Y,30,INTERPOLATION_TYPE.ACCELE_DEACCELE)
+		var target_x = (BORDER.R-0)/2+0
+		bset_objmove_interpolation(x,y,BORDER.CX,BORDER.CY,30,INTERPOLATION_TYPE.ACCELE_DEACCELE)
 		
 		ObjBattleManager.boss_health = 50;
 		

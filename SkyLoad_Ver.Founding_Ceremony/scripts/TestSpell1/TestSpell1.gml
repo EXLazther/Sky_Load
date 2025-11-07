@@ -3,8 +3,8 @@ function TestSpell1(){
 		var _shot1 = 
 		
 		shot_create(
-		random_range(BATTLE_BORDER.LEFT_BORDER,BATTLE_BORDER.RIGHT_BORDER),
-		BATTLE_BORDER.BOTTOM_BORDER-10,
+		random_range(0,BORDER.R),
+		BORDER.B-10,
 		0,
 		0,
 		SHOT_ID.STAR_YELLOW)

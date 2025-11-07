@@ -37,23 +37,24 @@ switch (global.current_mode) {
         // 4. 枠線描画
         draw_set_color(c_white);
         draw_rectangle(_draw_x - 2*_scale, _draw_y - 2*_scale, _draw_x + _draw_w + 1*_scale, _draw_y + _draw_h + 1*_scale, true);
-
-        // 5. 左右のUIを描画 (補間オン)
-        gpu_set_texfilter(true);
+		
+		// 5. 左右のUIを描画 (補間オン)
+		gpu_set_texfilter(true);
         
-        // --- 右側のUI (ロゴなど) ---
-        // 座標基準: STG画面の右端 + 余白
-        var _logo_x = _draw_x + _draw_w + (50 * _scale); // STG画面の右側から50px(スケール考慮)
-        var _logo_y = 100 * _scale;
-       // draw_sprite_ext(spr_Logo, 0, _logo_x, _logo_y, _scale, _scale, 0, c_white, 1);
+		// --- 右側のUI (ロゴなど) ---
+		// 座標基準: STG画面の右端 + 余白
+		var _logo_x = _draw_x + _draw_w + (50 * _scale); // STG画面の右側から50px(スケール考慮)
+		var _logo_y = 100 * _scale;
+		// draw_sprite_ext(spr_Logo, 0, _logo_x, _logo_y, _scale, _scale, 0, c_white, 1);
 
-        // --- 左側のUI (ステータスなど) ---
-        // 座標基準: STG画面の左端 - 余白
-        draw_set_font(Fnt_fnt_jp);
-        draw_set_halign(fa_right); // 右揃えにするとキレイに収まる
-        var _status_x = _draw_x - (50 * _scale); // STG画面の左側から50px(スケール考慮)
-        var _status_y = 100 * _scale;
-        draw_text_transformed(_status_x, _status_y, "SCORE: 1000", _scale, _scale, 0);
+		// --- 左側のUI (ステータスなど) ---
+		// 座標基準: STG画面の左端 - 余白
+		draw_set_font(Fnt_fnt_jp);
+		draw_set_halign(fa_right); // 右揃えにするとキレイに収まる
+		var _status_x = _draw_x - (50 * _scale); // STG画面の左側から50px(スケール考慮)
+		var _status_y = 100 * _scale;
+		draw_text_transformed(_status_x, _status_y, "SCORE: 1000", _scale, _scale, 0);
+	
         
         // 元に戻す
         draw_set_halign(fa_left); 

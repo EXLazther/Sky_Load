@@ -32,10 +32,10 @@ function TestSpell3(){
 	var _move = function(){
 		bset_objEnemy_generalMove(
 		90,
-		BATTLE_BORDER.LEFT_BORDER+30, 
-		BATTLE_BORDER.RIGHT_BORDER-30,
-		BATTLE_BORDER.UP_BORDER+80,
-		BATTLE_BORDER.UP_BORDER+180
+		0+30, 
+		BORDER.R-30,
+		0+80,
+		0+180
 		)
 	}
 		

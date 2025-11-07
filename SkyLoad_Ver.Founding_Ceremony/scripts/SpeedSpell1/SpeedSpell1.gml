@@ -16,12 +16,12 @@ function SpeedSpell1(){
 		var _laser = function(){
 		
 			for (var _j = 0; _j < 3; _j++;){
-				laser_create_shoot(BATTLE_BORDER.LEFT_BORDER,_laser_y[_j],20,_angle_l[_j],0.5,9,0.1,SHOT_ID.LASER_BLUE)
+				laser_create_shoot(0,_laser_y[_j],20,_angle_l[_j],0.5,9,0.1,SHOT_ID.LASER_BLUE)
 				
 			}
 		
 			for (var _k = 0; _k < 3; _k++;){ 
-				laser_create_shoot(BATTLE_BORDER.RIGHT_BORDER,_laser_y[_k+3],20,_angle_r[_k],0.5,9,0.1,SHOT_ID.LASER_BLUE)
+				laser_create_shoot(BORDER.R,_laser_y[_k+3],20,_angle_r[_k],0.5,9,0.1,SHOT_ID.LASER_BLUE)
 			}
 			
 			audio_play_sound(Laser2,1,0)
@@ -36,8 +36,8 @@ function SpeedSpell1(){
 		var _shot_pattern = function(){
 			for (var _i = 0; _i < 3; _i++;){
 				for (var _j = 0; _j < 17; _j++;){
-					_shot_trace(BATTLE_BORDER.LEFT_BORDER,_laser_y[_i],_angle_l[_i],_j*30);
-					_shot_trace(BATTLE_BORDER.RIGHT_BORDER,_laser_y[_i+3],_angle_r[_i],_j*30);
+					_shot_trace(0,_laser_y[_i],_angle_l[_i],_j*30);
+					_shot_trace(BORDER.R,_laser_y[_i+3],_angle_r[_i],_j*30);
 				}
 				audio_play_sound(shot1,1,0)
 			}

@@ -200,7 +200,7 @@ function bget_angle_enemy_to_player(_enemy_instance)
 	return point_direction(_enemy_instance.x, _enemy_instance.y, ObjBattlePlayer.x, ObjBattlePlayer.y);
 }
 
-function get_pentagram_edge_points(num_points_per_edge, center_x, center_y, outer_radius, _start_angle_degrees = 90) {
+function get_pentagram_edge_points(num_points_per_edge, CX, CY, outer_radius, _start_angle_degrees = 90) {
     
     // --- 1. 定数と頂点の準備 ---
     
@@ -219,13 +219,13 @@ function get_pentagram_edge_points(num_points_per_edge, center_x, center_y, oute
     // 5つの外側頂点と5つの内側頂点を計算
     for (var i = 0; i < 5; i++) {
         var outer_angle = start_angle + i * angle_increment;
-        var outer_x = center_x + outer_radius * cos(outer_angle);
-        var outer_y = center_y + outer_radius * sin(outer_angle);
+        var outer_x = CX + outer_radius * cos(outer_angle);
+        var outer_y = CY + outer_radius * sin(outer_angle);
         array_push(vertices, { x: outer_x, y: outer_y });
         
         var inner_angle = outer_angle + inner_angle_offset;
-        var inner_x = center_x + inner_radius * cos(inner_angle);
-        var inner_y = center_y + inner_radius * sin(inner_angle);
+        var inner_x = CX + inner_radius * cos(inner_angle);
+        var inner_y = CY + inner_radius * sin(inner_angle);
         array_push(vertices, { x: inner_x, y: inner_y });
     }
 

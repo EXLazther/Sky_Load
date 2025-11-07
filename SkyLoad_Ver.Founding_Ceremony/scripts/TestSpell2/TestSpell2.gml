@@ -4,8 +4,8 @@ function TestSpell2(){
 		
 		var _laser1 = 
 		laser_create_shoot(
-		random_range(BATTLE_BORDER.LEFT_BORDER-280,BATTLE_BORDER.RIGHT_BORDER-100),
-		BATTLE_BORDER.UP_BORDER-100,
+		random_range(0-280,BORDER.R-100),
+		0-100,
 		8,
 		-60,
 		0.5,
@@ -27,8 +27,8 @@ function TestSpell2(){
 		
 		var _shot1 = 
 		shot_create(
-		random_range(BATTLE_BORDER.LEFT_BORDER-280,BATTLE_BORDER.RIGHT_BORDER-100),
-		BATTLE_BORDER.UP_BORDER-100,
+		random_range(0-280,BORDER.R-100),
+		0-100,
 		random_range(2,8),
 		random_range(-90,-30),
 		round(random_range(SHOT_ID.STAR_BLUE,SHOT_ID.STAR_YELLOW))

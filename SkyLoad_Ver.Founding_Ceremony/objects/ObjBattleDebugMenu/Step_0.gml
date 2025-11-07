@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(vk_f1)) {
+if (keyboard_check_pressed(vk_f12)) {
     menu_active = !menu_active;
     menu_state = 0; 
 }
