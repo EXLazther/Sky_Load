@@ -3,7 +3,7 @@
 function Debug1(){
 	
 	if(current_frame % 180 == 0 || current_frame == 1){
-		shot_create(x,y,3,-90,0)
+		laser_create_shoot_circle(x,y,3,0,10,0.5,10,1,SHOT_ID.LASER_BLUE)
 	}
 }
 		
