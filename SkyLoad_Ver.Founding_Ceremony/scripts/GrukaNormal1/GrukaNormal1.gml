@@ -16,8 +16,7 @@ function GrukaNormal1()
 		
 	//パターンタイムライン
 	shot_pattern(_pattern1,[],30);
-
-		
+	
 }
 					
 	
