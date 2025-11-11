@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"damage",
+  "%Name":"damage_enemy",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":0.6198639,
   "exportDir":"",
-  "name":"damage",
+  "name":"damage_enemy",
   "parent":{
     "name":"SE",
     "path":"folders/BattleSystems/Object/SE.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"damage.mp3",
+  "soundFile":"damage_enemy.mp3",
   "volume":1.0,
 }

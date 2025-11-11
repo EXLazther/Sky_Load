@@ -259,3 +259,71 @@ function get_pentagram_edge_points(num_points_per_edge, CX, CY, outer_radius, _s
             
     return edge_points;
 }
+
+function shot_set_speed_transition(_finst, _target_speed, _duration, _delay)
+{
+    // ----------------------------------------------------
+    // ■ ステップ2: 加減速を停止する処理（内部関数）
+    // ----------------------------------------------------
+    
+    // 【修正1】第2引数として _target_spd を受け取る
+    _stop_transition = function(_inst_array, _target_spd)
+    {
+        // _duration フレーム経過後に実行される
+        if (!is_array(_inst_array)) { _inst_array = [_inst_array]; }
+
+        for (var _i = 0; _i < array_length(_inst_array); _i++;)
+        {
+            var _inst = _inst_array[_i];
+            if (instance_exists(_inst))
+            {
+                _inst.acceleration = 0;      // 加速度をリセット
+                // 【修正3】引数で受け取った _target_spd を使う
+                _inst.speed = _target_spd; // 誤差補正のため目標速度を直接設定
+            }
+        }
+    }
+
+    // ----------------------------------------------------
+    // ■ ステップ1: 加減速を開始する処理（内部関数）
+    // ----------------------------------------------------
+    _start_transition = function(_inst_array, _target_spd, _dur)
+    {
+        // _delay フレーム経過後に実行される
+        if (!is_array(_inst_array)) { _inst_array = [_inst_array]; }
+        if (_dur <= 0) { _dur = 1; } // 0除算を防ぐ
+
+        var _instances_to_stop = []; 
+
+        for (var _i = 0; _i < array_length(_inst_array); _i++;)
+        {
+            var _inst = _inst_array[_i];
+            if (instance_exists(_inst))
+            {
+                var _current_speed = _inst.speed;
+                var _accel = (_target_spd - _current_speed) / _dur;
+                
+                _inst.acceleration = _accel; 
+                
+                array_push(_instances_to_stop, _inst);
+            }
+        }
+        
+        if (array_length(_instances_to_stop) > 0)
+        {
+            // 【修正2】引数配列に _target_spd を追加してタイマーをセット
+            set_timer(_stop_transition, [_instances_to_stop, _target_spd], _dur, 1);
+        }
+    }
+
+    // ----------------------------------------------------
+    // ■ メイン処理: ステップ1のタイマーをセット
+    // ----------------------------------------------------
+    
+    set_timer(
+        _start_transition, 
+        [_finst, _target_speed, _duration], // ステップ1に渡す引数
+        _delay, 
+        1
+    );
+}

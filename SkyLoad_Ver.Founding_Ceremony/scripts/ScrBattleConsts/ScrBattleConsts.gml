@@ -143,6 +143,42 @@ enum INTERPOLATION_TYPE
 }
 
 global.enemy_list = [
+{
+        obj: ObjBattleTutorial1, name: "チュートリアルのカニ1",
+        patterns: [
+            { id: 0, name: "1" }
+        ]
+    },
+    {
+        obj: ObjBattleTutorial2, name: "チュートリアルのカニ2",
+        patterns: [
+            { id: 0, name: "1" }
+        ]
+    },
+    {
+        obj: ObjBattleTutorial3, name: "チュートリアルのカニ3",
+        patterns: [
+            { id: 0, name: "1" }
+        ]
+    },
+    {
+        obj: ObjBattleMob1, name: "兵士1",
+        patterns: [
+            { id: 0, name: "1" }
+        ]
+    },
+    {
+        obj: ObjBattleMob2, name: "兵士2",
+        patterns: [
+            { id: 0, name: "1" }
+        ]
+    },
+    {
+        obj: ObjBattleMob3, name: "兵士3",
+        patterns: [
+            { id: 0, name: "1" }
+        ]
+    },
 	{
         obj: ObjBattleDebug, name: "デバッグ用",
         patterns: [

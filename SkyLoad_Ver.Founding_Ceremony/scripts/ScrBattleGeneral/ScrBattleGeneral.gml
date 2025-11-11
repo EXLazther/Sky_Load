@@ -26,8 +26,16 @@ function set_timer (_method, _arguments, _interval, _repeat) //タイマー（�
 	return _ts1;
 }	
 
-function set_spell (_text){
+function set_spell (_text)
+{
 	var _inst = instance_create_layer(0,0,"Instances",ScrObjSetSpell);
 	_inst.spell_name = _text;
 }
 
+
+function se_play(_se)
+{
+	if(_se != noone){
+		audio_play_sound(_se,90,0)
+	}
+}
