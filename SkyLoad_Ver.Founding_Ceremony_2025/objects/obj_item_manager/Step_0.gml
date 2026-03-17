@@ -42,5 +42,5 @@ if (global.itemstatus==1)
 			}
 		}
 	}
-	if(cancel_key) { global.itemstatus=0; result=0; } 
+	if(cancel_key) { global.itemstatus=0; result=0;audio_play_sound(Se_crosemenu,1,false);} 
 }

@@ -10,6 +10,7 @@ op_border = 32;
 op_space = 32;
 
 pos = 0;
+pos_move=0;
 
 option = [
     // 0: ポーズメニュー
@@ -31,3 +32,8 @@ menu_level = 0;
 global.itemstatus = 0;
 status = false;
 Max_HP=100;
+
+sound_setflag=true;
+
+set_interval=0;
+max_interval=120;

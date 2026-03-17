@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_BGM_changer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Scr_BGM_changer",
+  "parent":{
+    "name":"bgm",
+    "path":"folders/スクリプト/bgm.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

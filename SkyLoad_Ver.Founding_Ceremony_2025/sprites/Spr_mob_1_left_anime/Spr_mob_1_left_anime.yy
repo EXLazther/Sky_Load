@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"Spr_mob_1_left_anime",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"83a481be-2ae9-4854-97b4-c99c359839d4","name":"83a481be-2ae9-4854-97b4-c99c359839d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83a481be-2ae9-4854-97b4-c99c359839d4","name":"83a481be-2ae9-4854-97b4-c99c359839d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -71,18 +71,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"900134ce-c79f-48f2-8309-8a40124d7672","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4d8ce90a-e604-463b-a3b7-5e4d72792a0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83a481be-2ae9-4854-97b4-c99c359839d4","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b0514c56-b48e-4738-b927-dc5a299c652b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e3dd7906-2c87-4589-935d-4c2170f73ac5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3fac67bf-cf22-4952-9b92-f59e0f18cecb","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"900134ce-c79f-48f2-8309-8a40124d7672","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"155d8c47-ee8f-42a1-9eb3-cdfc3edb9fcf","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4d8ce90a-e604-463b-a3b7-5e4d72792a0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"83a481be-2ae9-4854-97b4-c99c359839d4","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b0514c56-b48e-4738-b927-dc5a299c652b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6bfdee9a-200a-4274-a685-dc6b8e4d9d4e","path":"sprites/Spr_mob_1_left_anime/Spr_mob_1_left_anime.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e3dd7906-2c87-4589-935d-4c2170f73ac5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

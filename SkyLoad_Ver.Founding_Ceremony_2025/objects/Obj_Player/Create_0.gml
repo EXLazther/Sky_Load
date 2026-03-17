@@ -22,3 +22,6 @@ set_animation=0;
 
 set_remove_number=0;
 set_hp_counter=0;
+
+maxframe=30;
+setframe=0;

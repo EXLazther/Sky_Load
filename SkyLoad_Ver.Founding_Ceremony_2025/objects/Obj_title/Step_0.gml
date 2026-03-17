@@ -1,0 +1,12 @@
+if(interval>0)
+{
+	interval--;
+}
+else
+{
+	set_flag=true
+}
+if(instance_exists(Obj_Player))
+{
+	instance_destroy(Obj_Player)
+}

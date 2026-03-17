@@ -2,17 +2,30 @@ function m_wall_event(_id)
 {
 	ds_map_add(global.wall_setted,_id,true);
 }	
-function map_objmove_interpolation(_start_x, _start_y, _target_x, _target_y, _frame, _type,_target_id)
+function map_objmove_interpolation(_start_x, _start_y, _target_x, _target_y, _frame, _type, _target_inst, _face = undefined, _imgspd = undefined)
 {
-	// オブジェクトを補完法で移動
-	var _obj = instance_create_layer(0, 0, "Instances", m_ScrObjMoveInter);//専用オブジェクトスポーン
-	_obj.start_x = _start_x;
-	_obj.start_y = _start_y;
-	_obj.target_x = _target_x;
-	_obj.target_y = _target_y;
-	_obj.frame = _frame;
-	_obj.type = _type;
-	_obj.target_inst = _target_id;
+    // 専用オブジェクト生成
+    var _obj = instance_create_layer(0, 0, "Instances", m_ScrObjMoveInter);
+
+    _obj.start_x = _start_x;
+    _obj.start_y = _start_y;
+    _obj.target_x = _target_x;
+    _obj.target_y = _target_y;
+    _obj.frame = _frame;
+    _obj.type = _type;
+    _obj.target_inst = _target_inst;
+
+    // 向き指定
+    if (_face != undefined)
+    {
+        _target_inst.face = _face;
+    }
+
+    // アニメ速度指定
+    if (_imgspd != undefined)
+    {
+        _target_inst.image_speed = _imgspd;
+    }
 }
 function map_objmove_setevent(_event_id)
 {
@@ -73,35 +86,34 @@ function map_objmove_setevent(_event_id)
 		break;
 		
 		case "event_3":
-		map_objmove_interpolation(Obj_rean.x,Obj_rean.y,94,Obj_rean.y,60,0,Obj_rean);
-		map_objmove_interpolation(Obj_rian.x,Obj_rian.y,Obj_rian.x,160,60,0,Obj_rian);
-		map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,160,80,0,Obj_Player);
-		set_timer(map_objmove_interpolation,[94,Obj_rean.y,94,160,60,0,Obj_rean],60,1);
-		set_timer(map_objmove_interpolation,[Obj_rian.x,160,224,160,60,0,Obj_rian],60,1);
-		set_timer(map_objmove_interpolation,[Obj_Player.x,160,Obj_jji.x,160,60,0,Obj_Player],80,1);
-		Obj_rian.face=UP;
-		Obj_rean.face=UP;
+		var _player=instance_find(Obj_Player,0);
+		map_objmove_interpolation(Obj_rean.x,Obj_rean.y,94,Obj_rean.y,60,0,Obj_rean,LEFT);
+		map_objmove_interpolation(Obj_rian.x,Obj_rian.y,Obj_rian.x,160,60,0,Obj_rian,UP);
+		map_objmove_interpolation(_player.x,_player.y,_player.x,160,60,0,_player,UP,1);
+		set_timer(map_objmove_interpolation,[94,Obj_rean.y,94,160,60,0,Obj_rean,UP],60,1);
+		set_timer(map_objmove_interpolation,[Obj_rian.x,160,224,160,60,0,Obj_rian,LEFT],60,1);
+		set_timer(map_objmove_interpolation,[_player.x,160,Obj_jji.x,160,60,0,_player,LEFT,1],60,1);
+		set_timer(map_objmove_interpolation,[224,160,224,160,1,0,Obj_rian,UP],120,1);
+		set_timer(map_objmove_interpolation,[Obj_jji.x,160,Obj_jji.x,160,1,0,_player,UP],121,1);
 		Obj_anyevent.set_text_move=1;
 		break;
 
 		case "event_4":
-		map_objmove_interpolation(94,160,286,160,60,0,Obj_rean);
-		Obj_rian.face=DOWN;
-		Obj_rean.face=DOWN;
-		set_timer(map_objmove_interpolation,[224,160,286,160,60,0,Obj_rian],60,1);
-		set_timer(map_objmove_interpolation,[286,160,286,450,60,0,Obj_rian],120,1);
-		set_timer(map_objmove_interpolation,[286,160,286,450,60,0,Obj_rean],60,1);
+		map_objmove_interpolation(224,160,286,160,60,0,Obj_rian,RIGHT);
+		map_objmove_interpolation(94,160,286,160,30,0,Obj_rean,RIGHT);
+		map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,Obj_Player.y+30,10,0,Obj_Player,UP);
+		set_timer(map_objmove_interpolation,[Obj_Player.x,Obj_Player.y+30,Obj_Player.x,Obj_Player.y+30,60,0,Obj_Player,DOWN],30,1);
+		set_timer(map_objmove_interpolation,[286,160,286,450,60,0,Obj_rian,DOWN],60,1);
+		set_timer(map_objmove_interpolation,[286,160,286,450,60,0,Obj_rean,DOWN],30,1);
 		Obj_anyevent.text_id1="event_29_1";
 		Obj_anyevent.set_text_move=1;
 		break;
 
 		case "event_5":
-			map_objmove_interpolation(Obj_rean.x,Obj_rean.y,342,Obj_rean.y,60,0,Obj_rean);
-			set_timer(map_objmove_interpolation,[Obj_rian.x,Obj_rian.y,342,Obj_rian.y,60,0,Obj_rian],30,1);
-			set_timer(map_objmove_interpolation,[342,Obj_rean.y,342,-60,60,0,Obj_rean],60,1);
-			set_timer(map_objmove_interpolation,[342,Obj_rian.y,342,-60,60,0,Obj_rian],90,1);
-			Obj_rian.face=UP
-			Obj_rean.face=UP
+			map_objmove_interpolation(Obj_rean.x,Obj_rean.y,342,Obj_rean.y,60,0,Obj_rean,LEFT);
+			set_timer(map_objmove_interpolation,[Obj_rian.x,Obj_rian.y,342,Obj_rian.y,60,0,Obj_rian,LEFT],30,1);
+			set_timer(map_objmove_interpolation,[342,Obj_rean.y,342,-60,60,0,Obj_rean,UP],60,1);
+			set_timer(map_objmove_interpolation,[342,Obj_rian.y,342,-60,60,0,Obj_rian,UP],90,1);
 			Obj_reception.set_text_move=0;
 		break;
 		

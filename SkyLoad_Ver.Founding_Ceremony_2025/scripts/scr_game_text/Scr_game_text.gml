@@ -405,6 +405,10 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("…","コハク","gate_odoroki","no","1");
 			m_set_text("いけませんねぇ…手荒なのは好ましくないですよ","コハク？","in_eltia_badsmile","","1");
 			m_set_text("何！？うわぁぁぁぁぁぁ！！！","帝国兵","in_eltia_badsmile","","2")
+			with(Obj_Sound_test)
+			{
+				request_bgm_change(BGM_TYPE.RUN)
+			}
 			Obj_anyevent.event_id="event_1_1";
 			global.set_destroy=1;
 			break;
@@ -805,7 +809,7 @@ function m_scr_game_text(_text_id,_system_text){
 		
 		case "event_32":
 		
-			map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,393,180,0,Obj_Player);
+			map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,393,180,0,Obj_Player,UP,1);
 			m_set_text("さぁて！役者はそろった！これよりルール説明を行う！","司会","","");
 			m_set_text("その１\n最後までフィールド内で意識があること","司会","","");
 			m_set_text("その２\n相手の完全消滅禁止","司会","");

@@ -1,0 +1,1 @@
+set_bgm=Snd_sea_2;

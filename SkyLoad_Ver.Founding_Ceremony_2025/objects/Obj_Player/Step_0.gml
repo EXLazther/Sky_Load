@@ -5,7 +5,7 @@
 	Obj_flash.set_alpha=1;
 	instance_destroy(Obj_wall);
 }*/
-
+sprite_index = sprite[face];
 // 入力取得
 rightkey = keyboard_check(vk_right);
 leftkey  = keyboard_check(vk_left);
@@ -30,6 +30,7 @@ if (global.show_box == true) { // ←修正（= を == に）
 
 // スプライトの設定（補間中は操作しない）
 if (!instance_exists(m_ScrObjMoveInter)) {
+
     mask_index = sprite[DOWN];
     
     if (yspd == 0) {
@@ -42,10 +43,7 @@ if (!instance_exists(m_ScrObjMoveInter)) {
         if (yspd < 0) { face = UP; }
         if (yspd > 0) { face = DOWN; }
     }
-    if (yspd < 0 && face == DOWN) { face = UP;   } 
-    if (yspd > 0 && face == UP)   { face = DOWN; }
-	
-    sprite_index = sprite[face];
+
 	if(!keyboard_check(vk_shift))
 	{
 		movespd=2
@@ -87,7 +85,7 @@ if (!instance_exists(m_ScrObjMoveInter)) {
     }
 
     // プレイヤーを動かす
-	if(!instance_exists(Obj_textbox)||!instance_exists(m_ScrObjMoveInter))
+	if(!instance_exists(Obj_textbox)&&!instance_exists(m_ScrObjMoveInter))
 	{
     x += xspd;
     y += yspd;
@@ -96,9 +94,12 @@ if (!instance_exists(m_ScrObjMoveInter)) {
     global.current_y = y;
 }
 // アニメーション停止処理
-if (xspd == 0 && yspd == 0 && set_animation==0)
+if (!instance_exists(m_ScrObjMoveInter))
 {
-    image_index = 0;
+    if (xspd == 0 && yspd == 0 && set_animation == 0)
+    {
+        image_speed = 0;
+    }
 }
 if(global.player_health<=35&&set_hp_counter==0&&room!=Room_fortIsland5)
 {

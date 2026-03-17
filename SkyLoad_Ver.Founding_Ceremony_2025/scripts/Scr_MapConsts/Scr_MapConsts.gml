@@ -21,3 +21,16 @@ global.weapon=
 	"弓矢",
 	"祈祷"
 ]
+
+//BGM管理
+enum BGM_TYPE
+{
+	ROOM,
+	RUN,
+	OTHER,
+	NONE
+	
+}
+
+global.bgm_model=BGM_TYPE.NONE
+

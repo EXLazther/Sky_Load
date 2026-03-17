@@ -13,6 +13,7 @@ if (is_battle_victory == true){
 	audio_stop_sound(gulca);
 	room_goto(asset_get_index(global.current_room));
 	instance_create_layer(global.current_x,global.current_y,"Instances",Obj_Player);
+	instance_create_layer(0,0,"Instances",Obj_Sound_test);
 	
 	//突貫工事(修正時消してもらって構わない)
 	if(enemy==ObjBattleSpeed||enemy==ObjBattleTest1)
