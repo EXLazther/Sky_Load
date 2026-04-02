@@ -37,21 +37,56 @@ function change_bgm_by_room(_room)
         case Room_startStage3:
         case Room_startStage4:
         case Room_startStage5:
+        case Room_startStage6:
             play_bgm(Snd_ruins,0.5);
         break;
-		
+		//First
         case Room_stage1Town:
         case Room_stage1Town2:
         case Room_stage1Town3:
         case Room_stage1Town3_1:
         case Room_stage1Town4:
         case Room_stage1Town5:
+        case Room_castleTown1:
+        case Room_castletown2:
+		case Room_townOut:
 			play_bgm(Snd_Rain_Words,0.1);
+			break;
+		case Room_castle1:
+		case Room_castle2:
+		case Room_castle3:
+		case Room_castle3_left:
+		case Room_castle3_right:
+		case Room_castle4:
+			play_bgm(Snd_castle,0.6);
 			break;
 		case Room_townOut1:
 		case Room_townOut2:
 			play_bgm(Snd_running,0.1);
 			break;
+		case Room_prison1:
+		case Room_prison2:
+		case Room_prison2_1:
+		case Room_prison2_2:
+		case Room_prison3:
+		case Room_prison4:
+		case Room_prison5:
+			play_bgm(Snd_prison,0.6);
+			break;
+		//2章
+		case Room_fortIsland:
+		case Room_fortIsland2:
+			play_bgm(Snd_fortIsland,0.1);
+			break;
+		case Room_fortIsland3:
+		case Room_fortIsland4:
+		case Room_fortIsland5:
+			play_bgm(Snd_battle,0.1);
+			break;
+		case Room_fortIsland_atrie:
+			play_bgm(Snd_atr,0.1);
+			break;
+		
         default:
             play_bgm(Snd_sea_2,0.5);
         break;

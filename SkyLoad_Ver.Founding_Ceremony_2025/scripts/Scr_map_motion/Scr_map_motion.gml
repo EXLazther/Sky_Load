@@ -37,8 +37,14 @@ function map_objmove_setevent(_event_id)
 		instance_create_layer(0,0,"Instances",Obj_flash);
 		Obj_flash.set_type=1;
 		Obj_flash.set_alpha=1;
-		Obj_flash.set_flash=0.005;
-		Obj_anyevent.set_text_move=0;
+		Obj_flash.set_flash=0.01;
+		Obj_anyevent.set_text_move=1;
+		Obj_anyevent.text_id1="event_10_1";
+		break;
+		case "event_1_1_1":
+		map_objmove_interpolation(Obj_Player.x,Obj_Player.y,273,Obj_Player.y,60,0,Obj_Player);
+		Obj_anyevent.set_text_move=1;
+		Obj_anyevent.text_id1="event_11";
 		break;
 		case "event_1_2":
 			instance_create_layer(629,-60,"Instances",Obj_isaku);
@@ -111,9 +117,10 @@ function map_objmove_setevent(_event_id)
 
 		case "event_5":
 			map_objmove_interpolation(Obj_rean.x,Obj_rean.y,342,Obj_rean.y,60,0,Obj_rean,LEFT);
-			set_timer(map_objmove_interpolation,[Obj_rian.x,Obj_rian.y,342,Obj_rian.y,60,0,Obj_rian,LEFT],30,1);
+			map_objmove_interpolation(Obj_rian.x,Obj_rian.y,Obj_rian.x,Obj_rian.y+60,30,0,Obj_rian,LEFT);
+			set_timer(map_objmove_interpolation,[Obj_rian.x,Obj_rian.y+60,342,Obj_rian.y+60,60,0,Obj_rian,LEFT],30,1);
 			set_timer(map_objmove_interpolation,[342,Obj_rean.y,342,-60,60,0,Obj_rean,UP],60,1);
-			set_timer(map_objmove_interpolation,[342,Obj_rian.y,342,-60,60,0,Obj_rian,UP],90,1);
+			set_timer(map_objmove_interpolation,[342,Obj_rian.y+60,342,-60,60,0,Obj_rian,UP],90,1);
 			Obj_reception.set_text_move=0;
 		break;
 		

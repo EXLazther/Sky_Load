@@ -359,7 +359,7 @@ function m_scr_game_text(_text_id,_system_text){
 			Obj_anyevent.text_id1="event_6_1";
 			break;
 			case "event_6_1":
-			instance_create_layer(0,0,"Instances",Obj_flash);
+			instance_create_layer(0,0,"Instances_1",Obj_flash);
 			Obj_flash.set_type=2;
 			Obj_flash.set_alpha=0;
 			m_set_text("え？なに！？","コハク","kohaku_odoroki","","1");
@@ -412,6 +412,11 @@ function m_scr_game_text(_text_id,_system_text){
 			Obj_anyevent.event_id="event_1_1";
 			global.set_destroy=1;
 			break;
+		case "event_10_1":
+			m_set_text("………え？","コハク","gate_odoroki","","1");
+			Obj_anyevent.event_id="event_1_1_1"
+			Obj_anyevent.set_text_move=2;
+			break;
 		case "event_11":
 			m_set_text("あらら\nやっちゃいましたね","エルティア","","eltia_gimon","2");
 			m_set_text("エルティア！？何で今まで反応してくれなかったのよ！","コハク","gate_do","eltia_gimon","1");
@@ -420,6 +425,7 @@ function m_scr_game_text(_text_id,_system_text){
 			m_set_text("どうやらそこの草むらに通れそうな道がありますよ","エルティア","gate_konwaku_1","eltia_ki","2");
 			m_set_text("えぇ…","コハク","gate_konwaku_1","","1");
 			m_set_text("(そういえば私どうやって倒したんだろ…？)","コハク","gate_konwaku_1","","1");
+			Obj_anyevent.set_text_move=0;
 			break;
 		case "event_12":
 			m_set_text("この森はかなり複雑ですね","エルティア","","eltia","2");
@@ -645,7 +651,7 @@ function m_scr_game_text(_text_id,_system_text){
 			case"option_4":
 			m_set_text("簡易門(インスタントゲート)起動…！","コハク","gate_tsuujou","","1");
 			Obj_anyevent.set_text_type=0;
-			instance_create_layer(0,0,"Instances",Obj_flash);
+			instance_create_layer(0,0,"Instances_1",Obj_flash);
 			Obj_flash.set_alpha=1;
 			break;
 		//建学祭用

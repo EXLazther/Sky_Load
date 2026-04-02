@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Snd_battle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":93.45441,
+  "exportDir":"",
+  "name":"Snd_battle",
+  "parent":{
+    "name":"Second_Map",
+    "path":"folders/サウンド/BGM/Second_Map.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":32000,
+  "soundFile":"Snd_battle.mp3",
+  "volume":0.3,
+}

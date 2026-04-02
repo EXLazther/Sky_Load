@@ -1,4 +1,4 @@
-depth=-100;
+
 switch(set_type)
 {
 	case 1:

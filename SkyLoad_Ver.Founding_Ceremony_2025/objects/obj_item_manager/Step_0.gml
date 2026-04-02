@@ -6,6 +6,7 @@ cancel_key=keyboard_check_pressed(ord("X"));
 if (global.itemstatus==1)
 {
 	result=1
+	pos_move=pos;
 	up_key=keyboard_check_pressed(vk_up);
 	down_key=keyboard_check_pressed(vk_down);
 	left_key=keyboard_check_pressed(vk_left);
@@ -14,6 +15,11 @@ if (global.itemstatus==1)
 	pos+=down_key-up_key;
 	if pos>=op_length{pos=0};
 	if pos<0{pos=op_length-1}
+	if(pos_move!=pos)
+	{
+		var snd_set=audio_play_sound(Se_movemenu,0.5,false);
+		audio_sound_gain(snd_set,0.5,0);
+	}
 	if cancel_key{pos=op_length-1};
 	if(inv>[6])
 	{
@@ -31,8 +37,11 @@ if (global.itemstatus==1)
 	{
 		if (accept_key)
 		{
-        var _item = inv[selected_item];
-		var _data=global.item_list[_item]
+			
+			var snd_set=audio_play_sound(Se_openmenu,0.5,false);
+			audio_sound_gain(snd_set,0.5,0);
+			var _item = inv[selected_item];
+			var _data=global.item_list[_item]
 		    if (is_struct(_data) && is_callable(_data.effect))
 			{
 				_data.effect();

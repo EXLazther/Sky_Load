@@ -1,3 +1,4 @@
+depth=-999
 if (set_alpha > 0)
 {
     draw_set_alpha(set_alpha);

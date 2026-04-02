@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Snd_fortIsland",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":144.048,
+  "exportDir":"",
+  "name":"Snd_fortIsland",
+  "parent":{
+    "name":"Second_Map",
+    "path":"folders/サウンド/BGM/Second_Map.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Snd_fortIsland.mp3",
+  "volume":0.3,
+}

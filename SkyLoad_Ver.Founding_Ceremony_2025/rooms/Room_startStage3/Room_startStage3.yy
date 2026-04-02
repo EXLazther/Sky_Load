@@ -53,7 +53,7 @@
     {"$GMREffectLayer":"","%Name":"Effect_1","depth":0,"effectEnabled":true,"effectType":"_filter_mask","gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
         {"name":"g_MaskStart","type":0,"value":"0.5",},
         {"name":"g_MaskEnd","type":0,"value":"1",},
-        {"name":"g_MaskTexture","type":2,"value":null,},
+        {"name":"g_MaskTexture","type":2,"value":"_filter_mask_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":29,"SerialiseWidth":50,"TileCompressedData":[
           -471,-2147483648,-3,0,-2,-2147483648,1,64,-7,-2147483648,3,163,164,165,-34,-2147483648,-3,0,-2,-2147483648,
