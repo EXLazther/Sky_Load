@@ -912,9 +912,8 @@ function m_scr_game_text(_text_id,_system_text){
 			Obj_set_remove_event.set_text_move=1;
 			break;
 			case "event_35_1":
-			map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,320,30,0,Obj_Player);
-			set_timer(map_objmove_interpolation,[Obj_Player.x,320,Obj_jji.x,320,30,0,Obj_Player],30,1);
-			set_timer(map_objmove_interpolation,[Obj_jji.x,320,Obj_jji.x,160,60,0,Obj_Player],60,1);
+			set_timer(map_objmove_interpolation,[Obj_Player.x-30,320,Obj_jji.x,320,30,0,Obj_Player,RIGHT],30,1);
+			set_timer(map_objmove_interpolation,[Obj_jji.x,320,Obj_jji.x,160,60,0,Obj_Player,UP],60,1);
 			m_set_text("大人しくせんかい！","ジョージ","","joji_angry2","2");
 			m_set_text("おぉ、お前さん戻ったか\nしっかり優勝はしてきたんじゃろうな？","ジョージ","","joji","2");
 			m_set_text("もちろん　はい、これお代","コハク","kohaku_raku","joji","1");

@@ -148,6 +148,8 @@ function map_objmove_setevent(_event_id)
 			
 		case "event_8":
 			map_objmove_interpolation(289,418,289,160,30,0,Obj_rean);
+			map_objmove_interpolation(Obj_Player.x,Obj_Player.y,Obj_Player.x,320,20,0,Obj_Player,UP);
+			set_timer(map_objmove_interpolation,[Obj_Player.x,320,Obj_Player.x-30,320,20,0,Obj_Player,LEFT],20,1);
 			Obj_rean.face=UP;
 			Obj_rian.face=UP;
 			set_timer(map_objmove_interpolation,[289,418,289,160,30,0,Obj_rian],30,1);
